@@ -96,6 +96,13 @@ nav {
   height: 50px;
   cursor: pointer;
   font-size: 16px;
+  transition: 0.5s;
+}
+
+.cta-select:hover {
+  background: #c36cbb;
+  border: 2px solid #c36cbb;
+  color: #fff;
 }
 
 .cta-add {
@@ -105,6 +112,15 @@ nav {
   cursor: pointer;
   font-size: 16px;
   border: none;
+  color: white;
+  margin: 30px 0px 0px 30px;
+  transition: 0.5s;
+}
+
+.cta-add:hover {
+  background: white;
+  border: 2px solid #c36cbb;
+  color: #c36cbb;
 }
 
 .cover {
