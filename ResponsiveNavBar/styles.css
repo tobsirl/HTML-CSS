@@ -46,3 +46,14 @@ nav {
   border-bottom: 2px solid #fff;
   padding-bottom: 5px;
 }
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 7px;
+}
