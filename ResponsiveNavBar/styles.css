@@ -2,6 +2,11 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #25274d;
 }
 
 nav {
@@ -9,5 +14,35 @@ nav {
   justify-content: space-around;
   align-content: center;
   min-height: 8vh;
-  background-color: #5d4954;
+  background-color: #25274d;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 22px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
 }
