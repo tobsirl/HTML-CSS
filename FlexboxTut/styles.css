@@ -2,21 +2,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 .parent {
   height: 100vh;
-  background-color: #777;
+  background-color: #eee;
   border: 20px solid rgb(0, 0, 0);
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
 }
 
 .child1 {
   width: 200px;
   height: 200px;
   background: rgb(39, 61, 134);
+  order: 1;
 }
 
 .child2 {
