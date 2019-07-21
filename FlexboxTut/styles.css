@@ -6,6 +6,7 @@
 
 .parent {
   height: 100vh;
+  background-color: #777;
   border: 20px solid rgb(0, 0, 0);
   display: flex;
   flex-wrap: wrap;
