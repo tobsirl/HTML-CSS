@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-body #bg {
+body .bg {
   -webkit-clip-path: polygon(100% 0, 100% 82%, 45% 100%, 0 100%, 0 0);
           clip-path: polygon(100% 0, 100% 82%, 45% 100%, 0 100%, 0 0);
   background-color: #005dff;
