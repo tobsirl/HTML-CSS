@@ -160,6 +160,34 @@ img {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.section-footer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-footer h3 {
+  margin-bottom: 0.7rem;
+}
+
+.section-footer a {
+  line-height: 1.9;
+  color: #ccc;
+  margin: 0.2rem;
+  
+}
+
+.section-footer .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.section-footer .fa-facebook:hover {
+  color: #3c5a99;
+}
+
+.section-footer .fa-youtube:hover {
+  color: #ff0000;
+}
+
 /* Utilities */
 .btn {
   display: inline-block;
