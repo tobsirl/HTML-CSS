@@ -4,11 +4,11 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   margin: 0;
 }
 
-body .bg {
+body #bg {
   -webkit-clip-path: polygon(100% 0, 100% 82%, 45% 100%, 0 100%, 0 0);
           clip-path: polygon(100% 0, 100% 82%, 45% 100%, 0 100%, 0 0);
   background-color: #005dff;
@@ -16,5 +16,13 @@ body .bg {
   height: 100%;
   position: absolute;
   z-index: -1;
+}
+
+body header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */
