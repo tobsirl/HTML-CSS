@@ -58,3 +58,15 @@ footer {
     background: pink;
     border: 2px solid red;
     float: left; }
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both; }
+
+.float-layout-one {
+  background: #a9e5bb; }
+  .float-layout-one .col {
+    width: 30%;
+    margin-right: 3%;
+    float: left; }

@@ -79,3 +79,19 @@ footer {
     float: left;
   }
 }
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.float-layout-one {
+  background: #a9e5bb;
+  
+  .col {
+    width: 30%;
+    margin-right: 3%;
+    float: left;
+  }
+}
