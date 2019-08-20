@@ -142,3 +142,27 @@ footer {
     }
   }
 }
+
+.grid-layout-one {
+  .card { width: 100%; }
+  
+  .grid-parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    // grid-template-rows: 1fr 2fr;
+    grid-gap: 1em;
+  }
+}
+
+.grid-layout-two {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  
+  .title {
+    grid-column: 1 / -1;
+  }
+  
+  footer {
+    grid-column: 1 / -1;
+  }
+}
