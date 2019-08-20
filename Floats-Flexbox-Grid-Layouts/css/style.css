@@ -70,3 +70,18 @@ footer {
     width: 30%;
     margin-right: 3%;
     float: left; }
+
+.float-layout-two .sidebar--left {
+  width: 25%;
+  float: left; }
+
+.float-layout-two .main {
+  width: 50%;
+  float: left; }
+
+.float-layout-two .sidebar--right {
+  width: 25%;
+  float: right; }
+
+.float-layout-two footer {
+  clear: both; }

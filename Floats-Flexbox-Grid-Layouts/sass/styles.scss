@@ -70,7 +70,7 @@ footer {
 
 .float-multiple {
   min-height: 100vh; // to prevent issues
-  
+
   .float {
     height: 150px;
     width: 150px;
@@ -88,10 +88,31 @@ footer {
 
 .float-layout-one {
   background: #a9e5bb;
-  
+
   .col {
     width: 30%;
     margin-right: 3%;
     float: left;
+  }
+}
+
+.float-layout-two {
+  .sidebar--left {
+    width: 25%;
+    float: left;
+  }
+
+  .main {
+    width: 50%;
+    float: left;
+  }
+
+  .sidebar--right {
+    width: 25%;
+    float: right;
+  }
+
+  footer {
+    clear: both;
   }
 }
