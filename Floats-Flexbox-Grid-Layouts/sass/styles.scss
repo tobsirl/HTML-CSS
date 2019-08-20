@@ -116,3 +116,29 @@ footer {
     clear: both;
   }
 }
+
+.float-layout-three {
+  background: #e4fde1;
+  min-height: 100vh;
+}
+
+.flex-layout-one {
+  .flex-parent {
+    display: flex;
+
+    .card {
+      width: 100%;
+    }
+  }
+}
+
+.flex-layout-two {
+  .flex-parent {
+    // flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      width: 20%;
+    }
+  }
+}

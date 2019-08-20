@@ -85,3 +85,18 @@ footer {
 
 .float-layout-two footer {
   clear: both; }
+
+.float-layout-three {
+  background: #e4fde1;
+  min-height: 100vh; }
+
+.flex-layout-one .flex-parent {
+  display: flex; }
+  .flex-layout-one .flex-parent .card {
+    width: 100%; }
+
+.flex-layout-two .flex-parent {
+  display: flex;
+  flex-wrap: wrap; }
+  .flex-layout-two .flex-parent .card {
+    width: 20%; }
