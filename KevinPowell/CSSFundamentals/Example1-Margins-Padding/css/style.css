@@ -27,3 +27,20 @@ p {
 .accent-color {
   color: #ffe600;
 }
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+  background: #ffe600;
+padding: 10px;      
+  border-radius: 15px;
+}
+
+a:hover {
+  border-bottom: 1px solid #ffe600;
+}
+
+a:focus {
+    color: aquamarine;
+}
