@@ -32,7 +32,7 @@ header {
 }
 
 .card {
-  width: 600px;
+  width: 650px;
   margin: auto;
   border: solid 1px;
 }
@@ -42,24 +42,37 @@ header {
   color: #fff;
 }
 
-.section-two {
-  
+.btn {
+  display: inline;
+
+  padding: 12px 25px;
+
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
 }
 
-.section-one .btn {
-  display: inline;
+.btn-accent {
   background: #ffe600;
-  padding: 10px 20px;
   color: #000;
-  text-decoration: none;
 }
 
-.section-two .btn {
-  display: inline;
+.btn-dark {
   background: #000;
-  padding: 15px 30px;
   color: #fff;
-  text-decoration: none;
+}
+
+.section-one .btn:hover {
+  background: white;
+}
+
+/* .section-two a {
+  color: #000;
+} */
+
+.section-two .btn:hover {
+  background: #ffe600;
+  color: black;
 }
 
 /* body {
