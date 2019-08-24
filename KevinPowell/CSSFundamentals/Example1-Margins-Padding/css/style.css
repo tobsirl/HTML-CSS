@@ -1,4 +1,32 @@
 body {
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: #ffe600;
+}
+
+header {
+  padding: 50px;
+  background: #ffe600;
+  color: #000;
+}
+
+/* body {
   margin-top: 300px;
 }
 
@@ -57,4 +85,4 @@ a:hover {
 
 a:focus {
   color: aquamarine;
-}
+} */
