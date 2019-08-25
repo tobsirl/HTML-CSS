@@ -37,8 +37,6 @@ a:focus {
   display: inline;
   padding: 10px 25px;
   text-decoration: none;
-  font-weight: 900;
-  margin-right: 20px;
 }
 
 .btn-orange {
@@ -66,17 +64,18 @@ header {
   background: #2e354f;
   padding: 45px 0;
   color: #fff;
-  width: 620px;
-  margin: 0 auto;
 }
 
 section {
-  width: 620px;
-  margin: 0 auto;
   padding: 45px 0;
 }
 
 .section-two {
   background: #2e354f;
   color: #fff;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
 }
