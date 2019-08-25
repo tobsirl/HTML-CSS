@@ -14,11 +14,40 @@ h2 {
   color: #ef5839;
 }
 
-.card {
+header,
+section {
   padding: 50px;
-  width: 620px;
+}
+
+.card {
+  width: 720px;
+  margin: auto;
+  border: solid 1px;
+}
+
+.section-two {
+  background: #2e354f;
+  color: #fff;
 }
 
 header {
   background: #2e354f;
+}
+
+.btn {
+  display: inline;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.btn-orange {
+  background: #ef5839;
+  color: #fff;
+}
+
+.btn-white {
+  background: #fff;
+  color: #2e354f;
 }
