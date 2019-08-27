@@ -2,6 +2,10 @@ body {
   background: #f8f8f8;
 }
 
+header {
+  text-align: center;
+}
+
 .site-title {
   font-family: 'Lora', serif;
   font-size: 3.375rem;
@@ -13,16 +17,22 @@ body {
 }
 
 nav ul {
-  border: 1px solid magenta;
+ 
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav li {
-  border: 2px dotted orange;
+ 
+  margin: 0 1em;
 }
 
 nav a {
-  border: 3px solid green;
+ 
 }
 
 nav a:hover {
+  border-bottom: solid 2px black;
 }
