@@ -3,7 +3,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #707070;
   margin: 0;
-  background: pink;
 }
 
 /* Typography */
@@ -68,7 +67,15 @@ img {
 }
 
 /* Media Queries */
-@media (min-width: 480px) {
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+
+}
+
+
+/* @media (min-width: 480px) {
   body {
     background: purple;
   }
@@ -78,4 +85,4 @@ img {
   body {
     background: orange;
   }
-}
+} */
