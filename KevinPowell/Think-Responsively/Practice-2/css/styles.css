@@ -1,0 +1,28 @@
+body {
+  background: #f8f8f8;
+}
+
+.site-title {
+  font-family: 'Lora', serif;
+  font-size: 3.375rem;
+}
+
+.subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+}
+
+nav ul {
+  border: 1px solid magenta;
+}
+
+nav li {
+  border: 2px dotted orange;
+}
+
+nav a {
+  border: 3px solid green;
+}
+
+nav a:hover {
+}
