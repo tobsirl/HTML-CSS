@@ -24,7 +24,6 @@ h1 {
 }
 
 .container {
-  border: 1px solid magenta;
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
@@ -43,7 +42,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 1em;
+  margin-left: 2em;
 }
 
 nav a {
@@ -64,4 +63,24 @@ nav a:focus {
 
 .current-page:hover {
   color: #707070;
+}
+
+@media (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  nav ul{
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: .5em 0;
+  }
 }
