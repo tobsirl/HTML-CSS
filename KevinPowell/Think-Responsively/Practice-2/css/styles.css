@@ -84,3 +84,15 @@ nav a:focus {
     margin: .5em 0;
   }
 }
+
+
+
+
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #ffffff;
+  background: #143774;
+  width: 100%;
+}
