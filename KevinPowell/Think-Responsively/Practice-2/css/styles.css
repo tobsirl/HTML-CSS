@@ -179,7 +179,6 @@ nav a:focus {
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
-
 }
 
 .article-recent-main {
@@ -188,4 +187,26 @@ nav a:focus {
 
 .article-recent-secondary {
   order: 1;
+}
+
+@media (min-width: 675px) {
+  .article-recent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .article-recent-main {
+    width: 68%;
+  }
+
+  .article-recent-secondary {
+    width: 30%;
+  }
+
+  .article-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    /* object-position: left; */
+  }
 }
