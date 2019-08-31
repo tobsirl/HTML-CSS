@@ -42,6 +42,10 @@ h1 {
   margin: 0;
 }
 
+h3 {
+  color: #1792d2;
+}
+
 a {
   color: #1792d2;
 }
@@ -86,6 +90,10 @@ strong {
 
 .article-info {
   margin: 2em 0;
+}
+
+.widget-recent-post-title {
+  color: #143774;
 }
 
 /* =================
