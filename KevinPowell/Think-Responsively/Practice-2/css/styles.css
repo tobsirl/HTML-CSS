@@ -16,6 +16,14 @@ img {
   display: block;
 }
 
+/* about me */
+.image-full {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+
 /* =================
 Typography
 ================= */
