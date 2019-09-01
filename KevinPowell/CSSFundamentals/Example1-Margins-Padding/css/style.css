@@ -4,6 +4,19 @@ body {
   font-size: 18px;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+header {
+  background: #2e354f;
+}
+
+
 /* body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -49,7 +62,7 @@ header {
 }
 
 /* Button Styles */
-
+/* 
 .btn {
   display: inline;
 
@@ -81,7 +94,9 @@ header {
 .section-two .btn:hover {
   background: #ffe600;
   color: black;
-} */
+}  */
+
+
 
 /* body {
   margin-top: 300px;

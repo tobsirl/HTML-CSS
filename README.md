@@ -4,3 +4,5 @@
 * [Responsive Laptop Site](https://www.youtube.com/watch?v=ZeDP-rzOnAA)
 * [Flexbox Tutorial](https://www.youtube.com/watch?v=FTlczfR82mQ)
 * [Headphone Product Landing Page](https://www.youtube.com/watch?v=61R5kn_kYwY)
+* [Floats, Flexbox, Grid? The progression of CSS layouts](https://www.youtube.com/watch?v=R7gqJkdc5dM)
+* [Build a responsive card - HTML and CSS tutorial](https://www.youtube.com/watch?v=51DbAwcmqD8)
