@@ -16,4 +16,8 @@ body {
   max-width: 600px;
   display: flex;
   flex-direction: column;
+  background: #005e9b;
+  color: #fff;
+  text-align: center;
+  padding: 2em;
 }
