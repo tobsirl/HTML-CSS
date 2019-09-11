@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* =================
@@ -8,9 +10,11 @@ Layout
 ================= */
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  background: #fff;
+  color: black
 }
 
 .container-flex {
@@ -30,18 +34,25 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  background: #fff;
   /* border: 2px solid red; */
+  color: black
 }
 
 .card-technologies {
   /* border: 2px solid black; */
   max-width: 150px;
+  margin: 2em;
+  font-weight: 400;
+}
+
+.card-technologies h2 {
+  font-size: 2.5rem;
 }
 
 .technologies p {
   text-align: center;
   font-size: 1.6rem;
-  font-weight: 700;
   margin: 0;
 }
 
@@ -54,9 +65,12 @@ nav ul {
   list-style: none;
   padding: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 nav li {
-  margin-left: 2em;
+  margin: 0.5em;
 }
+
+
