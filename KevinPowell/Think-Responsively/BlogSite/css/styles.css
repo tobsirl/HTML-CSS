@@ -5,6 +5,10 @@ body {
   box-sizing: border-box;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* =================
 Layout
 ================= */
@@ -14,7 +18,7 @@ Layout
   max-width: 900px;
   margin: 0 auto;
   background: #fff;
-  color: black
+  color: black;
 }
 
 .container-flex {
@@ -36,7 +40,7 @@ header {
   align-items: center;
   background: #fff;
   /* border: 2px solid red; */
-  color: black
+  color: black;
 }
 
 .card-technologies {
@@ -60,12 +64,17 @@ header {
   width: 100%;
 }
 
+@media (min-width: 675px) {
+  .container-flex {
+    flex-direction: row;
+  }
+}
+
 /* Navigation */
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -73,4 +82,19 @@ nav li {
   margin: 0.5em;
 }
 
+.subtitle {
+  font-weight: 700;
+  color: #1792d2;
+  font-size: 0.75rem;
+  margin: 0;
+}
 
+@media (max-width: 675px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0.5em 0;
+  }
+}
