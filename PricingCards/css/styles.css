@@ -55,6 +55,7 @@ body {
   max-width: 360px;
   text-align: center;
   padding: 8px 0;
+  font-size: 14px;
 }
 
 .pricing-list {
@@ -73,6 +74,19 @@ body {
   height: 1px;
   background: #ddd;
   margin: auto;
+}
+
+.pricing-table a {
+  display: block;
+  width: 80%;
+  background: red;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+  border: 1px solid;
+  max-width: 360px;
 }
 
 @media screen and (max-width: 780px) {
