@@ -11,6 +11,7 @@ body {
 h1 {
   font-size: 2.25rem;
   font-weight: 300;
+  color: #fff;
 }
 
 h1 + p {
@@ -38,4 +39,14 @@ h2 {
 
 strong {
   font-weight: 900;
+}
+
+/* =================
+   Intro section 
+   ================= */
+
+.intro {
+  background-color: #404040;
+  background-image: url(/images/dark-ribs.jpg);
+  padding: 0 0.25em 1em;
 }
