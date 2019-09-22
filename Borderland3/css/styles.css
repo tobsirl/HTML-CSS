@@ -1,0 +1,9 @@
+body {
+  font-family: 'Squada One', cursive;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #c7b809;
+  text-align: center;
+}
