@@ -7,3 +7,15 @@ body {
   color: #c7b809;
   text-align: center;
 }
+
+.container {
+  display: flex;
+}
+
+.vault-hunter-card {
+  text-align: center;
+  border: solid 2px black;
+}
+.vault-hunter-card img {
+  max-width: 35%;
+}
