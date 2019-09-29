@@ -79,6 +79,13 @@ strong {
   padding: 2em 1em;
 }
 
+.intro > *,
+.main-content > * {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* =================
    media queries 
    ================= */
@@ -92,11 +99,13 @@ strong {
     font-size: 3.5rem;
   }
 
-  h2, h1 + p {
+  h2,
+  h1 + p {
     font-size: 1.75rem;
   }
 
-  .intro, .main-content {
+  .intro,
+  .main-content {
     width: 50%;
     min-height: 100vh;
   }
