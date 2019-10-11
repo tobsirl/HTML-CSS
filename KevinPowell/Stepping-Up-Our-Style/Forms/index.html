@@ -1,19 +1,39 @@
 <html>
-    <head>
-    </head>
-    <body>
-        <h1>Forms!</h1>
-        <form action="#" method="post">
-            <label for="fname">First name:</label>
-            <input id="fname" type="text" required value="Please enter your first name!">
-            <br>
-            <label for="lname">Last name:</label>
-            <input id="lname" type="text" required placeholder="Please enter your last name!">
-            <br>
-            <label for="email">Email:</label>
-            <input id="email" type="text" required>
-            <br>
-            <button type="submit">Submit!</button>
-        </form>
-    </body>
+  <head>
+    <style>
+      form {
+        background: #efefef;
+        padding: 2em;
+      }
+
+      input {
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Forms!</h1>
+    <form action="#" method="post">
+      <label for="fname">First name:</label>
+      <input
+        id="fname"
+        type="text"
+        required
+        value="Please enter your first name!"
+      />
+      <br />
+      <label for="lname">Last name:</label>
+      <input
+        id="lname"
+        type="text"
+        required
+        placeholder="Please enter your last name!"
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input id="email" type="text" required />
+      <br />
+      <button type="submit">Submit!</button>
+    </form>
+  </body>
 </html>
