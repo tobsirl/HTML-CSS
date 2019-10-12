@@ -95,9 +95,17 @@ strong {
   max-width: 300px;
 }
 
+input {
+  margin-bottom: 0.75em;
+  font-family: inherit;
+  text-align: inherit;
+  border: 1px solid #404040;
+}
+
 input,
 .btn {
   width: 100%;
+  border-radius: 5px;
 }
 
 /* =================
