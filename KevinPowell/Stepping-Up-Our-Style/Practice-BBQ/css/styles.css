@@ -96,9 +96,10 @@ strong {
 }
 
 input {
-  margin-bottom: 0.75em;
   font-family: inherit;
   text-align: inherit;
+  margin-bottom: 0.75em;
+  padding: 0.25em;
   border: 1px solid #404040;
 }
 
@@ -106,6 +107,16 @@ input,
 .btn {
   width: 100%;
   border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1em 1.5em;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  border: 0;
 }
 
 /* =================
