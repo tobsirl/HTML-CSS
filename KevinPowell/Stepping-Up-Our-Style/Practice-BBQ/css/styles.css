@@ -101,6 +101,12 @@ input {
   margin-bottom: 0.75em;
   padding: 0.25em;
   border: 1px solid #404040;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+input:focus {
+  transform: scale(1.025);
 }
 
 input,
@@ -129,7 +135,7 @@ input,
 
 .btn-primary:hover,
 .btn-primary:focus {
-  transform: scale(1.1);
+  transform: scale(1.025);
 }
 
 /* =================
