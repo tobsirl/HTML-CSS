@@ -66,7 +66,8 @@ strong {
 .intro {
   background-color: #404040;
   background-size: cover;
-  background-image: url(/images/dark-ribs.jpg);
+  background-image: url(/images/ribs.jpg);
+  background-blend-mode: multiply;
   background-position: center;
   padding: 0 0.5em 2em;
   display: flex;
