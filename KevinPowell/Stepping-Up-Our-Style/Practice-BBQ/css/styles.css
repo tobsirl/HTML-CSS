@@ -28,6 +28,7 @@ h1 + p {
 
 .top-text {
   margin: 0;
+  padding-top: 2px;
   font-size: 0.625rem;
   font-weight: 900;
   color: #f18119;
