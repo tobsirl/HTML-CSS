@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+
+.contact-section {
+  background: #313840;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.inner-width {
+  max-width: 600px;
+  margin: auto;
+}
