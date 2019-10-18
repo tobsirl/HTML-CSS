@@ -14,4 +14,14 @@
 .inner-width {
   max-width: 600px;
   margin: auto;
+  padding: 0 20px;
+}
+
+.contact-section h1 {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
 }
