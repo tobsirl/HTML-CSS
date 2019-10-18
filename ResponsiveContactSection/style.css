@@ -63,4 +63,16 @@
   text-transform: uppercase;
   font-size: 14px;
   transition: 0.4s linear;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #70a1ff;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .name, .email {
+    width: 100%;
+  }
 }
