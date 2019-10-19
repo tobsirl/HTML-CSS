@@ -8,3 +8,4 @@
 * [Build a responsive card - HTML and CSS tutorial](https://www.youtube.com/watch?v=51DbAwcmqD8)
 * [Pricing Cards](https://www.youtube.com/watch?v=NyLtmBfLW48)
 * [Responsive Contact Section](https://www.youtube.com/watch?v=ldkMGzixh4c)
+* [Responsive Services Section](https://www.youtube.com/watch?v=rmygPymXo44)
