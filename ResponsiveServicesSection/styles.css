@@ -2,4 +2,19 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+.services-section {
+  background: url(img/bg.jpg);
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.inner-width {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
 }
