@@ -63,3 +63,19 @@
   transform: rotate(-45deg);
   font-size: 26px;
 }
+
+.service-box:hover .service-icon {
+  background: #82ccdd;
+  color: #ddd;
+}
+
+.service-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.service-desc {
+  font-size: 14px;
+}
