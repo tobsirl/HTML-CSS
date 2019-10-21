@@ -1,11 +1,12 @@
-# HTML5 - CSS3 
+# HTML5 - CSS3
 
-* [Netflix Landing Page](https://www.youtube.com/watch?v=P7t13SGytRk)
-* [Responsive Laptop Site](https://www.youtube.com/watch?v=ZeDP-rzOnAA)
-* [Flexbox Tutorial](https://www.youtube.com/watch?v=FTlczfR82mQ)
-* [Headphone Product Landing Page](https://www.youtube.com/watch?v=61R5kn_kYwY)
-* [Floats, Flexbox, Grid? The progression of CSS layouts](https://www.youtube.com/watch?v=R7gqJkdc5dM)
-* [Build a responsive card - HTML and CSS tutorial](https://www.youtube.com/watch?v=51DbAwcmqD8)
-* [Pricing Cards](https://www.youtube.com/watch?v=NyLtmBfLW48)
-* [Responsive Contact Section](https://www.youtube.com/watch?v=ldkMGzixh4c)
-* [Responsive Services Section](https://www.youtube.com/watch?v=rmygPymXo44)
+- [Netflix Landing Page](https://www.youtube.com/watch?v=P7t13SGytRk)
+- [Responsive Laptop Site](https://www.youtube.com/watch?v=ZeDP-rzOnAA)
+- [Flexbox Tutorial](https://www.youtube.com/watch?v=FTlczfR82mQ)
+- [Headphone Product Landing Page](https://www.youtube.com/watch?v=61R5kn_kYwY)
+- [Floats, Flexbox, Grid? The progression of CSS layouts](https://www.youtube.com/watch?v=R7gqJkdc5dM)
+- [Build a responsive card - HTML and CSS tutorial](https://www.youtube.com/watch?v=51DbAwcmqD8)
+- [Pricing Cards](https://www.youtube.com/watch?v=NyLtmBfLW48)
+- [Responsive Contact Section](https://www.youtube.com/watch?v=ldkMGzixh4c)
+- [Responsive Services Section](https://www.youtube.com/watch?v=rmygPymXo44)
+- [Social Meida Buttons with Hover Effects](https://www.youtube.com/watch?v=WESIes0U_ds)
