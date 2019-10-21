@@ -31,4 +31,17 @@ body {
   transition: 0.3s ease-in;
 }
 
+.social-buttons a:hover::before {
+  transform: scale(0);
+}
 
+.social-buttons a i {
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover i {
+  background: linear-gradient(45deg, #22a6b3, #30336b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(2.2);
+}
