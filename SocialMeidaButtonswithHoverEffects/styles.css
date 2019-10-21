@@ -6,3 +6,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.social-buttons a {
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  background: red;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 8px;
+}
