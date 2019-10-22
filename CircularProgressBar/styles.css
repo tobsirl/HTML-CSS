@@ -12,6 +12,27 @@ body {
   background: #101010;
 }
 
+.container {
+  position: relative;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .card {
+  position: relative;
+  width: 250px;
+  background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border-radius: 4px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
 svg {
   position: relative;
   width: 150px;
