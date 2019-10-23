@@ -84,13 +84,25 @@ body {
   font-size: 60px;
 }
 
-.card:hover .number h2 span {
+.number h2 span {
   font-size: 24px;
   color: #777;
+  transition: 0.5s;
 }
 
 .card:hover .percent .number h2 span {
   color: #fff;
+}
+
+.text {
+  position: relative;
+  color: #777;
+  margin-top: 2em;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
 svg {
