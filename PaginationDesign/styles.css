@@ -28,6 +28,7 @@ body {
   color: #fff;
   font-weight: 600;
   transition: 0.3s;
+  position: relative;
 }
 
 .pagination a:hover {
@@ -44,4 +45,18 @@ body {
 
 .next {
   border-radius: 0 30px 30px 0;
+}
+
+.pagination a::before,
+.pagination a::after {
+  content: '';
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
+.num::before,
+.next::before {
+  border-right: 20px solid red;
+  right: 100%;
 }
