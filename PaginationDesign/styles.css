@@ -17,3 +17,15 @@ body {
   text-align: center;
   transform: translateY(-50%);
 }
+
+.pagination a {
+  margin: 6px 1px;
+  display: inline-block;
+  width: 60px;
+  background: #2c3e50;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
