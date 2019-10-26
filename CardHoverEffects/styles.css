@@ -52,6 +52,18 @@ body {
   transition: 0.5s;
 }
 
+.container .card:nth-child(1) .face.face2 {
+  background: linear-gradient(45deg, #3503ad, #f7308c);
+}
+
+.container .card:nth-child(2) .face.face2 {
+  background: linear-gradient(45deg, #ccff00, #09afff);
+}
+
+.container .card:nth-child(3) .face.face2 {
+  background: linear-gradient(45deg, #e91e63, #ffeb3b);
+}
+
 .container .card:hover .face.face2 {
   height: 60px;
 }
@@ -72,6 +84,7 @@ body {
   font-size: 10em;
   color: #fff;
   transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .container .card:hover .face.face2 h2 {
