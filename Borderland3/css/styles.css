@@ -11,13 +11,19 @@ body {
 .container {
   display: flex;
   align-content: center;
+  align-items: auto;
 }
 
 .vault-hunter-card {
   text-align: center;
-  width: 25%;
+  max-width: 25%;
   border: 1px solid black;
 }
+
 .vault-hunter-card img {
   max-width: 35%;
 }
+
+/* .vault-hunter-class {
+  align-self: auto;
+} */
