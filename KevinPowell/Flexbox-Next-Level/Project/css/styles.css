@@ -1,0 +1,11 @@
+.card {
+  font-family: 'Blinker', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.card-title {
+  color: #05cbe9;
+  font-size: 1.75rem;
+}
