@@ -43,6 +43,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-top: 3em;
 }
 
 .card-btn {
@@ -51,9 +52,18 @@
   font-weight: 700;
   background: #05cbe9;
   color: #111d4a;
-  padding: 0.25em 1.25em;
+  padding: 0.35em 1em;
+  letter-spacing: 1px;
 }
 
 .card-read-time {
   margin: 0;
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.card-read-time span {
+  font-weight: 700;
+  display: block;
+  font-size: 1.25em;
 }
