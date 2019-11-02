@@ -2,7 +2,32 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#main {
+  background: #eeeeee;
+}
+
+#img-div img {
+  background: #fff;
+  margin: 0 auto;
+}
+
+#image {
+  max-width: ;
+}
+
 #title {
   text-align: center;
   font-weight: bold;
+}
+
+p {
+  text-align: center;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  width: ;
 }
