@@ -18,3 +18,4 @@
 - [Circular Progress Bar](https://www.youtube.com/watch?v=Ft73g5Kyknw)
 - [Pagination Design](https://www.youtube.com/watch?v=DaDyR9KniLU)
 - [Card Hover Effects](https://www.youtube.com/watch?v=vjIIhy9v4oU)
+- [Animated Hamburger Button](https://www.youtube.com/watch?v=b3OKONiAA80)
