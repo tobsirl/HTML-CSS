@@ -1,9 +1,10 @@
 # HTML5 - CSS3
 
 ## Kevin Powell
+
 [The Responsive Web Design Bootcamp](https://scrimba.com/g/gresponsive)
 
-## Various 
+## Various
 
 - [Netflix Landing Page](https://www.youtube.com/watch?v=P7t13SGytRk)
 - [Responsive Laptop Site](https://www.youtube.com/watch?v=ZeDP-rzOnAA)
@@ -19,3 +20,4 @@
 - [Pagination Design](https://www.youtube.com/watch?v=DaDyR9KniLU)
 - [Card Hover Effects](https://www.youtube.com/watch?v=vjIIhy9v4oU)
 - [Animated Hamburger Button](https://www.youtube.com/watch?v=b3OKONiAA80)
+- [PlaceHolder Shown](https://www.youtube.com/watch?v=jWCXc32OIUY)
