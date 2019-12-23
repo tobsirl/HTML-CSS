@@ -57,6 +57,8 @@ strong {
   grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
 }
 
+/* footer */
+
 .footer {
   background: #ebebeb;
   padding: 4em 0;
@@ -75,6 +77,16 @@ strong {
   margin: 0 0 2em;
   display: flex;
   justify-content: center;
+}
+
+.social-link {
+  color: #000;
+  font-size: 1.75rem;
+  margin: 0 .5em;
+}
+
+.social-link:hover {
+  color: #777;
 }
 
 /* ==================
