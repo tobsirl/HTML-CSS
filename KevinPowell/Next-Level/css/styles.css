@@ -29,6 +29,12 @@ strong {
   margin-bottom: 0;
 }
 
+.section-title {
+  font-size: 1.125rem;
+  color: #000;
+  margin-top: 1.25em;
+}
+
 /* buttons */
 .btn {
   padding: 0.5em 1.75em;
@@ -43,17 +49,37 @@ strong {
 }
 
 /* ==================
-    hero area
+    General Layout
+===================== */
+
+.main-grid {
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+}
+
+/* ==================
+    Hero Area
 ===================== */
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
   background-image: url(/img/hero-bg.jpg);
   padding: 4em 0;
   color: #fff;
 }
 
 .hero > * {
+  grid-column: 2 / -2;
+}
+
+/* ==================
+    Info Section
+===================== */
+
+.info {
+  padding: 4em 0;
+  text-align: center;
+}
+
+.col {
   grid-column: 2 / -2;
 }
