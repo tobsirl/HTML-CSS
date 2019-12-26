@@ -85,10 +85,16 @@ strong {
 .nav {
   position: absolute;
   background: #000;
+  width: 100%;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 100%;
+  transform: translateX(0);
+}
+
+.navigation-open {
+  transform: translateX(-100%);
 }
 
 .nav-list {
