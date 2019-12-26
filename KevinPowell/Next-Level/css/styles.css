@@ -91,6 +91,7 @@ strong {
   bottom: 0;
   left: 100%;
   transform: translateX(0);
+  transition: transform 250ms;
 }
 
 .navigation-open {
@@ -102,7 +103,7 @@ strong {
   list-style: none;
   margin: 0;
   padding: 0;
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
   height: 100%;
   align-items: center;
   justify-content: space-around;
