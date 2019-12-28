@@ -10,6 +10,11 @@ body {
   line-height: 1.6;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /* ==================
     Typography
 ===================== */
@@ -21,6 +26,21 @@ strong {
 
 .accent-color {
   color: #ffe000;
+}
+
+.page-title,
+.subtitle {
+  grid-column: 2 / -2;
+  color: #000;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 1.125rem;
 }
 
 .hero-title {
@@ -293,5 +313,27 @@ strong {
 
   .col:first-child {
     grid-column: 2 / span 1;
+  }
+}
+
+/* ==================
+    template page
+===================== */
+
+.main-template {
+  padding: 4em 0;
+}
+
+.main-template > * {
+  grid-column: 2 / -2;
+}
+
+@media (min-width: 600px) {
+  .main-image {
+    grid-column: 2;
+  }
+
+  .main-text {
+    grid-column: 3 / span 2;
   }
 }
