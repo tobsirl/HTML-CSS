@@ -12,3 +12,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.card {
+  width: 420px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 0 10px #00000070; }
+  .card__top-section {
+    padding: 60px 40px;
+    background: #2c2c54aa; }
+  .card__message, .card__notif {
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff50; }
+  .card__message {
+    right: 40px; }
+  .card__notif {
+    left: 40px; }

@@ -14,3 +14,33 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.card {
+  width: 420px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 0 10px #00000070;
+
+  &__top-section {
+    padding: 60px 40px;
+    background: #2c2c54aa;
+  }
+
+  &__message,
+  &__notif {
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff50;
+  }
+
+  &__message {
+    right: 40px;
+  }
+
+  &__notif {
+    left: 40px;
+  }
+}
