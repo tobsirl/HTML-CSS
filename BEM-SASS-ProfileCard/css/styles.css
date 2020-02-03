@@ -63,4 +63,24 @@ body {
     opacity: 0; } }
   .card__name {
     color: #f1f1f1;
-    font-size: 28px; }
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .card__tag {
+    font-size: 18px;
+    color: #222; }
+  .card__bottom-section {
+    background: #f1f1f1;
+    padding: 60px 40px;
+    position: relative; }
+  .card__social-media {
+    position: absolute;
+    width: 100%;
+    top: -30px;
+    left: 0;
+    z-index: 1; }
+  .card__social-media i {
+    width: 60px;
+    height: 60px;
+    background: #2c3e50;
+    border-radius: 50%; }
