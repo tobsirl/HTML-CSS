@@ -3,6 +3,17 @@
   --clr-body: #333;
   --clr-bg: #ddd; }
 
+body {
+  font-family: basic-sans, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: var(--clr-body);
+  background: var(--clr-bg); }
+
 .content {
   background: white;
   width: 70vw;
@@ -12,7 +23,7 @@
 form {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  column-gap: 1em;
+  grid-column-gap: 1em;
   align-items: center; }
 
 .title {
@@ -21,3 +32,14 @@ form {
   font-weight: 900;
   color: var(--clr-primary);
   line-height: 0.8; }
+
+input {
+  font-family: inherit;
+  padding: 0.5em;
+  border: 3px solid var(--clr-bg); }
+
+label {
+  justify-self: end; }
+
+input[required]:placeholder-shown {
+  border-color: var(--clr-primary); }

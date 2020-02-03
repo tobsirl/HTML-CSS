@@ -21,3 +21,4 @@
 - [Card Hover Effects](https://www.youtube.com/watch?v=vjIIhy9v4oU)
 - [Animated Hamburger Button](https://www.youtube.com/watch?v=b3OKONiAA80)
 - [PlaceHolder Shown](https://www.youtube.com/watch?v=jWCXc32OIUY)
+- [BEM-SCSS Profile Card](https://www.youtube.com/watch?v=UaYriA15zoc)
