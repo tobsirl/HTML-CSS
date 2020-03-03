@@ -25,6 +25,18 @@ header {
   z-index: 1000000;
 }
 
+header.sticky {
+  padding: 5px 100px;
+  background: #fff;
+}
+
+header.sticky .logo {
+  color: #000;
+}
+header.sticky ul li a {
+  color: #000;
+}
+
 header .logo {
   position: relative;
   font-weight: 700;
