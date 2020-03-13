@@ -25,3 +25,4 @@
 - [Sticky Navbar](https://www.youtube.com/watch?v=6HFpw5fcaD8)
 - [Image Carousel](https://www.youtube.com/watch?v=iiLCKyFd_5c)
 - [Responsive Masonry Layout](https://www.youtube.com/watch?v=icnZSJbNsEM)
+- [Responsive Portfolio Page](https://www.youtube.com/watch?v=5zkOWf5_lAo)
