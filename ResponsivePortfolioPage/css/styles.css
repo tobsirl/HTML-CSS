@@ -151,3 +151,35 @@ header #toggle:after {
   font-size: 1.2em;
   font-weight: 500;
 }
+
+.sci {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 100px;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  margin: 10px 0 0;
+}
+
+.sci li a:hover {
+  background: #fff;
+}
+
+.sci li a img {
+  max-width: 20px ;
+  filter: invert(1);
+  mix-blend-mode: difference;
+}
