@@ -103,7 +103,7 @@ input[type='submit'] {
     (5) white
 */
 body {
-  background: #1C2022;
+  background: #2B3337;
 }
 
 .container {
@@ -115,7 +115,7 @@ p {
 }
 
 input[type=text], textarea {
-  background: #2B3337;
+  background: #1C2022;
   border-bottom: 1px solid #506671;
   color: #9D9D9D;
 }
