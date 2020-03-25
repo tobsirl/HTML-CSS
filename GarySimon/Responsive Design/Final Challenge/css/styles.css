@@ -81,13 +81,28 @@ a {
 
 @media (min-width: 1000px) {
   .card-details {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas:
+      'name description'
+      'cta description';
   }
 
   h1 {
+    grid-area: name;
   }
+
   p {
+    grid-area: description;
+    margin-left: 2em;
+    margin-top: 2.5em;
   }
   a {
+    grid-area: cta;
+    padding: 0.5em;
+    width: 60%;
+    font-size: 0.7em;
+    margin-top: 0;
   }
 }
 
