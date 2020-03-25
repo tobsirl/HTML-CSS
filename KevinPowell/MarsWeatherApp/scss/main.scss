@@ -48,12 +48,31 @@ h3 {
   line-height: 1;
 }
 
+a {
+  color: var(--clr-accent);
+
+  &:hover {
+    color: var(--clr-accent-dark);
+  }
+}
+
 .main-title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-light);
   text-transform: uppercase;
   color: var(--clr-accent);
   letter-spacing: 2px;
+  grid-column: 1 / -1;
+}
+
+.section-title {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  margin: 0;
+}
+
+.section-title--date {
+  font-size: var(--fs-xl);
 }
 
 .mars-current-weather {
@@ -61,4 +80,25 @@ h3 {
   padding: 2em;
   max-width: 1000px;
   margin: 4em 0 0 4em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.date {
+  grid-column: 1 / 2;
+}
+.temp {
+  grid-column: 2 / 3;
+}
+
+.wind {
+  grid-column: 3 / 4;
+}
+
+.info {
+  grid-column: 1 / 3;
+}
+
+.unit-toggle {
+  grid-column: 3 / 4;
 }
