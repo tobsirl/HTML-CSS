@@ -33,6 +33,9 @@ nav {
   height: 100vh;
   background: #1d2226;
   width: 60%;
+  transform: translateX(50%);
+  opacity: 0;
+  transition: all 0.3s;
 }
 
 .exit {
@@ -71,6 +74,8 @@ li a:hover {
 
 .open-nav {
   visibility: unset;
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* media queries */
@@ -85,6 +90,8 @@ li a:hover {
     background: none;
     position: unset;
     height: auto;
+    opacity: 1;
+    transform: translateX(0);
   }
 
   ul {
