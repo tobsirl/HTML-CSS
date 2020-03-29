@@ -19,20 +19,20 @@ header {
 }
 
 a.logo {
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   margin: 1em 0.5em 0;
 }
 
 nav {
-  visibility: hidden;
   position: fixed;
   top: 0;
   right: 0;
   height: 100vh;
   background: #1d2226;
-  width: 60%;
+  width: 66%;
+  visibility: hidden;
   transform: translateX(50%);
   opacity: 0;
   transition: all 0.3s;
@@ -58,10 +58,6 @@ li a {
   padding: 0.5em 1em;
 }
 
-li a:hover {
-  background: #2e363d;
-}
-
 .open {
   cursor: pointer;
   margin: 0.5em;
@@ -72,13 +68,18 @@ li a:hover {
   font-weight: bold;
 }
 
+li a:hover {
+  background: #2e363d;
+}
+
 .open-nav {
   visibility: unset;
   opacity: 1;
   transform: translateX(0);
 }
 
-/* media queries */
+/* Your CSS Here */
+
 @media (min-width: 500px) {
   .open,
   .exit {
@@ -96,23 +97,94 @@ li a:hover {
 
   ul {
     display: flex;
-    justify-content: flex-end;
+    margin-top: auto;
     width: auto;
     float: right;
-    margin-top: auto;
     margin: 0;
-  }
-
-  a.logo {
-    margin-bottom: 1em;
   }
 
   li a {
     color: #addbff;
     display: block;
     padding: 1em;
+    background: none;
   }
+
   .active a {
     color: white;
   }
+
+  /* Added CSS */
+
+  header {
+    overflow: visible;
+  }
+
+  .sub {
+    position: relative;
+  }
+
+  .submenu {
+    display: none;
+  }
+
+  .sub:hover .submenu {
+    display: flex;
+    position: absolute;
+    top: 3.3em;
+    right: 0;
+    background: #3d5262;
+    padding: 1em 2em;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.07);
+  }
+
+  /* Your CSS Here */
+  .submenu ul {
+    display: block;
+    margin: 1.5em 0 0;
+  }
+
+  .submenu li a {
+    padding: 0 0 0.5em 0;
+    font-weight: bold;
+    color: #1d2226;
+    font-size: 0.7em;
+    text-transform: uppercase;
+  }
+
+  .submenu p {
+    min-width: 12em;
+    padding-left: 1em;
+    border-left: 1px solid grey;
+  }
+}
+
+.submenu {
+  padding: 0 1em;
+}
+
+.submenu p {
+  margin: 1em 0 1em 1em;
+  color: #707d88;
+  line-height: 1.4em;
+}
+
+.submenu ul {
+  margin: 1em 0 1em;
+}
+
+.submenu a {
+  font-weight: normal;
+  color: #7b8994;
+  background: none;
+  font-weight: bold;
+}
+
+.submenu a:hover {
+  background: none;
+}
+
+li a {
+  font-weight: bold;
+  margin-bottom: 2px;
 }
