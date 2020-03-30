@@ -133,3 +133,12 @@ ul.secondary li p {
 main {
   border: 1px solid white;
 }
+
+/* Your Fixes Below */
+body {
+  background: #303a52;
+}
+
+nav {
+  background: #2c354a;
+}
