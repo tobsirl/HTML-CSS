@@ -13,7 +13,7 @@ body {
   background: #3b4acd;
   color: #a5b2d3;
   padding: 0.5em;
-  font-family: serif;
+  font-family: 'Nunito', sans-serif;
   height: 100vh;
   text-align: center;
 }
@@ -137,8 +137,56 @@ main {
 /* Your Fixes Below */
 body {
   background: #303a52;
+  padding: 3em;
 }
 
 nav {
   background: #2c354a;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: unset;
+}
+
+ul.data li p {
+  font-size: 1.5em;
+}
+
+main {
+  border: unset;
+}
+
+.panel {
+  padding: .5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+a.cta-btn {
+  font-size: 0.9em;
+  padding: 0.25em 0.5em;
+}
+
+nav ul li a {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: unset;
+}
+
+nav {
+  text-align: left;
 }
