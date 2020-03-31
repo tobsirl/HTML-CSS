@@ -137,33 +137,15 @@ main {
 /* Your Fixes Below */
 body {
   background: #303a52;
-  padding: 3em;
+  font-family: 'Nunito', sans-serif;
 }
 
 nav {
   background: #2c354a;
 }
 
-h1 {
-  font-size: 3em;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: unset;
-}
-
-ul.data li p {
-  font-size: 1.5em;
-}
-
 main {
   border: unset;
-}
-
-.panel {
-  padding: .5em;
 }
 
 a {
@@ -176,11 +158,13 @@ p {
 
 a.cta-btn {
   font-size: 0.9em;
-  padding: 0.25em 0.5em;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
 }
 
 nav ul li a {
   font-size: 1.2em;
+  padding: 0.8em 1em;
 }
 
 h3 {
@@ -189,4 +173,13 @@ h3 {
 
 nav {
   text-align: left;
+}
+
+.inner-wrapper {
+  padding: 1em;
+}
+
+.panel {
+  padding: 0.5em 1em;
+  margin-bottom: 2em;
 }
