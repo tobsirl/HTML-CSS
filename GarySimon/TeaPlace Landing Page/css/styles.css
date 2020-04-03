@@ -98,7 +98,7 @@ h1:before {
 }
 
 p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 1.4em;
   width: 90%;
   margin: 0 auto 2em;
@@ -106,7 +106,7 @@ p {
 
 .cta {
   display: block;
-  padding: .7em;
+  padding: 0.7em;
   margin-bottom: 1em;
   background-color: var(--brown);
   color: white;
@@ -138,4 +138,74 @@ p {
 
 .open-nav {
   display: grid;
+}
+
+@media (min-width: 500px) {
+  /* .btn-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #menu-btn {
+    visibility: hidden;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    background: none;
+  }
+
+  ul li a {
+    display: unset;
+    margin-right: 1em;
+  }
+
+  .exit svg {
+    visibility: hidden;
+  } */
+
+  body {
+    font-size: 18px;
+  }
+
+  .menu,
+  .exit {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    background: none;
+    height: unset;
+    position: unset;
+    text-transform: uppercase;
+  }
+
+  ul li a {
+    font-size: 0.9em;
+    margin-left: unset;
+    padding: 0 0.5em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cta {
+    padding: 0.7em 1.2em;
+  }
+
+  .outline {
+    margin-left: 1em;
+  }
 }
