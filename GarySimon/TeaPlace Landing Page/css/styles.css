@@ -1,27 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
-:root {
-  --light-green: #aadfc5;
-  --dark-green: #47946e;
-  --brown: #7a4900;
-  --black: #000;
-  --white: #fff;
-}
-
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  background: var(--light-green);
+  background: #aadfc5;
+  font-family: 'Montserrat';
   height: 100vh;
 }
 
 a {
-  color: var(--brown);
+  color: #7a4900;
   text-decoration: none;
   font-weight: bold;
 }
@@ -82,11 +74,10 @@ main {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   position: relative;
   margin-top: 3em;
 }
-
 h1:before {
   content: '';
   position: absolute;
@@ -94,11 +85,11 @@ h1:before {
   height: 7px;
   top: -20px;
   left: 33%;
-  background-color: var(--brown);
+  background-color: #7a4900;
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 0.9em;
   line-height: 1.4em;
   width: 90%;
   margin: 0 auto 2em;
@@ -108,14 +99,13 @@ p {
   display: block;
   padding: 0.7em;
   margin-bottom: 1em;
-  background-color: var(--brown);
+  background-color: #7a4900;
   color: white;
   white-space: nowrap;
 }
-
 .outline {
   background: none;
-  border: 2px solid var(--dark-green);
+  border: 2px solid #47946e;
   color: black;
 }
 
@@ -140,40 +130,25 @@ p {
   display: grid;
 }
 
+.fern {
+  background: url('fern.svg') no-repeat;
+  height: 50vh;
+  width: 70%;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: -1;
+  opacity: 0.1;
+}
+
 @media (min-width: 500px) {
-  /* .btn-container {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #menu-btn {
-    visibility: hidden;
-  }
-
-  ul {
-    display: flex;
-    justify-content: flex-end;
-    background: none;
-  }
-
-  ul li a {
-    display: unset;
-    margin-right: 1em;
-  }
-
-  .exit svg {
-    visibility: hidden;
-  } */
-
   body {
     font-size: 18px;
   }
-
   .menu,
   .exit {
     display: none;
   }
-
   ul {
     display: flex;
     background: none;
@@ -185,27 +160,81 @@ p {
   ul li a {
     font-size: 0.9em;
     margin-left: unset;
-    padding: 0 0.5em;
+    padding: 0 0.5rem;
   }
-
   h1 {
     font-size: 2.5em;
   }
-
   p {
     font-size: 1em;
   }
-
   .btn-container {
     display: flex;
     justify-content: center;
   }
-
   .cta {
     padding: 0.7em 1.2em;
   }
-
   .outline {
     margin-left: 1em;
   }
 }
+
+@media (min-width: 850px) {
+  body {
+    background: white;
+  }
+  .left-col {
+    width: 60%;
+    background: #aadfc5;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+  }
+  main {
+    text-align: left;
+    width: 90%;
+    margin-left: 2em;
+  }
+  p {
+    width: 50%;
+    text-align: left;
+    margin: 2em 0;
+  }
+  .btn-container {
+    justify-content: left;
+  }
+  h1:before {
+    width: 40%;
+    left: 0;
+  }
+  .content-wrapper {
+    display: flex;
+  }
+  .plant-container {
+    position: unset;
+    width: auto;
+    height: auto;
+    display: grid;
+    place-content: center;
+    margin-top: 4em;
+    margin-right: 2em;
+  }
+  .plant {
+    position: unset;
+    width: 90%;
+  }
+}
+
+/*
+
+- White Space
+- Color 
+- Contrast 
+- Scale
+- Alignment
+- Typography
+- Visual Hierarchy
+
+*/
