@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    304deg,
+    rgba(104, 29, 253, 1) 0%,
+    rgba(141, 0, 222, 1) 100%
+  );
+  font-family: sans-serif;
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 3em;
+}
+
+.card {
+  background: white;
+  margin: 1.5em;
+  padding: 1.5em;
+  border-radius: 1em;
+  text-align: center;
+  color: #15004c;
+  position: relative;
+}
+
+span {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: white;
+  margin-top: -3em;
+  border-radius: 50%;
+  background: #e8c9ff;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+p {
+  margin-top: 2em;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  margin-top: 1em;
+}
