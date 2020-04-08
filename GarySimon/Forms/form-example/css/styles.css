@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -54,4 +58,79 @@ ul li a {
 
 .current span {
   color: #1a004e;
+}
+
+main {
+  background: white;
+  padding: 1em;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-size: 1.3em;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+h2:before {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 30px;
+  background: #8040ff;
+  left: 0;
+  top: -7px;
+  border-radius: 1em;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 1em;
+  border-radius: 0.2em;
+  border: 1px solid #acacac;
+  color: #1b1820;
+}
+
+input[type='text']:focus,
+textarea:focus {
+  outline: 3px solid #8040ff;
+}
+
+.left-col .error-field {
+  border: 3px solid #ffb3b3;
+}
+
+.error {
+  background: #ffb3b3;
+  display: inline-block;
+  padding: 0.3em 0.5em;
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-top: -0.1em;
+}
+
+.cta {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: #8040ff;
+  margin-top: 1.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: .2em;
+
 }
