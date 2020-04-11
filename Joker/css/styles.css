@@ -42,7 +42,7 @@ header .toggle img {
   background-position: center;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -69,4 +69,46 @@ header .toggle img {
   line-height: 1.5em;
   color: #fff;
   margin: 15px 0 35px;
+}
+
+.play {
+  position: relative;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+
+.play img {
+  margin: 10px;
+  max-width: 50px;
+}
+
+.sci {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  text-decoration: none;
+}
+
+.sci li a img {
+  filter: invert(1);
+  transform: scale(0.6);
 }
