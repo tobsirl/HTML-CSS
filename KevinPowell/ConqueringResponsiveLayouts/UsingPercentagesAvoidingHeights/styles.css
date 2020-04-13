@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: #23424a;
+  padding: 50px;
+}
+
+.child {
+  background-color: #38cfd9;
+  /* normally I wouldn't include
+  a height it's just to get us started */
+  height: 250px;
+}
