@@ -11,11 +11,13 @@ body {
 .container {
   background: #23424a;
   color: white;
-  width: 80%;
   margin: 0 auto;
   padding: 2em;
+
+  width: 80%;
+  max-width: 750px;
 }
 
 .intro-content {
-    width: 50%;
+  width: 50%;
 }
