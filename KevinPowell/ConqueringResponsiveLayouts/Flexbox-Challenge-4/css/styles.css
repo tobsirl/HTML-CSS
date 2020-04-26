@@ -4,6 +4,21 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --clr-cream: #F3EED9;
+  --clr-brown: #824936;
+  --clr-black: #222C2A;
+  --font-robo-light: 18px;
+  --font-playfair-big: 60px
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -14,4 +29,27 @@ img {
   width: 80%;
   max-width: 1128px;
   margin: 0 auto;
+}
+
+.hero {
+  min-height: 660px;
+  background: var(--clr-cream);
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__subtext {
+  font-size: 18px;
+  font-weight: var(--font-robo-light);
+  text-transform: uppercase;
+  letter-spacing: 1em;
+}
+
+.hero__title {
+  font-family: 'Playfair Display', serif;
+  font-size: var(--font-playfair-big);
+  color: var(--clr-brown);
 }
