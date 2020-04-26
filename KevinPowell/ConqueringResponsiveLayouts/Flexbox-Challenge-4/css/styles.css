@@ -64,6 +64,7 @@ img {
   padding: 3em;
   font-size: 21px;
 }
+
 .design-content__title {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
@@ -72,3 +73,24 @@ img {
   margin-bottom: 40px;
 }
 
+.image-section-1 {
+  background: var(--clr-black);
+  padding: 3em;
+}
+
+.image-section-1__title {
+  color: var(--clr-cream);
+  margin-bottom: 1em;
+  font-family: 'Playfair Display', serif;
+}
+
+.image-section-1 p {
+  color: #FFF;
+}
+
+.image-section-1__text {
+  width: 50%;
+}
+.image-section-1__img {
+  width: 50%;
+}
