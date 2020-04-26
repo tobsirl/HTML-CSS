@@ -62,7 +62,9 @@ img {
 
 .design-content {
   padding: 3em;
-  font-size: 21px;
+  margin: 50px 0;
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 .design-content__title {
@@ -86,11 +88,37 @@ img {
 
 .image-section-1 p {
   color: #FFF;
+  line-height: 1.5em;
 }
 
 .image-section-1__text {
   width: 50%;
 }
+
 .image-section-1__img {
+  width: 50%;
+}
+
+.image-section-2 {
+  background: var(--clr-brown);
+  padding: 3em;
+}
+
+.image-section-2__title {
+  color: var(--clr-cream);
+  margin-bottom: 1em;
+  font-family: 'Playfair Display', serif;
+}
+
+.image-section-2 p {
+  color: #FFF;
+  line-height: 1.5em;
+}
+
+.image-section-2__text {
+  width: 50%;
+}
+
+.image-section-2__img {
   width: 50%;
 }
