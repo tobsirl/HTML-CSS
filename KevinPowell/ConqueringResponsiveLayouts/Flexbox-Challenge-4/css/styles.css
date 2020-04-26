@@ -16,6 +16,11 @@
   --font-playfair-big: 60px
 }
 
+.flex {
+  display: flex;
+  gap: 2em;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -39,6 +44,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3em;
 }
 
 .hero__subtext {
@@ -53,3 +59,16 @@ img {
   font-size: var(--font-playfair-big);
   color: var(--clr-brown);
 }
+
+.design-content {
+  padding: 3em;
+  font-size: 21px;
+}
+.design-content__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-align: center;
+  color: var(--clr-brown);
+  margin-bottom: 40px;
+}
+
