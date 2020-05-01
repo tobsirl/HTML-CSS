@@ -53,6 +53,10 @@ section {
   padding: 200px 0;
   text-align: center;
   color: #824936;
+  min-height: 660px;
+
+  display: flex;
+  align-items: center;
 }
 
 .intro__text {
@@ -86,7 +90,7 @@ section {
     width: 100%;
   }
 
-  .col + .col {
+  .col+.col {
     margin-left: 5em;
   }
 
