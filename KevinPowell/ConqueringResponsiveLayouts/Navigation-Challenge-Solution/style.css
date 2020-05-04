@@ -215,13 +215,28 @@ header {
     .nav {
         visibility: visible;
         display: flex;
+        justify-content: flex-end;
+        align-items: center;
         height: auto;
+        position: relative;
+    }
+
+    .nav__list {
+        display: flex;
+        margin: 0;
+    }
+
+    .nav__list--primary {
+        margin: 0 auto;
+    }
+
+    .nav__item {
+        margin: 0 0 0 1.5em;
     }
 
     .row {
         display: flex;
         justify-content: space-between;
-
     }
 
     .hero__text {
