@@ -1,0 +1,11 @@
+:root {
+  --clr-darkblue: #2E323F;
+  --clr-blue: #3b4050;
+  --clr-grey: #6F737F;
+  --clr-white: #FFF;
+  --clr-gold: #A59678;
+}
+
+body {
+  background-color: var(--clr-darkblue);
+}
