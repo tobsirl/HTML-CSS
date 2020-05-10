@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --clr-darkblue: #2E323F;
+  --clr-darkblue: #2e323f;
   --clr-blue: #3b4050;
-  --clr-grey: #6F737F;
-  --clr-white: #FFF;
-  --clr-gold: #A59678;
+  --clr-grey: #6f737f;
+  --clr-white: #fff;
+  --clr-gold: #a59678;
 }
 
 .text-gold {
@@ -26,6 +26,10 @@ h4 {
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -35,7 +39,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 85%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -56,7 +60,6 @@ body {
   justify-content: flex-end;
   font-weight: 700;
   font-size: 18px;
-
 }
 
 .nav__list {
@@ -66,14 +69,13 @@ body {
   display: flex;
 }
 
-.nav__item {}
-
+.nav__item {
+}
 
 .nav__link:focus,
 .nav__link:hover {
   border-bottom: 3px solid white;
 }
-
 
 .nav__link {
   text-decoration: none;
@@ -84,7 +86,7 @@ body {
 
 .nav__link--button {
   background: var(--clr-gold);
-  padding: .5em 1.25em;
+  padding: 0.5em 1.25em;
   border-radius: 50px;
 }
 
@@ -112,7 +114,7 @@ body {
 
 .title__button {
   background: var(--clr-gold);
-  padding: .5em 2.25em;
+  padding: 0.5em 2.25em;
   border-radius: 50px;
   text-decoration: none;
   color: var(--clr-white);
@@ -126,5 +128,16 @@ body {
   background: #eee;
   padding: 2em 0;
   text-align: center;
+}
 
+/* Content Area */
+.content__area__cards {
+  text-align: center;
+  color: #fff;
+}
+
+.content__area__card {
+  background: #2e323f;
+  padding: 2.5em 5em;
+  margin: 3em 0;
 }
