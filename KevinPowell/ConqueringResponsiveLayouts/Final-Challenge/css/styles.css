@@ -141,3 +141,9 @@ body {
   padding: 2.5em 5em;
   margin: 3em 0;
 }
+
+/* Footer */
+.footer__nav__list {
+  display: flex;
+  outline: 3px solid red;
+}
