@@ -1,0 +1,30 @@
+$--clr-darkGrey: #10191B;
+$--clr-lightGrey: #B2BECD;
+$--clr-pink: #E91E63;
+$borderRadius: 20px;
+$shadow: -5px -5px 11px rgba(113, 113, 113, 0.15),
+5px 5px 11px rgba(0, 0, 0, 0.15);
+
+body {
+  background: $--clr-darkGrey;
+}
+
+.card {
+  width: 35rem;
+  padding: 4rem 0;
+  text-align: center;
+  border-radius: $borderRadius;
+  box-shadow: $shadow;
+
+  h1 {
+    color: $--clr-pink;
+    font-weight: 700;
+  }
+
+  p {
+    color: $--clr-lightGrey;
+    margin-top: .5rem;
+    font-weight: 300;
+    letter-spacing: .02rem;
+  }
+}

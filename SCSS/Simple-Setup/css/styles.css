@@ -1,0 +1,17 @@
+body {
+  background: #10191B; }
+
+.card {
+  width: 35rem;
+  padding: 4rem 0;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: -5px -5px 11px rgba(113, 113, 113, 0.15), 5px 5px 11px rgba(0, 0, 0, 0.15); }
+  .card h1 {
+    color: #E91E63;
+    font-weight: 700; }
+  .card p {
+    color: #B2BECD;
+    margin-top: .5rem;
+    font-weight: 300;
+    letter-spacing: .02rem; }
