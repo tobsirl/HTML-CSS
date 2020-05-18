@@ -145,6 +145,7 @@ body {
 .footer {
   background: var(--clr-darkblue);
   font-family: 'Montserrat', sans-serif;
+  padding: 2.5em 0;
 
 }
 
@@ -153,7 +154,9 @@ body {
   color: var(--clr-white);
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 30px;
+  margin-bottom: 2em;
+  
 }
 
 .footer__nav {
@@ -165,19 +168,50 @@ body {
 
 .footer__nav__list {
   list-style: none;
- 
   margin: 0;
   padding: 0;
 }
 
 .footer__nav__item {
   /* outline: 3px solid red; */
- 
+  font-size: .8rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 25%;
 }
 
 .footer__nav__link {
   /* display: flex; */
+  /* display: block; */
   list-style: none;
   text-decoration: none;
   color: var(--clr-grey);
+  margin-bottom: 1em;
 }
+
+.footer__nav__info {
+  width: 40%;
+}
+
+.sub {
+  display: flex;
+}
+
+
+
+@media (min-width: 700px) {
+  .footer__nav {
+    display: block;
+    
+  }
+
+  .footer__nav__item {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
+  .sub {
+    display: flex;
+    
+  }
+} 
