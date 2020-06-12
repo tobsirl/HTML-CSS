@@ -1,9 +1,16 @@
+:root {
+  --clr-dark-blue: #174885;
+  --clr-blue: #3278cf;
+}
+
 /* DON'T TOUCH THIS! */
+
 html,
 body {
   margin: 0;
   padding: 0;
 }
+
 
 /* DON'T TOUCH THIS! */
 
@@ -14,3 +21,25 @@ the section titles a size of 3em, and give all the sections an overall
 margin of 10% of the height of the page. The section titles must have a 
 color of #3278cf, while the main title must have a color of #174885. 
 Good luck! */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  margin: 10vh;
+}
+
+.title {
+  color: var(--clr-dark-blue);
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--clr-blue);
+  font-size: 3rem;
+  text-transform: uppercase;
+}
