@@ -5,6 +5,58 @@ body {
   padding: 0;
 }
 
+/* * {
+  outline: solid 1px black
+} */
+
 /* DON'T TOUCH THIS! */
 
-/* Your goal is to turn basic HTML into a responsive, functional navbar, which includes both arranging the items and styling them. The navbar must stretch across the whole page & have a background color set. The items must be arranged horizontally & be placed below the title, which is centered in the middle of the navbar. Good luck! */
+/* Your goal is to turn basic HTML into a responsive,
+ functional navbar, which includes both arranging the
+  items and styling them. The navbar must stretch across
+   the whole page & have a background color set. The items
+    must be arranged horizontally & be placed below the title,
+     which is centered in the middle of the navbar. Good luck! */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-section {
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 20px;
+  margin-right: 20px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  text-transform: uppercase;
+  text-decoration: none;
+}
