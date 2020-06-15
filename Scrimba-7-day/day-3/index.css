@@ -17,6 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-area: header;
 }
 
 .title {
@@ -27,6 +28,7 @@ body {
 .post-container {
   border: 2px solid rgba(66, 245, 147, 0.8);
   padding: 5vh;
+  grid-area: main;
 }
 
 .post-title {
@@ -49,6 +51,7 @@ body {
 .sidebar-container {
   border: 2px solid rgba(255, 123, 71, 0.8);
   padding: 5vh;
+  grid-area: sidebar;
 }
 
 .sidebar-header-container {
@@ -79,6 +82,17 @@ body {
   color: white;
   border: 2px solid rgba(0, 0, 0, 0.8);
   font-size: 2em;
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 3fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "main main sidebar"
+    "footer footer footer";
 }
 
 /* DON'T TOUCH THIS! */
