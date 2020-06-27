@@ -23,6 +23,11 @@ body {
 
 .card {
   background: white;
+  background: linear-gradient(
+    137deg,
+    rgba(255, 255, 255, 1) 43%,
+    rgba(160, 135, 255, 1) 100%
+  );
   margin: 1.5em;
   padding: 1.5em;
   border-radius: 1em;

@@ -4,6 +4,11 @@
 
 [The Responsive Web Design Bootcamp](https://scrimba.com/g/gresponsive)
 
+## Traversy Media
+[YouTube](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
+
+### 3 HTML & CSS UI Components in 1 Hour
+
 ## Various
 
 - [Netflix Landing Page](https://www.youtube.com/watch?v=P7t13SGytRk)

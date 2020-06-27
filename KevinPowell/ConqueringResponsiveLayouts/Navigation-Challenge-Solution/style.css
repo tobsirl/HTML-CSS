@@ -200,7 +200,6 @@ header {
     text-align: center;
     color: #fff;
     background-color: #136c72;
-
 }
 
 
@@ -215,7 +214,7 @@ header {
     .nav {
         visibility: visible;
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: center;
         height: auto;
         position: relative;
