@@ -79,6 +79,14 @@ body {
         height: 40px;
       }
 
+      &--share {
+        &--btn {
+          border: none;
+          background: none;
+          padding: 0;
+        }
+      }
+
       &--share i {
         height: 32px;
         width: 32px;
@@ -88,11 +96,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: 0.5s;
+      }
 
-        &--btn {
-          border: none;
-          background: none;
-        }
+      &--share i:hover {
+        color: var(--clr-light-grayish-blue);
+        background-color: var(--clr-dark-grayish-blue);
       }
     }
   }
