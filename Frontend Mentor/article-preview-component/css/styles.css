@@ -44,6 +44,13 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center; }
+      .card__body__bottom--info {
+        margin-right: 100px; }
+      .card__body__bottom--name {
+        font-weight: 700;
+        color: var(--clr-dark-grayish-blue); }
+      .card__body__bottom--date {
+        color: var(--clr-grayish-blue); }
       .card__body__bottom--avatar {
         border-radius: 50%;
         width: 40px;
