@@ -64,6 +64,9 @@ body {
         display: flex;
         justify-content: center;
         align-items: center; }
+        .card__body__bottom--share i--btn {
+          border: none;
+          background: none; }
 
 @media (min-width: 375px) {
   .card {
