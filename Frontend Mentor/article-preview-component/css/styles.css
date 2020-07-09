@@ -21,10 +21,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; }
+  height: 100vh;
+  max-width: 650px;
+  margin: 0 auto; }
 
 .card {
-  width: 20%;
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden; }
@@ -56,3 +57,15 @@ body {
         display: flex;
         justify-content: center;
         align-items: center; }
+
+@media (min-width: 375px) {
+  .card {
+    display: flex;
+    flex-direction: row; } }
+
+@media (max-width: 1440px) {
+  .card {
+    display: flex;
+    flex-direction: column; }
+    .card__image img {
+      width: 100%; } }

@@ -15,9 +15,7 @@
   --clr-dark-blue: hsl(214, 17%, 51%);
   --clr-grayish-blue: hsl(212, 23%, 69%);
   --clr-light-grayish-blue: hsl(210, 46%, 95%);
-
 }
-
 
 body {
   background-color: var(--clr-light-grayish-blue);
@@ -29,10 +27,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .card {
-  width: 20%;
+  // width: 40%;
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -76,6 +76,24 @@ body {
         justify-content: center;
         align-items: center;
       }
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1440px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+
+    &__image img {
+      width: 100%;
     }
   }
 }
