@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="/css/styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="/css/styles.css" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form">
       <section class="information">
         <div class="information__title">
           <h1>Learn to code by watching others</h1>
@@ -40,12 +39,12 @@
           </p>
         </div>
       </section>
-      <section class="form">
+      <section class="form__signup">
         <button class="top-button">
           Try it free 7 days then $20/mo. thereafter
         </button>
 
-        <form class="form__signup">
+        <form class="form__signup__inputs">
           <input type="text" placeholder="First Name" />
           <input type="text" placeholder="Last Name" />
           <input type="text" placeholder="Email Address" />
@@ -54,14 +53,15 @@
           <button class="form__button">
             Claim your free trial
           </button>
-          <p class="form_terms">
+          <p class="form__terms">
             By clicking the button, you are agreeing to our Terms and Services
           </p>
         </form>
       </section>
     </div>
+  </div>
 
-    <!-- Learn to code by watching others
+  <!-- Learn to code by watching others
 
   See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
   but understanding how developers think is invaluable. 
@@ -77,13 +77,13 @@
 
   By clicking the button, you are agreeing to our Terms and Services -->
 
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Paul Tobin</a>.
-      </p>
-    </footer>
-  </body>
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Paul Tobin</a>.
+    </p>
+  </footer>
+</body>
+
 </html>

@@ -6,11 +6,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 13px;
   // outline: 1px solid black;
+}
+
+:root {
+  --clr-primary-red: hsl(0, 100%, 74%);
+  --clr-primary-green: hsl(154, 59%, 51%);
+  --clr-accent-blue: hsl(248, 32%, 49%);
+  --clr-neutral-dark-blue: hsl(249, 10%, 26%);
+  --clr-neutral-grayish-blue: hsl(246, 25%, 77%);
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.form {
+  width: 20%;
+  background-color: var(--clr-primary-red);
+  background-image: url(/images/bg-intro-mobile.png);
 }
