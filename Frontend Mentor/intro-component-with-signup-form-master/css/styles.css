@@ -18,10 +18,22 @@ body {
   font-size: 16px; }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   height: 100vh; }
 
 .form {
   width: 20%;
   background-color: var(--clr-primary-red);
-  background-image: url(/images/bg-intro-mobile.png); }
+  background-image: url(/images/bg-intro-mobile.png);
+  padding: 5em 2em;
+  text-align: center; }
+
+.information {
+  color: #fff; }
+  .information__title {
+    margin-bottom: 2em; }
+  .information__text {
+    margin-bottom: 4em; }

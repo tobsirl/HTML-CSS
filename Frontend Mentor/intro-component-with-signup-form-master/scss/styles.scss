@@ -23,6 +23,9 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   height: 100vh;
 }
@@ -31,4 +34,18 @@ body {
   width: 20%;
   background-color: var(--clr-primary-red);
   background-image: url(/images/bg-intro-mobile.png);
+  padding: 5em 2em;
+  text-align: center;
+}
+
+.information {
+  color: #fff;
+
+  &__title {
+    margin-bottom: 2em;
+  }
+
+  &__text {
+    margin-bottom: 4em;
+  }
 }
