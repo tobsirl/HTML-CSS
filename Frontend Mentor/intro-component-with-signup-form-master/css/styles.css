@@ -34,6 +34,17 @@ body {
 .information {
   color: #fff; }
   .information__title {
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    font-weight: 700; }
   .information__text {
     margin-bottom: 4em; }
+
+.btn {
+  text-decoration: none;
+  padding: 1em 4em;
+  border-radius: 10px;
+  width: 100%;
+  display: inline-block; }
+  .btn--blue {
+    color: #fff;
+    background: var(--clr-accent-blue); }

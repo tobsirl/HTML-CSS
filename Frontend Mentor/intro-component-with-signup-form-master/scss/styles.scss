@@ -43,9 +43,30 @@ body {
 
   &__title {
     margin-bottom: 2em;
+    font-weight: 700;
   }
 
   &__text {
     margin-bottom: 4em;
   }
 }
+
+.form__signup {
+
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1em 4em;
+  border-radius: 10px;
+  width: 100%;
+  display: inline-block;
+
+
+  &--blue {
+    color: #fff;
+    background: var(--clr-accent-blue);
+  }
+}
+
+
