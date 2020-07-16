@@ -51,10 +51,6 @@ body {
   }
 }
 
-.form__signup {
-
-}
-
 .btn {
   text-decoration: none;
   padding: 1em 4em;
@@ -62,11 +58,25 @@ body {
   width: 100%;
   display: inline-block;
 
-
   &--blue {
     color: #fff;
     background: var(--clr-accent-blue);
   }
+
+  &--green {
+    color: #fff;
+    background: var(--clr-primary-green);
+    text-transform: uppercase;
+  }
 }
 
+.form__signup__inputs {
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: 10px;
+}
 
+input[type='text'] {
+  display: inline-block;
+  width: 100%;
+}

@@ -48,3 +48,16 @@ body {
   .btn--blue {
     color: #fff;
     background: var(--clr-accent-blue); }
+  .btn--green {
+    color: #fff;
+    background: var(--clr-primary-green);
+    text-transform: uppercase; }
+
+.form__signup__inputs {
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: 10px; }
+
+input[type='text'] {
+  display: inline-block;
+  width: 100%; }
