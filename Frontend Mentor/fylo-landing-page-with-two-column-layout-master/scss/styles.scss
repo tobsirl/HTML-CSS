@@ -19,12 +19,21 @@ $neutral-light-gray: hsl(0, 0%, 75%);
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 body {
-  font-family: $primary-font
+  font-family: $primary-font;
+  width: 375px;
 }
 
 .heading {
   font-family: $heading
+}
+
+.text-center {
+  text-align: center;
 }
 
 .container {
