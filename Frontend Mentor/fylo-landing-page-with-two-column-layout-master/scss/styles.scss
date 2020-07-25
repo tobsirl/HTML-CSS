@@ -17,6 +17,7 @@ $neutral-light-gray: hsl(0, 0%, 75%);
 
 * {
   box-sizing: border-box;
+  // outline: 1px solid red;
 }
 
 img {
@@ -26,10 +27,12 @@ img {
 body {
   font-family: $primary-font;
   width: 375px;
+  padding: 0 1em;
 }
 
 .heading {
-  font-family: $heading
+  font-family: $heading;
+  font-weight: 700;
 }
 
 .text-center {
@@ -43,4 +46,32 @@ body {
 
 .navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 25%;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  &__item {
+    // display: flex;
+    // justify-content: space-between;
+    margin-right: 10px;
+    font-size: .9rem;
+    
+    
+  }
+
+  &__link {
+    text-decoration: none;
+    gap: 20px;
+  }
+
 }
