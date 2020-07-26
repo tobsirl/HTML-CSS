@@ -76,8 +76,26 @@ body {
     input[type='email'] {
       display: inline-block;
       width: 100%;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding: 1em;
+      color: $neutral-light-gray;
+      font-size: 1rem;
     }
-  
   }
 }
 
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 4em;
+  width: 100%;
+  margin-top: 1em;
+  border-radius: 5px;
+
+  &--blue {
+    background: $accent-bright-blue;
+    color: white;
+    font-weight: 700;
+  }
+}

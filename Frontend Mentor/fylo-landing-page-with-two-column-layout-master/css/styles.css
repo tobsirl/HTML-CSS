@@ -41,4 +41,21 @@ body {
 
 .info__email input[type='email'] {
   display: inline-block;
-  width: 100%; }
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 1em;
+  color: #bfbfbf;
+  font-size: 1rem; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 4em;
+  width: 100%;
+  margin-top: 1em;
+  border-radius: 5px; }
+  .btn--blue {
+    background: #3065f8;
+    color: white;
+    font-weight: 700; }
