@@ -34,7 +34,11 @@ body {
     margin-right: 10px; }
   .navigation__item {
     margin-right: 10px;
-    font-size: .9rem; }
+    font-size: 0.9rem; }
   .navigation__link {
     text-decoration: none;
     gap: 20px; }
+
+.info__email input[type='email'] {
+  display: inline-block;
+  width: 100%; }

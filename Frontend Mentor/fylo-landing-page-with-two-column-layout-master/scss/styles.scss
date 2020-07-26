@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
 
 // fonts
-$heading: 'Raleway',
-sans-serif;
+$heading: 'Raleway', sans-serif;
 
-$primary-font: 'Open Sans',
-sans-serif;
+$primary-font: 'Open Sans', sans-serif;
 
 // colors
 $primary-very-dark-blue: hsl(243, 87%, 12%);
@@ -64,14 +62,22 @@ body {
     // display: flex;
     // justify-content: space-between;
     margin-right: 10px;
-    font-size: .9rem;
-    
-    
+    font-size: 0.9rem;
   }
 
   &__link {
     text-decoration: none;
     gap: 20px;
   }
-
 }
+
+.info {
+  &__email {
+    input[type='email'] {
+      display: inline-block;
+      width: 100%;
+    }
+  
+  }
+}
+
