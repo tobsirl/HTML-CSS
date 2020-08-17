@@ -1,0 +1,39 @@
+:root {
+  --bg-color: #f7f7f7;
+  --main-text: #262626;
+  --secondary-text: #666666;
+  --accent-color: #4605ff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #111111;
+  --main-text: #ffffff;
+  --secondary-text: #f7f7f7;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 50%;
+  background-color: aqua;
+}
+
+h1 {
+  color: var(--main-text);
+  font-weight: 800;
+}
+
+p {
+  color: var(--secondary-text);
+}
+
+button {
+  background-color: var(--accent-color);
+  border-radius: 50px;
+}
