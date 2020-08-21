@@ -1,0 +1,28 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+body {
+  background: #efefef;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.scale {
+  width: 600px;
+  height: 100px;
+  background: #615756;
+}
+
+.content-box {
+  width: 600px;
+  background: #4dfff3;
+}
+
+.border-box {
+  width: 600px;
+  background: #52ffb8;
+}
