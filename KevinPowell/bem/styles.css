@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card-light {
+  background: #eee;
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .4);
+}
+
+.card-dark {
+  background: #333;
+  color: #fff;
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .4);
+}
