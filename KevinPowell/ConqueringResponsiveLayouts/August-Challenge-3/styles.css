@@ -53,3 +53,11 @@ body {
 .btn:focus {
   opacity: .75;
 }
+
+.row {
+  display: flex;
+}
+
+.col + .col {
+  margin-left: 20px;
+}
