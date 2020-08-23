@@ -8,7 +8,8 @@ img {
 body {
   font-family: "Open Sans", sans-serif;
   width: 375px;
-  padding: 0 1em; }
+  padding: 0 1em;
+  outline: 1px solid black; }
 
 .heading {
   font-family: "Raleway", sans-serif;
