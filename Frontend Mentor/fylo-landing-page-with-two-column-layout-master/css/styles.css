@@ -55,7 +55,16 @@ body {
   width: 100%;
   margin-top: 1em;
   border-radius: 5px; }
-  .btn--blue {
+  .btn-blue {
     background: #3065f8;
     color: white;
     font-weight: 700; }
+  .btn-green {
+    border-bottom: 2px solid #3c9f8f;
+    color: #3c9f8f;
+    display: flex; }
+
+.icon-right {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px; }

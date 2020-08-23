@@ -93,9 +93,21 @@ body {
   margin-top: 1em;
   border-radius: 5px;
 
-  &--blue {
+  &-blue {
     background: $accent-bright-blue;
     color: white;
     font-weight: 700;
   }
+
+  &-green {
+    border-bottom: 2px solid $accent-moderate-cyan;
+    color: $accent-moderate-cyan;
+    display: flex;
+  }
+}
+
+.icon-right {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
 }
