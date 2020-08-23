@@ -112,3 +112,25 @@ body {
   height: 25px;
   margin-left: 10px;
 }
+
+.productive__card {
+  width: 80%;
+  margin: 0 auto;
+  background: pink;
+  padding: 2em;
+
+  &__quotes {
+    width: 15px;
+    height: 15px;
+  }
+
+  &__user {
+    display: flex;
+
+    &__avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+}
