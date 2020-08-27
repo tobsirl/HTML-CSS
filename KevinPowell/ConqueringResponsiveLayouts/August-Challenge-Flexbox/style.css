@@ -59,10 +59,12 @@ h1 {
     padding: 100px 0;
     background-color: #23424A;
     color: #FFF;
+    margin-bottom: 2em;
 }
 
 .hero__text { 
     width: 62%;
+    
 }
 
 .hero__img {
@@ -88,4 +90,19 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+.info__text {
+    margin-right: 1.5em;
+}
+
+.info__text h2 {
+    color: #136C72;
+}
+
+.info__sidebar {
+    background: #136C72;
+    color: #FFF;
+    text-align: center;
+    padding: 1.5em;
 }
