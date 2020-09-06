@@ -41,3 +41,13 @@ p {
 .btn:focus {
   transform: scale(1.1);
   opacity: .9; }
+
+.primary-title {
+  font-size: 4rem;
+  font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
+  line-height: 1;
+  text-transform: uppercase; }
+
+.hero {
+  text-align: center;
+  padding: 15em 0; }
