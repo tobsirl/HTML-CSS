@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
 *,
 *::after,
 *::before {
@@ -24,3 +24,20 @@ p {
   width: 85%;
   margin: 0 auto;
   max-width: 65em; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--clr-text, white);
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  padding: .5em 1.5em;
+  background: var(--clr-accent, blue);
+  border-radius: .25em;
+  transition: transform 250ms ease-in-out, opacity 250ms linear; }
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+  opacity: .9; }
