@@ -27,6 +27,12 @@
 .section-title {}
 
 .hero {
+  color: white;
   text-align: center;
   padding: 15em 0;
+  background: #222;
+  @supports(background-blend-mode: multiply) {
+    background: url(../img/shoe-3.png), radial-gradient(#444, #111);
+    background-blend-mode: multiply;
+  }
 }
