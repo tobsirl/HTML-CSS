@@ -35,21 +35,24 @@ p {
   font-weight: 700;
   font-size: 1.125rem;
   text-transform: uppercase;
-  padding: .5em 1.5em;
+  padding: 0.5em 1.5em;
   background: var(--clr-accent, blue);
-  border-radius: .25em;
+  border-radius: 0.25em;
   transition: transform 250ms ease-in-out, opacity 250ms linear; }
 
 .btn:hover,
 .btn:focus {
   transform: scale(1.1);
-  opacity: .9; }
+  opacity: 0.9; }
 
 .primary-title {
   font-size: 4rem;
   font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
   line-height: 1;
   text-transform: uppercase; }
+
+.section-title {
+  text-align: center; }
 
 .hero {
   color: white;
@@ -59,4 +62,7 @@ p {
   @supports (background-blend-mode: multiply) {
     .hero {
       background: url(../img/shoe-3.png), radial-gradient(#444, #111);
-      background-blend-mode: multiply; } }
+      background-blend-mode: multiply;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center center; } }
