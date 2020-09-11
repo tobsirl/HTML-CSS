@@ -3,9 +3,11 @@
 *,
 *::after,
 *::before {
-
   box-sizing: border-box;
 }
+
+// Colors
+$--clr-darkgreen: #17353d;
 
 body {
   // This defines what 1rem is
@@ -26,6 +28,10 @@ h2,
 h3,
 p {
   margin: 0;
+}
+
+section {
+  padding: 7em 0;
 }
 
 .container {

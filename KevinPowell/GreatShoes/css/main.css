@@ -20,6 +20,9 @@ h3,
 p {
   margin: 0; }
 
+section {
+  padding: 7em 0; }
+
 .container {
   width: 85%;
   margin: 0 auto;
@@ -52,7 +55,10 @@ p {
   text-transform: uppercase; }
 
 .section-title {
-  text-align: center; }
+  text-align: center;
+  font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
+  line-height: 1;
+  color: #17353d; }
 
 .hero {
   color: white;
