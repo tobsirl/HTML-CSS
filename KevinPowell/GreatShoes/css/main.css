@@ -67,7 +67,8 @@ section {
   text-align: center;
   font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
   line-height: 1;
-  color: #17353d; }
+  color: #17353d;
+  margin-bottom: 1em; }
 
 .hero {
   color: white;
@@ -81,3 +82,13 @@ section {
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: center center; } }
+
+.featured {
+  background: #eee; }
+  .featured__item {
+    display: block;
+    position: relative;
+    transform: scale(0.85);
+    transition: transform 250ms ease-in-out; }
+    .featured__item:hover, .featured__item:focus {
+      transform: scale(1); }

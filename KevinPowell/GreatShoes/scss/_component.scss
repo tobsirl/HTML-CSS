@@ -29,6 +29,7 @@
   font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
   line-height: 1;
   color: $--clr-darkgreen;
+  margin-bottom: 1em;
 }
 
 .hero {
@@ -36,11 +37,28 @@
   text-align: center;
   padding: 15em 0;
   background: #222;
+
   @supports (background-blend-mode: multiply) {
     background: url(../img/shoe-3.png), radial-gradient(#444, #111);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
+  }
+}
+
+.featured {
+  background: #eee;
+
+  &__item {
+    display: block;
+    position: relative;
+    transform: scale(.85);
+    transition: transform 250ms ease-in-out;
+
+    &:hover,
+    &:focus {
+      transform: scale(1);
+    }
   }
 }
