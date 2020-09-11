@@ -1,3 +1,15 @@
 .spacing>*+* {
   margin-top: var(--spacer, 2rem);
 }
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+
+  & > * {
+    flex-basis: 30%;
+    min-width: 15em;
+  }
+}
