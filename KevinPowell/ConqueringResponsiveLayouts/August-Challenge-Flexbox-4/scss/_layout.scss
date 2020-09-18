@@ -7,4 +7,39 @@
 .hero {
   background-color: $clr-cream;
   min-height: 660px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font: 100% $font-roboto-light;
+    font-size: 18px;
+    letter-spacing: 10px;
+  }
+
+  &__title {
+    font: 100% $font-playfair-display;
+    font-size: 60px;
+    color: $clr-brown;
+  }
+}
+
+.design {
+  &__title {
+    text-align: center;
+    font: 100% $font-playfair-display;
+    font-size: 36px;
+    color: $clr-brown;
+  }
+
+  &__text {
+    font: 100% $font-roboto-light;
+    font-size: 21px;
+  }
+}
+
+.col {
+  display: flex;
+  gap: 40px;
 }

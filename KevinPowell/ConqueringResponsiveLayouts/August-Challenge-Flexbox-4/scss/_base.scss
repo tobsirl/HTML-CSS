@@ -3,6 +3,8 @@
 *,
 *::after,
 *::before {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -11,9 +13,16 @@ img {
 }
 
 // fonts
+$font-roboto-light: 'Roboto';
+$font-playfair-display: 'Playfair Display';
 
 
 // colors
 $clr-cream: #F3EED9;
 $clr-brown: #824936;
 $clr-black: #222C2A;
+
+// font-family: 'Playfair Display',
+// serif;
+// font-family: 'Roboto',
+// sans-serif;

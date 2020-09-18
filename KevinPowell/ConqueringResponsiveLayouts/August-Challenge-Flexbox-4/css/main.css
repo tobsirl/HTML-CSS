@@ -2,6 +2,8 @@
 *,
 *::after,
 *::before {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box; }
 
 img {
@@ -14,4 +16,29 @@ img {
 
 .hero {
   background-color: #F3EED9;
-  min-height: 660px; }
+  min-height: 660px;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+  .hero__text {
+    font: 100% "Roboto";
+    font-size: 18px;
+    letter-spacing: 10px; }
+  .hero__title {
+    font: 100% "Playfair Display";
+    font-size: 60px;
+    color: #824936; }
+
+.design__title {
+  text-align: center;
+  font: 100% "Playfair Display";
+  font-size: 36px;
+  color: #824936; }
+
+.design__text {
+  font: 100% "Roboto";
+  font-size: 21px; }
+
+.col {
+  display: flex;
+  gap: 40px; }
