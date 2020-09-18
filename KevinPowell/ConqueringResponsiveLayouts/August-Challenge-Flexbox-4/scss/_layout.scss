@@ -1,4 +1,10 @@
 .container {
+  width: 80%;
   max-width: 1128px;
   margin: 0 auto;
+}
+
+.hero {
+  background-color: $clr-cream;
+  min-height: 660px;
 }
