@@ -12,6 +12,20 @@ body {
 
 .card {
   background: linear-gradient(135deg, white, #fff5f5), linear-gradient(135deg, #f8bfbf, #ee8c8c); }
+  .card__logo {
+    padding: 2em;
+    width: 11em; }
+  .card__title {
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-weight: 600; }
+  .card__title span {
+    color: #ce9797;
+    font-weight: 300;
+    display: block; }
+  .card__text {
+    text-align: center; }
 
 .container {
   width: 80%;

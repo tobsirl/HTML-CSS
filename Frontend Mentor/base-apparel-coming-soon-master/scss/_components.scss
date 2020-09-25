@@ -1,4 +1,26 @@
 .card {
   background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
     linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+
+  &__logo {
+    padding: 2em;
+    width: 11em;
+  }
+
+  &__title {
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-weight: 600;
+  }
+
+  &__title span {
+    color: $desaturated-red;
+    font-weight: 300;
+    display: block;
+  }
+
+  &__text {
+    text-align: center;
+  }
 }
