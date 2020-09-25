@@ -12,6 +12,7 @@
     text-transform: uppercase;
     letter-spacing: 12px;
     font-weight: 600;
+    font-size: 2.5rem;
   }
 
   &__title span {
@@ -22,5 +23,21 @@
 
   &__text {
     text-align: center;
+    color: $desaturated-red;
+  }
+
+  &__form {
+    display: inline;
+
+    &__input {
+      width: 100%;
+      padding: 1em;
+      border-radius: 50px;
+      font-family: 'Josefin Sans', sans-serif;
+      color: $desaturated-red;
+      border: 1px $desaturated-red solid;
+
+
+    }
   }
 }

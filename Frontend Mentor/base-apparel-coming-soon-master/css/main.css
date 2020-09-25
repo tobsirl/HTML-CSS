@@ -19,13 +19,24 @@ body {
     margin-top: 1.5em;
     text-transform: uppercase;
     letter-spacing: 12px;
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 2.5rem; }
   .card__title span {
     color: #ce9797;
     font-weight: 300;
     display: block; }
   .card__text {
-    text-align: center; }
+    text-align: center;
+    color: #ce9797; }
+  .card__form {
+    display: inline; }
+    .card__form__input {
+      width: 100%;
+      padding: 1em;
+      border-radius: 50px;
+      font-family: 'Josefin Sans', sans-serif;
+      color: #ce9797;
+      border: 1px #ce9797 solid; }
 
 .container {
   width: 80%;
