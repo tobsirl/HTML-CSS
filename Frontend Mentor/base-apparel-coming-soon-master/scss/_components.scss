@@ -24,20 +24,38 @@
   &__text {
     text-align: center;
     color: $desaturated-red;
+    line-height: 1.25;
+    padding: 0 .5em;
   }
 
   &__form {
-    display: inline;
+    display: flex;
+    flex-grow: 1;
+    padding: 2em 0;
 
     &__input {
       width: 100%;
       padding: 1em;
-      border-radius: 50px;
+      // border-radius: 50px;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
       font-family: 'Josefin Sans', sans-serif;
       color: $desaturated-red;
       border: 1px $desaturated-red solid;
+    }
 
+    &__button {
+      border-radius: 50px;
+      border: none;
+      color: red;
+      display: inline;
+      width: 64px;
+      height: 48px;
+    }
 
+    &__button img {
+      color: $soft-red;
     }
   }
 }

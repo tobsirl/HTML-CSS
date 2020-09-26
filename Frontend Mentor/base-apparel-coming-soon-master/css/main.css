@@ -27,19 +27,34 @@ body {
     display: block; }
   .card__text {
     text-align: center;
-    color: #ce9797; }
+    color: #ce9797;
+    line-height: 1.25;
+    padding: 0 .5em; }
   .card__form {
-    display: inline; }
+    display: flex;
+    flex-grow: 1;
+    padding: 2em 0; }
     .card__form__input {
       width: 100%;
       padding: 1em;
-      border-radius: 50px;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
       font-family: 'Josefin Sans', sans-serif;
       color: #ce9797;
       border: 1px #ce9797 solid; }
+    .card__form__button {
+      border-radius: 50px;
+      border: none;
+      color: red;
+      display: inline;
+      width: 64px;
+      height: 48px; }
+    .card__form__button img {
+      color: #f96262; }
 
 .container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto; }
 
 .center {
