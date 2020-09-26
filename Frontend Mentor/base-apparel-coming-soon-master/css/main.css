@@ -11,7 +11,8 @@ body {
   padding: 0; }
 
 .card {
-  background: linear-gradient(135deg, white, #fff5f5), linear-gradient(135deg, #f8bfbf, #ee8c8c); }
+  background: linear-gradient(135deg, white, #fff5f5), linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  background-image: url(/images/bg-pattern-desktop.svg); }
   .card__logo {
     padding: 2em;
     width: 11em; }
@@ -32,26 +33,29 @@ body {
     padding: 0 .5em; }
   .card__form {
     display: flex;
-    flex-grow: 1;
-    padding: 2em 0; }
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    position: relative; }
     .card__form__input {
       width: 100%;
-      padding: 1em;
-      border-top-left-radius: 50px;
-      border-bottom-left-radius: 50px;
-      border-top-right-radius: 50px;
+      padding: 1.1em;
+      border-radius: 50px;
       font-family: 'Josefin Sans', sans-serif;
       color: #ce9797;
       border: 1px #ce9797 solid; }
     .card__form__button {
       border-radius: 50px;
       border: none;
-      color: red;
-      display: inline;
+      background: linear-gradient(135deg, #F8BFBF, #EE8B8B);
       width: 64px;
-      height: 48px; }
-    .card__form__button img {
-      color: #f96262; }
+      height: 48px;
+      position: absolute;
+      top: -20;
+      right: 0; }
+    .card__form__error {
+      width: 24px;
+      height: 24px; }
 
 .container {
   width: 85%;
