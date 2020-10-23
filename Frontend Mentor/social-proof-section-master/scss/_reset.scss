@@ -1,7 +1,3 @@
-body {
-  background: red;
-}
-
 /* Box sizing rules */
 *,
 *::before,
@@ -16,22 +12,22 @@ ol[class] {
 }
 
 /* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
+// body,
+// h1,
+// h2,
+// h3,
+// h4,
+// p,
+// ul[class],
+// ol[class],
+// li,
+// figure,
+// figcaption,
+// blockquote,
+// dl,
+// dd {
+//   margin: 0;
+// }
 
 /* Set core body defaults */
 body {
