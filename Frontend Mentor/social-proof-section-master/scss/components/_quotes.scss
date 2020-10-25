@@ -12,4 +12,16 @@
     border-radius: 50%;
     margin-right: var(--spacer);
   }
+
+  .name {
+    font-weight: 800;
+  }
+
+  .status {
+    color: var(--clr-primary-400);
+  }
+
+  .quote {
+    margin-top: var(--spacer);
+  }
 }

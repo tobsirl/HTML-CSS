@@ -7,3 +7,7 @@
 .flow-content > * + * {
   margin-top: var(--flow-space, 1rem);
 }
+
+.a-center {
+  align-content: center;
+}
