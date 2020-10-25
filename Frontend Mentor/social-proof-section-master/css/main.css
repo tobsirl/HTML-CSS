@@ -37,10 +37,23 @@ h1 {
   padding: 0 2em;
   margin: 0 auto; }
 
+.flow-content {
+  margin-top: var(--flow-space, 1rem); }
+
 .ratings li {
   color: var(--clr-primary-700);
   background: var(--clr-neutral-200);
-  font-weight: 800; }
+  font-weight: 800;
+  padding: 0.5rem; }
+  .ratings li::before {
+    content: '';
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    height: 1rem;
+    margin-bottom: 0.5rem;
+    background-image: url(../../images/icon-star.svg);
+    background-repeat: space; }
 
 /* Box sizing rules */
 *,
