@@ -8,7 +8,8 @@
   --ff-primary: 'Spartan', sans-serif;
   --fs-400: 0.8125rem;
   --fs-500: 0.9625rem;
-  --fs-900: 2rem; }
+  --fs-900: 2rem;
+  --br: 0.5rem; }
   @media (min-width: 50em) {
     :root {
       --fs-900: 3rem; } }
@@ -37,14 +38,15 @@ h1 {
   padding: 0 2em;
   margin: 0 auto; }
 
-.flow-content {
+.flow-content > * + * {
   margin-top: var(--flow-space, 1rem); }
 
 .ratings li {
   color: var(--clr-primary-700);
   background: var(--clr-neutral-200);
   font-weight: 800;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  border-radius: var(--br); }
   .ratings li::before {
     content: '';
     width: 100px;
@@ -54,6 +56,18 @@ h1 {
     margin-bottom: 0.5rem;
     background-image: url(../../images/icon-star.svg);
     background-repeat: space; }
+
+.quotes blockquote {
+  --spacer: 2rem;
+  background: var(--clr-primary-700);
+  color: var(--clr-neutral-200);
+  text-align: left;
+  border-radius: var(--br);
+  padding: var(--spacer); }
+
+.quotes img {
+  border-radius: 50%;
+  margin-right: var(--spacer); }
 
 /* Box sizing rules */
 *,

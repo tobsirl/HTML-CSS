@@ -4,6 +4,6 @@
   margin: 0 auto;
 }
 
-.flow-content {
+.flow-content > * + * {
   margin-top: var(--flow-space, 1rem);
 }
