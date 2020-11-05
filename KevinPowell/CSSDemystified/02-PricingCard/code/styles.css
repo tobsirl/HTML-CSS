@@ -38,6 +38,11 @@ h1 {
   font-size: 3rem;
   font-weight: 900;
   margin: 0;
+  line-height: 1;
+}
+
+.price--accent {
+  color: #00a1ab;
 }
 
 .plan__price span {
@@ -51,14 +56,22 @@ h1 {
   line-height: 1.5;
 }
 
-.plan__button {
-  background: white;
-  color: #4e4e4e;
+.button {
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 0.25em;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.button--light {
+  background: white;
+  color: #4e4e4e;
+}
+
+.button--dark {
+  background: #4e4e4e;
+  color: #fff;
 }
 
 .plan--blue {
@@ -67,6 +80,6 @@ h1 {
 }
 
 .plan--grey {
-  color: #4E4E4E;
+  color: #4e4e4e;
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
 }
