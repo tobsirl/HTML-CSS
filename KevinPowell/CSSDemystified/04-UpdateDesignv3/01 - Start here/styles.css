@@ -57,6 +57,7 @@ section {
 .bg-light {
   --fg: var(--clr-neutral-100);
   --bg: var(--clr-neutral-400);
+  --pop: var(--clr-primary-400);
   color: var(--clr-neutral-400);
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
 }
@@ -131,6 +132,7 @@ section {
   line-height: 1;
   font-weight: 900;
   margin: 0;
+  color: var(--pop, var(--clr-neutral-100));
 }
 
 .plan__price span {
@@ -166,14 +168,25 @@ section {
   border-radius: 0.5em;
   align-items: center;
   padding: 0.5em 2em 0.5em 0.5em;
+  line-height: 1.6;
 }
 
 .team-member img {
   width: 10rem;
   border-radius: 0.25em;
+  margin-right: 1em;
 }
 
-.info {
-  padding: 1em;
-  text-align: right;
+.team-member .name {
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--pop);
+  margin: 0;
+}
+
+.team-member .position {
+  margin-top: 0;
+  font-weight: 700;
+  opacity: 0.8;
 }
