@@ -23,10 +23,52 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+html {
+  font-family: var(--ff-base);
+  font-weight: (var(--fw-400));
+}
 
+.candidate {
+  padding: 0.8em;
+}
 
+.candidate .name {
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-700);
+  font-size: 2.25rem;
+}
+
+.candidate img {
+  border-radius: 10px;
+}
+
+.candidate .btn {
+  display: flex;
+  align-items: flex-start;
+  background: #7E47C5;
+  color: #fff;
+  font-size: var(--fw-700);
+  padding: .5rem 2.5em;
+  text-decoration: none;
+}
+
+.pill--purple {
+  background: var(--clr-ui-300);
+  color: var(--clr-ui-400);
+  padding: 0.25em 0.75em;
+  border-radius: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: .75em;
+}
 
 /* /////////////////
    Layout related
