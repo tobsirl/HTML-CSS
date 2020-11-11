@@ -19,9 +19,17 @@ body {
   font-size: 1.25rem;
   font-weight: 400;
 }
-
+/* 
 .flow-content > * {
   margin-bottom: 1.5rem;
+}
+
+.flow-content > *:last-child {
+  margin-bottom: 0;
+} */
+
+.flow-content > * + * {
+  margin-top: 1.5rem;
 }
 
 .hero {
