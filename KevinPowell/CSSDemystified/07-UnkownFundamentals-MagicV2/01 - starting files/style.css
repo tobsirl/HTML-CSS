@@ -60,6 +60,10 @@ ol[class] {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .split {
   display: flex;
   flex-direction: column;
@@ -70,6 +74,10 @@ ol[class] {
   .split {
     flex-direction: row;
   }
+}
+
+.shadow {
+  box-shadow: var(--box-shadow);
 }
 
 .bg-dark {
@@ -121,4 +129,21 @@ section {
   section {
     padding: 8.125rem;
   }
+}
+
+/* sections */
+.cta {
+  background-image: url('./assets/cta-bg.jpg');
+  background-size: cover;
+}
+
+.join-now li::before {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background: var(--clr-accent-400);
+  position: absolute;
+  transform: translate(-0.5rem, -0.5rem);
+  z-index: -1;
 }
