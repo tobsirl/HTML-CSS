@@ -12,13 +12,13 @@
 
   --ff-primary: 'PT Sans', sans-serif;
 
-  --fw-700: 700;
-  --fw-400: 400;
-
   --fs-600: 2.25rem;
   --fs-500: 2.25rem;
   --fs-400: 1.5rem;
   --fs-300: 1.125rem;
+
+  --fw-700: 700;
+  --fw-400: 400;
 
   --box-shadow: 0 0.25em 1.5em rgba(0, 0, 0, 0.15);
 }
@@ -46,13 +46,12 @@ img {
 ul[class],
 ol[class] {
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
 /* Utility classes */
 .flow-content > * + * {
-  margin-top: var(--spacer);
+  margin-top: 1.25rem;
 }
 
 .container {
@@ -74,7 +73,7 @@ ol[class] {
 
 body {
   font-family: var(--ff-primary);
-  font-size: var(--fs-300);
+  font-size: 1.25rem;
   font-weight: 400;
   color: var(--clr-neutral-900);
   margin: 0;
@@ -88,82 +87,6 @@ h1 span {
   font-weight: 700;
 }
 
-/* general layout */
-section {
-  padding: 4.125rem;
-}
-
-/* hero section */
-.hero {
-  padding: 5em 2em;
-}
-
-.hero__content {
-  /* outline: 2px solid red; */
-  /* display: flex; */
-  align-items: center;
-  gap: 5em;
-}
-
-/* mastering section */
-.mastering {
-  background: var(--clr-neutral-900);
-  color: var(--clr-neutral-100);
-  padding: 5em 2em;
-}
-
-.mastering h2 {
-  color: var(--clr-accent-400);
-  font-size: var(--fs-500);
-  font-weight: var(--fw-700);
-}
-
-.mastering__content {
-  /* display: flex; */
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5em;
-  padding: 0;
-}
-
-.mastering__item {
-  /* list-style: none; */
-}
-
-/* lessons sections */
-.lessons {
-  padding: 5em 2em;
-}
-
-.lessons h2 {
-  font-size: var(--fs-500);
-  font-weight: var(--fw-700);
-}
-
-.lessons__content {
-  /* display: flex; */
-  justify-content: space-between;
-  padding: 0;
-  gap: 1em;
-}
-
-.lessons__item {
-  /* list-style: none; */
-}
-
-/* cta section */
-.cta {
-  background: url('./assets/cta-bg.jpg');
-  color: var(--clr-neutral-100);
-  text-align: center;
-  padding: 5em;
-}
-
-.cta p {
-  max-width: 60%;
-  margin: 0 auto;
-}
-
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -175,4 +98,9 @@ section {
   padding: 0.75em 1.5em;
   background-color: var(--clr-accent-400);
   color: var(--clr-neutral-900);
+}
+
+/* general layout */
+section {
+  padding: 4.125rem 0;
 }
