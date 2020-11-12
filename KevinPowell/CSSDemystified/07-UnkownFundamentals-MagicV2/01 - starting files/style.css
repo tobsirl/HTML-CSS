@@ -1,7 +1,7 @@
 /* Custom properties */
 
 :root {
-  --spacer: 1.25rem;
+  --spacer: 1rem;
 
   --clr-neutral-900: #171717;
   --clr-neutral-700: #333;
@@ -38,9 +38,36 @@ p {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* Utility classes */
 .flow-content > * + * {
   margin-top: var(--spacer);
+}
+
+.container {
+  padding: 0 var(--spacer);
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.bg-dark {
+  color: var(--clr-neutral-100);
+  background: var(--clr-neutral-900);
+}
+
+.text-accent {
+  color: var(--clr-accent-400);
 }
 
 /* general styling */
@@ -61,13 +88,9 @@ h1 span {
   font-weight: 700;
 }
 
-img {
-  max-width: 100%;
-}
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
+/* general layout */
+section {
+  padding: 4.125rem;
 }
 
 /* hero section */
@@ -77,7 +100,7 @@ img {
 
 .hero__content {
   /* outline: 2px solid red; */
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 5em;
 }
@@ -96,7 +119,7 @@ img {
 }
 
 .mastering__content {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   gap: 1.5em;
@@ -104,7 +127,7 @@ img {
 }
 
 .mastering__item {
-  list-style: none;
+  /* list-style: none; */
 }
 
 /* lessons sections */
@@ -118,14 +141,14 @@ img {
 }
 
 .lessons__content {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   padding: 0;
   gap: 1em;
 }
 
 .lessons__item {
-  list-style: none;
+  /* list-style: none; */
 }
 
 /* cta section */
@@ -133,7 +156,7 @@ img {
   background: url('./assets/cta-bg.jpg');
   color: var(--clr-neutral-100);
   text-align: center;
-  padding: 5em ;
+  padding: 5em;
 }
 
 .cta p {
