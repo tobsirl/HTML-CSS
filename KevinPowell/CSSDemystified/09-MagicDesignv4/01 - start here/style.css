@@ -110,10 +110,25 @@ img {
   box-shadow: var(--box-shadow);
 }
 
-.bg-dark {
-  color: var(--clr-neutral-100);
-  background: var(--clr-neutral-900);
+[class*="bg-"] {
+  color: var(--fg, red);
+  background: var(--bg, purple);
 }
+
+.bg-dark {
+  --fg: var(--clr-neutral-100);
+  --bg: var(--clr-neutral-900);
+}
+
+.bg-accent {
+  --fg: var(--clr-neutral-900);
+  --bg: var(--clr-accent-400);
+}
+
+/* .bg-dark {
+  color: var(--clr-neutral-900);
+  background: var(--clr-neutral-400);
+} */
 
 .text-accent {
   color: var(--clr-accent-400);
@@ -249,7 +264,7 @@ section {
 }
 
 .cta {
-  background-image: url(assets/cta-bg.jpg);
+  /* background-image: url(assets/cta-bg.jpg); */
   background-size: cover;
   text-align: center;
 }
