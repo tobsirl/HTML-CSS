@@ -127,13 +127,19 @@ img {
   --accent: var(--clr-neutral-100);
 }
 
+.bg-light {
+  --fg: var(--clr-neutral-900);
+  --bg: var(--clr-neutral-100);
+  --accent: var(--clr-accent-400);
+}
+
 /* .bg-dark {
   color: var(--clr-neutral-900);
   background: var(--clr-neutral-400);
 } */
 
 .text-accent {
-  color: var(--clr-accent-400);
+  color: var(--accent, var(--clr-accent-400));
 }
 
 .corner-square {
