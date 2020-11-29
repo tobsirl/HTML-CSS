@@ -145,7 +145,7 @@ img {
   display: block;
   width: 5rem;
   height: 5rem;
-  background: var(--clr-accent-400);
+  background: var(--accent, var(--clr-accent-400));
   position: absolute;
   left: -0.5em;
   top: -0.5em;
@@ -298,4 +298,8 @@ section {
   font-weight: var(--fw-700);
   margin-top: 4rem;
   color: var(--accent);
+}
+
+.testimonial.bg-accent {
+  --accent: var(--clr-neutral-900);
 }
