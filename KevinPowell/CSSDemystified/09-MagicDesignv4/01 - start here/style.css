@@ -282,7 +282,16 @@ section {
 .cta {
   /* background-image: url(assets/cta-bg.jpg); */
   background-size: cover;
+  background-blend-mode: multiply;
   text-align: center;
+}
+
+.cta.bg-accent {
+  background-image: url(assets/cta-bg.jpg) ;
+}
+
+.cta.bg-light {
+  background-image: url(assets/cta-bg.jpg) ;
 }
 
 /* testimonials */
