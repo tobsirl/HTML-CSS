@@ -11,21 +11,16 @@
   margin: 0 auto;
 }
 
-.cta {
-  display: flex;
-}
-
-.left {
-  width: 50%;
-}
-
-.right {
-  width: 50%;
+.card {
+  width: 300px;
+  background-color: pink;
+  padding: 1.5rem;
 }
 
 .btn {
+  display: inline-block;
   background-color: blue;
   color: white;
-  padding: 1.5em 2em;
+  padding: 1.5rem 2rem;
   text-decoration: none;
 }
