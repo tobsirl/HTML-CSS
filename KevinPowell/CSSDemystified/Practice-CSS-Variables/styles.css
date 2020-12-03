@@ -37,12 +37,35 @@ body {
   --bg: black;
 }
 
+.bg-light {
+  --fg: black;
+  --bg: white;
+}
+
 .card {
   width: 300px;
   background-color: var(--bg, purple);
   color: var(--fg, white);
   padding: 1.5rem;
   box-shadow: var(--box-shadow);
+  border-radius: 5px;
+}
+
+.corner-square {
+  position: relative;
+}
+
+.corner-square::before {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background: orange;
+  position: absolute;
+  left: -0.5rem;
+  top: -0.5rem;
+  z-index: -1;
+  border-radius: 5px;
 }
 
 .btn {
