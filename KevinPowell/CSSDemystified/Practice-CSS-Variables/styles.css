@@ -4,6 +4,8 @@
   --spacer: 1.5rem;
 
   --ff-primary: 'Poppins', sans-serif;
+
+  --box-shadow: 0 0.25em 1.5em rgba(0, 0, 0, 0.15);
 }
 
 /* reset */
@@ -27,12 +29,20 @@ body {
 .container {
   max-width: 80rem;
   margin: 0 auto;
+  padding: 3rem 5rem;
+}
+
+.bg-dark {
+  --fg: white;
+  --bg: black;
 }
 
 .card {
   width: 300px;
-  background-color: pink;
+  background-color: var(--bg, purple);
+  color: var(--fg, white);
   padding: 1.5rem;
+  box-shadow: var(--box-shadow);
 }
 
 .btn {
