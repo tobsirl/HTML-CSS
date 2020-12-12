@@ -24,7 +24,8 @@ p {
 /* content */
 body {
   font-family: var(--ff-primary);
-  background-image: url('./assets/hero.jpg');
+  background: no-repeat center url('./assets/hero.jpg');
+  background-size: cover;
   padding: 10rem 19rem;
 }
 
