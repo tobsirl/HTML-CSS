@@ -1,0 +1,47 @@
+/* Font used
+font-family: 'PT Sans', sans-serif; 
+*/
+
+:root {
+  --ff-primary: 'PT Sans', sans-serif;
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* utility */
+
+/* content */
+body {
+  font-family: var(--ff-primary);
+  background-image: url('./assets/hero.jpg');
+  padding: 10rem 19rem;
+}
+
+.hero {
+  background: white;
+}
+
+.hero h1 {
+  font-weight: 400;
+}
+
+.hero span {
+  font-weight: 700;
+}
+
+.content {
+  max-width: 70rem;
+  padding: 3rem;
+  margin: 0 auto;
+}
