@@ -17,6 +17,15 @@ Horizontal margins, borders, and padding are respected between these boxes.
 
 The boxes may be aligned vertically in different ways: their bottoms or tops may be aligned, or the baselines of text within them may be aligned. The rectangular area that contains the boxes that form a line is called a line box.
 
+### Margin Collapsing
+Margins between block elements *collaspe*.
+
+An element with a top margin immediately after an element with a bottom margin are not additive.
+
+The larger of the two margins will be used.
+
+This can often cause confusing behaviour when to comes to margins in CSS.
+
 ![block](https://user-images.githubusercontent.com/25591390/101989629-93119d00-3c99-11eb-9f09-197b133f5019.png)
 
 ### background
