@@ -4,6 +4,7 @@ font-family: 'PT Sans', sans-serif;
 
 :root {
   --ff-primary: 'PT Sans', sans-serif;
+  --spacer: 1rem;
 }
 
 /* reset */
@@ -24,13 +25,16 @@ p {
 /* content */
 body {
   font-family: var(--ff-primary);
-  background: no-repeat center url('./assets/hero.jpg');
-  background-size: cover;
-  padding: 10rem 19rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
 }
 
 .hero {
-  background: white;
+  background: no-repeat url('./assets/hero.jpg');
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .hero h1 {
