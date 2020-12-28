@@ -38,3 +38,21 @@ Adding a background image
   background: no-repeat center url('./assets/hero.jpg');
   background-size: cover;
 ```
+
+### Lobotomized Owls
+Remove margin and padding with a reset
+
+```cs
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Lobotomized Owl */
+.flow > * + * {
+  margin-top: 1.5rem;
+}
+```
