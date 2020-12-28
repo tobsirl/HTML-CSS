@@ -40,7 +40,9 @@ Adding a background image
 ```
 
 ### Lobotomized Owls
-Remove margin and padding with a reset
+Remove margin and padding with a reset.
+
+Using this technique will add consistency to layouts by having uniform spacing.
 
 ```cs
 h1,
