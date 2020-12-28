@@ -10,8 +10,13 @@
   --clr-neutral-300: #272a2e;
   --clr-neutral-400: #222529;
   --clr-neutral-500: #1d1e20;
- --ff-accent: atrament-web,sans-serif;
-  --ff-primary: basic-sans,sans-serif;
+  --ff-accent: atrament-web, sans-serif;
+  --ff-primary: basic-sans, sans-serif;
+}
+
+/* Lobotomized Owl */
+.flow > * + * {
+  margin-top: 1.5rem;
 }
 
 h1,
@@ -36,14 +41,14 @@ body {
   width: 70vw;
   padding: 3em;
   margin: 2rem auto;
-  box-shadow: 0 0 3em rgba(0,0,0,.15);
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
 }
 
 .title {
   margin: 2em;
   text-align: center;
   font-weight: 900;
-  line-height: .8;
+  line-height: 0.8;
   font-size: 5rem;
 }
 
