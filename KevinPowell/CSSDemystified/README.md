@@ -78,3 +78,16 @@ ol[class] {
   padding: 0;
 }
 ```
+
+### Container
+1. `padding` to add spacing around the content
+2. `max-width` stop the page from expanding forever
+3. `margin` center the content on the page
+
+```css
+.container {
+  padding: 0 1rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+```
