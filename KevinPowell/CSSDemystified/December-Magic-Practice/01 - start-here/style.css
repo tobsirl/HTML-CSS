@@ -18,6 +18,18 @@ font-family: 'PT Sans', sans-serif;
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* utility classes */
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+
 /* general styling */
 body {
   font-family: var(--ff-primary);
