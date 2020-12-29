@@ -41,6 +41,13 @@ body {
 .btn {
   display: inline-block;
   background-color: #59e89c;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  letter-spacing: 0.1rem;
+  font-size: 1.125rem;
 }
 
 /* hero section */
