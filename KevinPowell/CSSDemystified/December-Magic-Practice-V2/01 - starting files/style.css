@@ -50,7 +50,10 @@ img {
   margin-top: 1.25rem;
 }
 
-ul[class] {
+.container {
+  padding: 0 var(--spacer);
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 /* general styling */
@@ -84,4 +87,8 @@ h1 span {
   color: var(--clr-neutral-900);
 }
 
+/* general layout */
+section {
+  padding: 4.125rem 0;
+}
 /* hero section */
