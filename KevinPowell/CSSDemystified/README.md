@@ -44,17 +44,26 @@ Remove margin and padding with a reset.
 
 Using this technique will add consistency to layouts by having uniform spacing.
 
-```cs
+```css
 h1,
 h2,
 h3,
 p {
   margin: 0;
-  padding: 0;
 }
 
 /* Lobotomized Owl */
 .flow > * + * {
   margin-top: 1.5rem;
+}
+```
+
+### Responsive Images
+Make all images scale up and down depending on the width of the parent
+
+```css 
+img {
+  display: block;
+  max-width: 100%;
 }
 ```
