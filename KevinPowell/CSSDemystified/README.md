@@ -64,6 +64,17 @@ Make all images scale up and down depending on the width of the parent
 ```css 
 img {
   display: block;
+  height: auto;
   max-width: 100%;
+}
+```
+
+### Lists ul/ol
+Remove `padding` and `list-style` if a class is present.
+```css
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
 }
 ```
