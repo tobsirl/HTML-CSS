@@ -38,6 +38,12 @@ body {
   margin: 0;
 }
 
+.btn {
+  display: inline-block;
+  background-color: #59e89c;
+}
+
+/* hero section */
 .hero {
   background-image: url('./assets/hero.jpg');
   background-size: cover;
