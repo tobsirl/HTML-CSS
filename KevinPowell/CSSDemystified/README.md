@@ -39,24 +39,7 @@ Adding a background image
   background-size: cover;
 ```
 
-### Lobotomized Owls
-Remove margin and padding with a reset.
 
-Using this technique will add consistency to layouts by having uniform spacing.
-
-```css
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
-/* Lobotomized Owl */
-.flow > * + * {
-  margin-top: 1.5rem;
-}
-```
 
 ### Responsive Images
 Make all images scale up and down depending on the width of the parent
@@ -78,7 +61,7 @@ ol[class] {
   padding: 0;
 }
 ```
-
+## Utility Classes
 ### Container
 1. `padding` to add spacing around the content
 2. `max-width` stop the page from expanding forever
@@ -89,5 +72,40 @@ ol[class] {
   padding: 0 1rem;
   max-width: 70rem;
   margin: 0 auto;
+}
+```
+
+### Lobotomized Owls
+Remove margin and padding with a reset.
+
+Using this technique will add consistency to layouts by having uniform spacing.
+
+```css
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* Lobotomized Owl */
+.flow > * + * {
+  margin-top: 1.5rem;
+}
+```
+
+### Creating Columns
+Creating a split class that uses `flexbox` to create two columns. Use a media query to change the orientation from column to row. This allows you to maintain the gap between elements using `gap`
+```css
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 60em) {
+  .split {
+    flex-direction: row;
+  }
 }
 ```
