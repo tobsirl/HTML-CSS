@@ -53,7 +53,7 @@ img {
 .split {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: var(--spacer);
 }
 
 @media (min-width: 60em) {
@@ -111,4 +111,11 @@ h1 span {
 section {
   padding: 4.125rem 0;
 }
+
+@media (min-width: 60em) {
+  section {
+    padding: 8.125rem;
+  }
+}
+
 /* hero section */
