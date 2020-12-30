@@ -47,7 +47,7 @@ img {
 
 /* Utility classes */
 .flow-content > * + * {
-  margin-top: 1.25rem;
+  margin-top: var(--flow-space, var(--spacer));
 }
 
 .split {
@@ -125,6 +125,9 @@ section {
 /* sections */
 
 /* hero section */
+.hero {
+  --flow-space: 3rem;
+}
 
 /* join-now */
 .join-now li::before {
@@ -140,6 +143,7 @@ section {
 
 /* cta */
 .cta {
+  --flow-space: 3rem;
   background-image: url('/assets/cta-bg.jpg');
   background-size: cover;
   text-align: center;
