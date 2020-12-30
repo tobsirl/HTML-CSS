@@ -122,9 +122,22 @@ section {
   }
 }
 
+/* sections */
+
 /* hero section */
 
-/* components */
+/* join-now */
+.join-now li::before {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background: var(--clr-accent-400);
+  position: absolute;
+  transform: translate(-0.5rem, -0.5rem);
+  z-index: -1;
+}
+
 /* cta */
 .cta {
   background-image: url('/assets/cta-bg.jpg');
