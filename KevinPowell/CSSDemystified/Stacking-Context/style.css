@@ -38,6 +38,15 @@ p {
   margin: 0;
 }
 
+.content {
+  background: var(--clr-neutral-100);
+  color: var(--clr-neutral-500);
+  width: 70vw;
+  padding: 3em;
+  margin: 2rem auto;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+}
+
 .content > * + * {
   margin-top: 1rem;
 }
@@ -48,4 +57,22 @@ p {
   font-weight: 900;
   line-height: 0.8;
   font-size: 5rem;
+}
+
+/* Stacking Context with relative and absolute */
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.content::before {
+  position: absolute;
+  top: -1em;
+  left: -1em;
+  content: '';
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: var(--clr-accent-400);
+  z-index: -1;
 }
