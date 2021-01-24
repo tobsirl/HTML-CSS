@@ -14,3 +14,38 @@
   --ff-accent: atrament-web, sans-serif;
   --ff-primary: basic-sans, sans-serif;
 }
+
+body {
+  font-family: basic-sans, sans-serif;
+  min-height: 100vh;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: var(--clr-neutral-100);
+  background: var(--clr-neutral-500);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-accent);
+  color: var(--clr-accent-400);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.content > * + * {
+  margin-top: 1rem;
+}
+
+.title {
+  margin: 2em;
+  text-align: center;
+  font-weight: 900;
+  line-height: 0.8;
+  font-size: 5rem;
+}
