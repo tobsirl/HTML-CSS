@@ -118,7 +118,6 @@ body {
   margin: 0;
 }
 
-
 h2,
 .h2 {
   font-size: var(--fs-700);
@@ -143,6 +142,15 @@ a {
   font-weight: var(--fw-400);
 }
 
+.section-title {
+  display: inline-block;
+  font-size: var(--fs-300);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: black;
+  color: red;
+  padding: 0.25em 0.5em;
+}
 
 .btn {
   display: inline-block;
