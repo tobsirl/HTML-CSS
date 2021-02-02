@@ -118,9 +118,11 @@ body {
   margin: 0;
 }
 
+
 h2,
 .h2 {
   font-size: var(--fs-700);
+  font-weight: var(--fw-700);
 }
 
 h1 {
@@ -136,6 +138,11 @@ a {
   text-decoration: none;
   font-weight: var(--fw-700);
 }
+
+.page-heading {
+  font-weight: var(--fw-400);
+}
+
 
 .btn {
   display: inline-block;
