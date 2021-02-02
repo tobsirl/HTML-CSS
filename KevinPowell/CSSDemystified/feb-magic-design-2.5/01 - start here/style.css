@@ -10,7 +10,7 @@
   --clr-accent-400: #59e89c;
   --clr-accent-500: #00986a;
 
-  --ff-primary: "PT Sans", sans-serif;
+  --ff-primary: 'PT Sans', sans-serif;
 
   --fs-700: 2.25rem;
   --fs-600: 1.5rem;
@@ -118,6 +118,11 @@ body {
   margin: 0;
 }
 
+h2,
+.h2 {
+  font-size: var(--fs-700);
+}
+
 h1 {
   font-weight: 400;
 }
@@ -205,7 +210,7 @@ section {
 }
 
 .join-now li::before {
-  content: "";
+  content: '';
   display: block;
   width: 5rem;
   height: 5rem;
