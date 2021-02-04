@@ -279,3 +279,13 @@ section {
   text-align: left;
   padding: calc(var(--spacer) * 2);
 }
+
+.testimonial p:first-of-type {
+  font-style: italic;
+}
+
+.testimonial .name {
+  font-weight: var(--fw-700);
+  margin-top: 3rem;
+  color: var(--accent);
+}
