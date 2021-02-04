@@ -118,7 +118,15 @@ img {
 .bg-dark {
   --fg: var(--clr-neutral-100);
   --bg: var(--clr-neutral-900);
+  --accent: var(--clr-accent-400);
 }
+
+.bg-accent {
+  --fg: var(--clr-neutral-900);
+  --bg: var(--clr-neutral-400);
+  --accent: var(--clr-neutral-100);
+}
+
 /* .bg-dark {
   color: var(--clr-neutral-100);
   background: var(--clr-neutral-900);
@@ -168,8 +176,8 @@ a {
   font-size: var(--fs-300);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  background: black;
-  color: red;
+  background: var(--fg, var(--clr-neutral-900));
+  color: var(--accent, var(--clr-accent-400));
   padding: 0.25em 0.5em;
 }
 
@@ -182,8 +190,8 @@ a {
   font-size: 1.125rem;
   color: inherit;
   padding: 0.75em 1.5em;
-  background-color: var(--clr-accent-400);
-  color: var(--clr-neutral-900);
+  background-color: var(--accent, var(--clr-accent-400));
+  color: var(--fg, var(--clr-neutral-900));
 }
 
 /* navigation */
