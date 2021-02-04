@@ -123,7 +123,7 @@ img {
 
 .bg-accent {
   --fg: var(--clr-neutral-900);
-  --bg: var(--clr-neutral-400);
+  --bg: var(--clr-accent-400);
   --accent: var(--clr-neutral-100);
 }
 
@@ -268,4 +268,13 @@ section {
   background-image: url(assets/cta-bg.jpg);
   background-size: cover;
   text-align: center;
+}
+
+/* testimonials section */
+.testimonials {
+  text-align: center;
+}
+
+.testimonial {
+  text-align: left;
 }
