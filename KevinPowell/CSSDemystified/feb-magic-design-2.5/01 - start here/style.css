@@ -277,4 +277,5 @@ section {
 
 .testimonial {
   text-align: left;
+  padding: calc(var(--spacer) * 2);
 }
