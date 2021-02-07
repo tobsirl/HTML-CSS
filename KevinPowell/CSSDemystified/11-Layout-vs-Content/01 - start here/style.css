@@ -79,6 +79,7 @@ h1,
 h2,
 h3 {
   font-weight: var(--fw-700);
+  line-height: 1.1;
 }
 
 h1 {
@@ -92,6 +93,10 @@ h3 {
 }
 
 /* general layout */
+
+section {
+  padding: 10rem 0;
+}
 
 /* components */
 
