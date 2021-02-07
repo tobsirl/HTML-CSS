@@ -54,7 +54,6 @@ p {
 @media (min-width: 40em) {
   .split {
     flex-direction: row;
-    justify-content: space-between;
   }
 
   /* .split > * {
@@ -93,7 +92,6 @@ h3 {
 }
 
 /* general layout */
-
 
 /* components */
 
