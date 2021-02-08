@@ -32,6 +32,12 @@ p {
 }
 
 /* Utility classes */
+
+.bg-dark {
+  background: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
+
 .flow-content > * + * {
   margin-top: var(--flow-space, var(--spacer));
 }
@@ -113,4 +119,9 @@ section {
 .card {
   padding: var(--spacer);
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.section-one {
+  background-image: url(img/hero-bg.jpg);
+  background-size: cover;
 }
