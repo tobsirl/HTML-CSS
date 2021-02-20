@@ -50,7 +50,9 @@ body,
 h1,
 h2,
 h3,
-p {
+p,
+dl,
+dd {
   margin: 0;
 }
 
@@ -67,5 +69,7 @@ img {
 }
 
 body {
-  padding: 1rem;
+  line-height: 1.6;
+  font-family: var(--ff-sans);
+  font-size: var(--fs-400);
 }
