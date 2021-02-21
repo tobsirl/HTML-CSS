@@ -120,7 +120,7 @@ h3,
 
 /* general layout */
 section {
-  padding: 2.5rem;
+  padding: 2.5rem 0;
 }
 
 @media (min-width: 40em) {
@@ -129,7 +129,6 @@ section {
   }
 }
 
-
 .container {
   max-width: 50rem;
   margin: 0 auto;
@@ -137,4 +136,13 @@ section {
 
 .flow-content > * + * {
   margin-top: var(--flow-spacer, 1em);
+}
+
+.xl-space {
+  margin-top: 5rem;
+}
+
+/* homepage styles */
+.intro {
+  --flow-spacer: 2em;
 }
