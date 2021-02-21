@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>acme website co.</title>
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&family=IBM+Plex+Serif:wght@200&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -16,14 +15,14 @@
     <header class="primary-header">
       <div class="primary-header__inner">
         <a href="index.html" aria-label="acme home page"
-          ><img src="/img/hero.jpg" alt="" />acme</a
-        >
-        <div class="primary-nav">
+          ><img src="img/hero.jpg" alt="" class="logo"
+        /></a>
+        <nav class="primary-nav">
           <ul class="primary-nav__list">
             <li><a href="index.html">Home</a></li>
             <li><a href="blog.html">Blog</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
 
@@ -58,15 +57,16 @@
       </div>
     </section>
 
-    <section class="recent-articles bg-primary-3">
+    <section class="recent-articles bg-primary-300">
       <div class="container">
         <header>
-          <h1 class="section-title">Blog</h1>
+          <h2 class="section-title">Blog</h2>
           <p class="section-subtitle">Latest thoughts, news and ideas</p>
         </header>
+
         <div class="split">
           <article class="article-preview">
-            <img src="/img/blog-1.jpg" alt="" />
+            <img src="img/blog-1.jpg" alt="electric drill" />
             <h3>Lorem ipsum dolor sit amet, consectet adipiscing</h3>
             <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
             <div class="article-info">
@@ -75,7 +75,7 @@
             </div>
           </article>
           <article class="article-preview">
-            <img src="/img/blog-2.jpg" alt="" />
+            <img src="img/blog-2.jpg" alt="cactus" />
             <h3>Lorem ipsum</h3>
             <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
             <div class="article-info">
@@ -84,7 +84,7 @@
             </div>
           </article>
           <article class="article-preview">
-            <img src="/img/blog-3.jpg" alt="" />
+            <img src="img/blog-3.jpg" alt="insulated water bottle" />
             <h3>Lorem ipsum dolor sit amet, consectet adipiscing</h3>
             <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
             <div class="article-info">
@@ -96,21 +96,22 @@
       </div>
     </section>
 
-    <section class="cta">
+    <section class="call-to-action">
       <div class="container">
         <header>
           <h2 class="section-title">Inbox</h2>
           <p class="section-subtitle">Knowledge letters</p>
         </header>
-        <img src="/img/newsletter.jpg" alt="" />
-        <form action="" class="newsletter">
+        <img src="" alt="" />
+
+        <form action="" method="post" class="newsletter">
           <div>
             <label for="">Name</label>
-            <input type="text" placeholder="Your Name" />
+            <input type="text" />
           </div>
           <div>
             <label for="">Email</label>
-            <input type="email" placeholder="example@domain.com" />
+            <input type="email" name="" id="" />
           </div>
           <button type="submit">Subscribe</button>
         </form>
@@ -120,29 +121,29 @@
     <footer class="primary-footer">
       <div class="primary-footer__inner">
         <a href="index.html" aria-label="acme home page"
-          ><img src="logo.svg" alt="" />acme</a
-        >
+          ><img src="logo.svg" alt="" class="logo"
+        /></a>
+
         <dl>
           <dt class="text-serif">Map</dt>
-          <dd><a href="#"></a>Blog</dd>
-          <dd><a href="#"></a>Privacy</dd>
+          <dd><a href="#">Blog</a></dd>
+          <dd><a href="#">Privacy</a></dd>
         </dl>
 
         <dl>
           <dt class="text-serif">Resources</dt>
-          <dd><a href="#"></a>Courses</dd>
-          <dd><a href="#"></a>Hacks</dd>
-          <dd><a href="#"></a>Free stuff</dd>
+          <dd><a href="#">Courses</a></dd>
+          <dd><a href="#">Hacks</a></dd>
+          <dd><a href="#">Free stuff</a></dd>
         </dl>
       </div>
-
       <div class="split text-serif">
-        <p class="copywrite"></p>
+        <p class="copywrite">© 2020 acme. All rights reserved</p>
         <ul class="footer-social">
-          <li><a href="#"></a>Yt</li>
-          <li><a href="#"></a>Tw</li>
-          <li><a href="#"></a>Fb</li>
-          <li><a href="#"></a>Li</li>
+          <li><a href="#">Yt</a></li>
+          <li><a href="#">Tw</a></li>
+          <li><a href="#">Fb</a></li>
+          <li><a href="#">Li</a></li>
         </ul>
       </div>
     </footer>
