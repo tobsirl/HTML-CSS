@@ -30,9 +30,6 @@
 
 @media (min-width: 40em) {
   :root {
-    --fs-200: 0.75rem;
-    --fs-300: 1rem;
-    --fs-400: 1.25rem;
     --fs-500: 1.75rem;
     --fs-600: 2.125rem;
     --fs-900: 4.25rem;
@@ -116,8 +113,28 @@ h3,
   font-size: var(--fs-600);
 }
 
+.btn {
+  text-decoration: none;
+  color: var(--clr-neutral-900);
+}
+
 /* general layout */
+section {
+  padding: 2.5rem;
+}
+
+@media (min-width: 40em) {
+  section {
+    padding: 3.5rem;
+  }
+}
+
+
 .container {
   max-width: 50rem;
   margin: 0 auto;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, 1em);
 }
