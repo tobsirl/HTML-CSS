@@ -138,6 +138,22 @@ section {
   margin-top: var(--flow-spacer, 1em);
 }
 
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.split > * {
+  flex-basis: 100%;
+}
+
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+}
+
 .xl-space {
   margin-top: 5rem;
 }
