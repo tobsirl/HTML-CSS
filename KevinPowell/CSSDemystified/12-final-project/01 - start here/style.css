@@ -199,7 +199,7 @@ section {
 }
 
 .call-to-action form > div {
-  flex-basis: auto;
+  flex-basis: 100%;
   flex-shrink: 1;
   flex-grow: 1;
 }
@@ -207,10 +207,19 @@ section {
 .call-to-action input {
   width: 100%;
   border: 0;
+  border-bottom: 2px solid var(--clr-neutral-300);
+}
+
+.call-to-action input::placeholder {
+  color: var(--clr-neutral-300);
+  opacity: 1;
 }
 
 .call-to-action label {
   display: block;
+  margin-bottom: .5rem;
+  font-size: var(--fs-300);
+  font-weight: var(--fw-400);
 }
 
 /* homepage styles */
