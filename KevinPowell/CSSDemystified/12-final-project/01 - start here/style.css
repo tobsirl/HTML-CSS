@@ -185,6 +185,27 @@ section {
   color: var(--clr-neutral-400);
 }
 
+.call-to-action form {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.call-to-action form > div {
+  flex-basis: auto;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.call-to-action input {
+  width: 100%;
+  border: 0;
+}
+
+.call-to-action label {
+  display: block;
+}
+
 /* homepage styles */
 .intro {
   --flow-spacer: 2em;
