@@ -70,6 +70,13 @@ ol[class] {
   padding: 0;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 img {
   max-width: 100%;
   height: auto;
