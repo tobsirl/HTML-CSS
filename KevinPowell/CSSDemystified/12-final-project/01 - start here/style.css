@@ -247,7 +247,23 @@ section {
   font-weight: var(--fw-400);
 }
 
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-weight: var(--fw-700);
+  color: var(--clr-neutral-900);
+}
+
+.footer-nav > *:first-child {
+  margin-right: 4em;
+}
+
 /* homepage styles */
 .intro {
   --flow-spacer: 2em;
 }
+
+/* footer */
