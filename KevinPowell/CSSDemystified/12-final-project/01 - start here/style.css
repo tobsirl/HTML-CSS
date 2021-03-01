@@ -194,12 +194,6 @@ section {
   flex-basis: 100%;
 }
 
-@media (min-width: 40em) {
-  .split {
-    flex-direction: row;
-  }
-}
-
 .xl-space {
   margin-top: 5rem;
 }
@@ -264,6 +258,20 @@ section {
   margin-bottom: 0.5rem;
   font-size: var(--fs-300);
   font-weight: var(--fw-400);
+}
+
+.call-to-action button {
+  align-self: flex-start;
+}
+
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+
+  .call-to-action button {
+    align-self: center;
+  }
 }
 
 .primary-footer__inner {
