@@ -199,6 +199,13 @@ section {
 }
 
 /* component */
+header {
+  background-color: var(--clr-primary-400);
+  min-height: 50vh;
+  border-radius: var(--br);
+  padding: 2rem;
+}
+
 .article-preview h3 {
   font-size: var(--fs-500);
 }
