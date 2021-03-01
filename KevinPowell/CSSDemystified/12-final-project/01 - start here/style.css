@@ -199,7 +199,7 @@ section {
 }
 
 /* component */
-header {
+.primary-header {
   background-color: var(--clr-primary-400);
   min-height: 50vh;
   border-radius: var(--br);
@@ -208,9 +208,9 @@ header {
 
 .primary-nav {
   position: fixed;
-  bottom: .5em;
-  left: .5em;
-  right: .5em;
+  bottom: 0.5em;
+  left: 0.5em;
+  right: 0.5em;
   border-radius: var(--br);
   width: 100%;
   background: var(--clr-neutral-900);
@@ -221,11 +221,22 @@ header {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  padding: .5em 0;
+  padding: 0.8em 0;
 }
 
 .primary-nav a {
   color: var(--clr-neutral-200);
+}
+
+@media (min-width: 40em) {
+  .primary-nav {
+    position: static;
+    background: transparent;
+  }
+
+  .primary-nav a {
+    color: inherit;
+  }
 }
 
 .primary-nav li {
