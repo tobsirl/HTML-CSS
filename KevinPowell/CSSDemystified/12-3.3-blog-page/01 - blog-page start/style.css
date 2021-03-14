@@ -419,3 +419,13 @@ footer {
 .intro {
   --flow-spacer: 2em;
 }
+
+/* blog page styles */
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr)
+}
+
+.article-grid article {
+  grid-column: span 2;
+}
