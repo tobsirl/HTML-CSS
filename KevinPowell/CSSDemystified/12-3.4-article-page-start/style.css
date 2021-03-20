@@ -1,6 +1,6 @@
 :root {
-  --ff-sans: "IBM Plex Sans", sans-serif;
-  --ff-serif: "IBM Plex Serif", serif;
+  --ff-sans: 'IBM Plex Sans', sans-serif;
+  --ff-serif: 'IBM Plex Serif', serif;
 
   /* small screen font-sizes */
   --fs-200: 0.75rem;
@@ -155,7 +155,7 @@ a:focus {
 }
 
 .btn::after {
-  content: "\203A";
+  content: '\203A';
   margin-left: 1em;
   font-weight: var(--fw-300);
 }
@@ -248,6 +248,24 @@ section {
 .page-article .primary-header {
   background-image: url(img/article.jpg);
   background-position: left center;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.page-article .primary-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.60),
+    rgba(255, 255, 255, 0)
+  );
+  z-index: -1;
 }
 
 .primary-nav {
