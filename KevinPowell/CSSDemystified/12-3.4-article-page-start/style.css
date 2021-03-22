@@ -253,7 +253,7 @@ section {
   z-index: 0;
 }
 
-.page-article .primary-header::before {
+.page-article .primary-header::after {
   content: '';
   position: absolute;
   top: 0;
@@ -504,3 +504,7 @@ footer {
 }
 
 /* individual article page */
+.article-full {
+  max-width: 40rem;
+  margin: 0 auto;
+}
