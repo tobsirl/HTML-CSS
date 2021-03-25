@@ -508,5 +508,6 @@ footer {
 .article-full {
   --flow-spacer: 2em;
   max-width: 40rem;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
