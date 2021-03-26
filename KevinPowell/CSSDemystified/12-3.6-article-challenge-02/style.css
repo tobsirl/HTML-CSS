@@ -1,6 +1,6 @@
 :root {
-  --ff-sans: "IBM Plex Sans", sans-serif;
-  --ff-serif: "IBM Plex Serif", serif;
+  --ff-sans: 'IBM Plex Sans', sans-serif;
+  --ff-serif: 'IBM Plex Serif', serif;
 
   /* small screen font-sizes */
   --fs-200: 0.75rem;
@@ -133,13 +133,20 @@ a:focus {
   font-size: var(--fs-600);
 }
 
-.section-title {
+.section-title,
+.article-full h3 {
   font-size: var(--fs-600);
   color: var(--clr-neutral-400);
 }
 
-.section-subtitle {
+.section-subtitle,
+.article-full + p {
   font-size: var(--fs-600);
+}
+
+.article-full h3 + p {
+  font-family: var(--ff-serif);
+  margin-top: 0;
 }
 
 .btn {
@@ -155,7 +162,7 @@ a:focus {
 }
 
 .btn::after {
-  content: "\203A";
+  content: '\203A';
   margin-left: 1em;
   font-weight: var(--fw-300);
 }
@@ -254,7 +261,7 @@ section {
 }
 
 .page-article .primary-header::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -510,4 +517,13 @@ footer {
   max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.article-full h2 {
+}
+
+.article-full p {
+}
+
+.article-full h3 {
 }
