@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.block {
+  background: black;
+  padding: 2rem;
+  position: relative;
+  color: white;
+}
+
+.block::before {
+  --offset: -10px;
+  content: '';
+  left: var(--offset);
+  right: 0;
+  top: var(--offset);
+  bottom: 0;
+  background: red;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5px;
+}
