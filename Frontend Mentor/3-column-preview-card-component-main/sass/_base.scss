@@ -1,6 +1,7 @@
 // Base: contained within this file are all your resets, variables, mixins, and any utility classes.
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-$lexend-deca: Lexend Deca;
+$lexend-deca: 'Lexend Deca';
+$big-shoulders-display: 'Big Shoulders Display';
 
 $bright-orange: hsl(31, 77%, 52%);
 $dark-cyan: hsl(184, 100%, 22%);
@@ -15,16 +16,21 @@ $light-gray: hsl(0, 0%, 95%);
   --clr-darker-cyan: #{$darker-cyan};
 
   --clr-neutral-white: #{$trans-white};
-  --clr-neutral-gray: #{$light-gray}
+  --clr-neutral-gray: #{$light-gray};
 
-  --ff-lexend: var(lexend-deca);
+  --ff-lexend: #{$lexend-deca};
+  --ff-bsd: #{$big-shoulders-display};
 }
 
 // reset
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 body {
+  font-family: var(--ff-lexend);
   font-size: 15px;
+  margin: 0;
 }

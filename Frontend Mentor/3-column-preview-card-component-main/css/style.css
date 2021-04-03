@@ -4,12 +4,28 @@
   --clr-dark-cyan: #006970;
   --clr-darker-cyan: #004241;
   --clr-neutral-white: rgba(255, 255, 255, 0.75);
-  --clr-neutral-gray: #f2f2f2
+  --clr-neutral-gray: #f2f2f2;
+  --ff-lexend: Lexend Deca;
+  --ff-bsd: Big Shoulders Display; }
 
-  --ff-lexend: var(lexend-deca); }
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box; }
 
 body {
-  font-size: 15px; }
+  font-family: var(--ff-lexend);
+  font-size: 15px;
+  margin: 0; }
+
+.card {
+  padding: 2rem; }
+  .card-orange {
+    background-color: #e38826; }
+  .card-cyan {
+    background-color: #006970; }
+  .card-dark-cyan {
+    background-color: #004241; }
+  .card__title {
+    font-family: var(--ff-bsd);
+    font-size: 40px; }

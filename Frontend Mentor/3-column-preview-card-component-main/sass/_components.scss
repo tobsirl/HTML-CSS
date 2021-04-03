@@ -1,1 +1,22 @@
 // Components: anything reusable such as buttons, navbars, cards etc.
+
+.card {
+  padding: 2rem;
+
+  &-orange {
+    background-color: $bright-orange;
+  }
+
+  &-cyan {
+    background-color: $dark-cyan;
+  }
+
+  &-dark-cyan {
+    background-color: $darker-cyan;
+  }
+
+  &__title {
+    font-family: var(--ff-bsd);
+    font-size: 40px;
+  }
+}
