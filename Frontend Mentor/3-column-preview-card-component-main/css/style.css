@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+:root {
+  --clr-orange: #e38826;
+  --clr-dark-cyan: #006970;
+  --clr-darker-cyan: #004241;
+  --clr-neutral-white: rgba(255, 255, 255, 0.75);
+  --clr-neutral-gray: #f2f2f2
+
+  --ff-lexend: var(lexend-deca); }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  font-size: 15px; }

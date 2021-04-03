@@ -1,0 +1,30 @@
+// Base: contained within this file are all your resets, variables, mixins, and any utility classes.
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+$lexend-deca: Lexend Deca;
+
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$darker-cyan: hsl(179, 100%, 13%);
+
+$trans-white: hsla(0, 0%, 100%, 0.75);
+$light-gray: hsl(0, 0%, 95%);
+
+:root {
+  --clr-orange: #{$bright-orange};
+  --clr-dark-cyan: #{$dark-cyan};
+  --clr-darker-cyan: #{$darker-cyan};
+
+  --clr-neutral-white: #{$trans-white};
+  --clr-neutral-gray: #{$light-gray}
+
+  --ff-lexend: var(lexend-deca);
+}
+
+// reset
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
