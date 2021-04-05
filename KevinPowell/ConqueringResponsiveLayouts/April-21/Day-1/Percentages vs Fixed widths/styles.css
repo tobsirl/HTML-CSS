@@ -18,10 +18,17 @@ body {
   padding: 50px;
   margin: 0 auto;
   width: 80%;
+  display: flex;
 }
 
 .child {
   background-color: var(--clr-secondary);
-
+  width: 50%;
   height: 250px;
+}
+
+.child2 {
+  background-color: rebeccapurple;
+  height: 250px;
+  width: 50%;
 }
