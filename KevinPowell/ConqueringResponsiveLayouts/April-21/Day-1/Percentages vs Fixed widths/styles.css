@@ -1,5 +1,27 @@
+:root {
+  --clr-primary: #23424a;
+  --clr-secondary: #38cfd9;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: var(--clr-primary);
+  padding: 50px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.child {
+  background-color: var(--clr-secondary);
+
+  height: 250px;
 }
