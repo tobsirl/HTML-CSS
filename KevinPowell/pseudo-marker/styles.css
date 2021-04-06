@@ -5,3 +5,25 @@
   --clr-bg: #ddd;
   --spacer: 1rem;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.flow > * + * {
+  margin-top: var(--spacer);
+}
+
+::marker {
+  color: red;
+}
+
