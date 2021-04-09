@@ -1,16 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --ff-roboto: font-family: 'Roboto', sans-serif;
+  --ff-roboto: 'Roboto', sans-serif;
 
   --fw-700: 700;
   --fw-400: 400;
 
   --fs-regular: 21px;
-  --fs-large: 48px; 
+  --fs-large: 48px;
 
-  --clr-dark-green: #23424A;
-  --clr-light-green: #38CFD9;
-  --clr-white: #FFF;
+  --clr-dark-green: #23424a;
+  --clr-light-green: #38cfd9;
+  --clr-white: #fff;
+}
 
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: var(--ff-roboto);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
