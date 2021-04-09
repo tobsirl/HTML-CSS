@@ -12,6 +12,8 @@
   --clr-dark-green: #23424a;
   --clr-light-green: #38cfd9;
   --clr-white: #fff;
+
+  --spacer: 2rem;
 }
 
 /* reset */
@@ -27,13 +29,40 @@ p {
   margin: 0;
 }
 
-body {
-  font-family: var(--ff-roboto);
-}
-
 input,
 button,
 textarea,
 select {
   font: inherit;
+}
+
+/* typography */
+body {
+  font-family: var(--ff-roboto);
+}
+
+ /* layout */
+ .flow-content > * + * {
+   margin-top: var(--spacer);
+ }
+
+.intro-section {
+  background-color: var(--clr-dark-green);
+  color: var(--clr-white);
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 9.25em;
+}
+
+button {
+  background: var(--clr-light-green);
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 25px;
+  font-size: var(--fs-regular);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
 }
