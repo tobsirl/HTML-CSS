@@ -41,20 +41,25 @@ body {
   font-family: var(--ff-roboto);
 }
 
- /* layout */
- .flow-content > * + * {
-   margin-top: var(--spacer);
- }
+/* layout */
+.flow-content > * + * {
+  margin-top: var(--spacer);
+}
 
 .intro-section {
   background-color: var(--clr-dark-green);
   color: var(--clr-white);
+  padding: 100px 0;
+}
+
+.intro-section-content {
+  width: 60%;
 }
 
 .container {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 9.25em;
+  width: 80%;
 }
 
 button {
