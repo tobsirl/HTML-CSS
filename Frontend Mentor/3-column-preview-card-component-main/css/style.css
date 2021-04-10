@@ -48,6 +48,11 @@ picture {
 .flow-content > * + * {
   margin-top: var(--spacer); }
 
+@media (min-width: 40em) {
+  body {
+    background-color: red;
+    display: flex; } }
+
 .card {
   padding: 2rem;
   width: 325px; }
@@ -60,7 +65,8 @@ picture {
   .card__title {
     font-family: var(--ff-bsd);
     font-size: 40px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: white; }
   .card__btn {
     background: none;
     border: none;

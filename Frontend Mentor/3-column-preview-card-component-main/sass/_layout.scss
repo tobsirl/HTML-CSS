@@ -9,3 +9,10 @@
 .flow-content > * + * {
   margin-top: var(--spacer);
 }
+
+@media (min-width: 40em) {
+  body {
+    background-color: red;
+    display: flex;
+  }
+}
