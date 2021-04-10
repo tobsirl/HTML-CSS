@@ -5,3 +5,7 @@
   margin: 0 auto;
   padding: 3rem;
 }
+
+.flow-content > * + * {
+  margin-top: 1.6rem;
+}
