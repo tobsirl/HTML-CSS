@@ -27,9 +27,21 @@ dd {
   font-family: var(--ff-lexend);
   font-size: 15px; }
 
+input,
+textarea,
+select,
+button {
+  font: inherit; }
+
+img,
+picture {
+  max-width: 100%;
+  display: block; }
+
 .container {
   max-width: 325px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 3rem; }
 
 .card {
   padding: 2rem;

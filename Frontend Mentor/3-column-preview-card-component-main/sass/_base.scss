@@ -1,4 +1,4 @@
-// Base: contained within this file are all your resets, variables, mixins, 
+// Base: contained within this file are all your resets, variables, mixins,
 // and any utility classes.
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 $lexend-deca: 'Lexend Deca';
@@ -45,4 +45,17 @@ dd {
   font-size: 15px;
 }
 
+// inputs and buttons
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
 
+// images
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
