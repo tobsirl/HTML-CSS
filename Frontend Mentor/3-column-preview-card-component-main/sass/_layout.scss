@@ -1,1 +1,6 @@
-// Layout: contains all the CSS that handles the layout, such as the container and any grid systems.
+// Layout: contains all the CSS that handles the layout, such as the container 
+// and any grid systems.
+.container {
+  max-width: 325px;
+  margin: 0 auto;
+}

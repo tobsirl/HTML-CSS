@@ -1,4 +1,5 @@
-// Base: contained within this file are all your resets, variables, mixins, and any utility classes.
+// Base: contained within this file are all your resets, variables, mixins, 
+// and any utility classes.
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 $lexend-deca: 'Lexend Deca';
 $big-shoulders-display: 'Big Shoulders Display';
@@ -29,8 +30,19 @@ $light-gray: hsl(0, 0%, 95%);
   box-sizing: border-box;
 }
 
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
   font-family: var(--ff-lexend);
   font-size: 15px;
-  margin: 0;
 }
+
+

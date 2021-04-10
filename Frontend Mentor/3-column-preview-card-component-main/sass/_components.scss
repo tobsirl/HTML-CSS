@@ -1,7 +1,7 @@
 // Components: anything reusable such as buttons, navbars, cards etc.
-
 .card {
   padding: 2rem;
+  max-width: 325px;
 
   &-orange {
     background-color: $bright-orange;
