@@ -21,6 +21,8 @@ $light-gray: hsl(0, 0%, 95%);
 
   --ff-lexend: #{$lexend-deca};
   --ff-bsd: #{$big-shoulders-display};
+
+  --spacer: 1.6rem;
 }
 
 // reset
@@ -43,6 +45,7 @@ dd {
   margin: 0;
   font-family: var(--ff-lexend);
   font-size: 15px;
+  color: var(--clr-neutral-white);
 }
 
 // inputs and buttons

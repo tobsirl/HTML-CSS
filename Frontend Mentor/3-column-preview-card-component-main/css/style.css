@@ -6,7 +6,8 @@
   --clr-neutral-white: rgba(255, 255, 255, 0.75);
   --clr-neutral-gray: #f2f2f2;
   --ff-lexend: Lexend Deca;
-  --ff-bsd: Big Shoulders Display; }
+  --ff-bsd: Big Shoulders Display;
+  --spacer: 1.6rem; }
 
 *,
 *::before,
@@ -25,7 +26,8 @@ dl,
 dd {
   margin: 0;
   font-family: var(--ff-lexend);
-  font-size: 15px; }
+  font-size: 15px;
+  color: var(--clr-neutral-white); }
 
 input,
 textarea,
@@ -44,11 +46,11 @@ picture {
   padding: 3rem; }
 
 .flow-content > * + * {
-  margin-top: 1.6rem; }
+  margin-top: var(--spacer); }
 
 .card {
   padding: 2rem;
-  max-width: 325px; }
+  width: 325px; }
   .card-orange {
     background-color: #e38826; }
   .card-cyan {
@@ -57,4 +59,11 @@ picture {
     background-color: #004241; }
   .card__title {
     font-family: var(--ff-bsd);
-    font-size: 40px; }
+    font-size: 40px;
+    text-transform: uppercase; }
+  .card__btn {
+    background: none;
+    border: none;
+    background-color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem; }

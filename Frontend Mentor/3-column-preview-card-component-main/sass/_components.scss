@@ -1,7 +1,7 @@
 // Components: anything reusable such as buttons, navbars, cards etc.
 .card {
   padding: 2rem;
-  max-width: 325px;
+  width: 325px;
 
   &-orange {
     background-color: $bright-orange;
@@ -18,5 +18,14 @@
   &__title {
     font-family: var(--ff-bsd);
     font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    background: none;
+    border: none;
+    background-color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
   }
 }
