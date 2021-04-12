@@ -44,14 +44,22 @@ h1 {
 .row {
   /* display: flex => flex container */
   display: flex;
+  flex-direction: column;
 
   /* can't use yet */
   /* gap: 100px; */
 }
 
+@media (min-width: 50em) {
+    .row {
+        flex-direction: row;
+    }
+}
+
 .col {
   /* these are now flex items */
   width: 100%;
+  text-align: center;
 }
 
 .hero {
@@ -62,6 +70,10 @@ h1 {
 
 .hero__text {
   width: 60%;
+}
+
+.col + .col {
+    margin-left: 1rem;
 }
 
 .hero p {
@@ -86,4 +98,9 @@ h1 {
 
 .bottom {
   background: #136c72;
+  color: #fff;
+}
+
+.title {
+    color: #87629a;
 }
