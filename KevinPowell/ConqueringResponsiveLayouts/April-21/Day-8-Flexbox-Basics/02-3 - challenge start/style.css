@@ -51,9 +51,9 @@ h1 {
 }
 
 @media (min-width: 50em) {
-    .row {
-        flex-direction: row;
-    }
+  .row {
+    flex-direction: row;
+  }
 }
 
 .col {
@@ -73,7 +73,7 @@ h1 {
 }
 
 .col + .col {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .hero p {
@@ -99,8 +99,13 @@ h1 {
 .bottom {
   background: #136c72;
   color: #fff;
+  padding: 3rem 0;
 }
 
 .title {
-    color: #87629a;
+  color: #87629a;
+}
+
+.middle {
+    padding: 3rem 0;
 }
