@@ -97,3 +97,21 @@ h1 {
 .btn:focus {
   opacity: 0.75;
 }
+
+.content__left {
+  width: 62%;
+  margin-top: 2.5rem;
+}
+
+.content__left h2 {
+  color: #136c72;
+}
+
+.content__right {
+  width: 32%;
+  text-align: center;
+  background: #136c72;
+  color: #fff;
+  padding: 0 2rem;
+  margin-top: 2.5rem;
+}
