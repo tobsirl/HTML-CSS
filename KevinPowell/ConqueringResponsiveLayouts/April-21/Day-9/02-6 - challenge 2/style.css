@@ -48,7 +48,9 @@ h1 {
 .row {
   /* display: flex => flex container */
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 3rem;
+  /* justify-content: space-between; */
 
   /* can't use yet */
   /* gap: 100px; */
@@ -70,12 +72,12 @@ h1 {
 }
 
 .hero__text {
-  width: 62%;
+  width: 100%;
 }
 
 .hero__img {
-  width: 32%;
-  align-self: flex-start;
+  width: 100%;
+  /* align-self: flex-start; */
 }
 
 .hero p {
@@ -99,7 +101,7 @@ h1 {
 }
 
 .content__left {
-  width: 62%;
+  width: 100%;
   margin-top: 2.5rem;
 }
 
@@ -108,10 +110,16 @@ h1 {
 }
 
 .content__right {
-  width: 32%;
+  width: 100%;
   text-align: center;
   background: #136c72;
   color: #fff;
   padding: 0 2rem;
   margin-top: 2.5rem;
+}
+
+@media (min-width: 50em) {
+  .row {
+    flex-direction: row;
+  }
 }
