@@ -34,6 +34,7 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 /* typography */
@@ -59,7 +60,7 @@ body {
 .hero__title {
   font-family: var(--ff-playfair);
   font-weight: var(--fw-black);
-  font-size: 60px;
+  font-size: 30px;
   color: var(--clr-brown);
 }
 
@@ -88,7 +89,18 @@ body {
 
 .flex {
   display: flex;
+  flex-direction: column;
   gap: 2.5rem;
+}
+
+@media (min-width: 50em) {
+  .flex {
+    flex-direction: row;
+  }
+
+  .hero__title {
+    font-size: 60px;
+  }
 }
 
 .black {
