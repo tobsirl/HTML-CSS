@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap');
+
+:root {
+  --clr-cream: #f3eed9;
+  --clr-brown: #824936;
+  --clr-black: #222c2a;
+
+  --ff-roboto: 'Roboto', sans-serif;
+  --ff-playfair: 'Playfair Display', serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-black: 900;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.hero {
+  background-color: var(--clr-cream);
+}
