@@ -77,6 +77,12 @@ header {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav__logo {
+  margin-right: 1em;
 }
 
 .nav__list {
@@ -84,7 +90,6 @@ header {
   margin: 0;
   padding: 0;
   list-style: none;
-  outline: 2px solid red;
 }
 
 .nav__item + .nav__item {
