@@ -13,6 +13,7 @@
   --fw-black: 900;
 }
 
+/* reset */
 *,
 *::before,
 *::after {
@@ -29,6 +30,38 @@ p {
   margin: 0;
 }
 
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* typography */
+body {
+  font-family: var(--ff-roboto);
+  font-weight: var(--fw-regular);
+  font-size: 21px;
+}
+
+.hero__sub-title {
+  font-family: var(--ff-roboto);
+  font-weight: var(--fw-light);
+  font-size: 16px;
+}
+
+.hero__title {
+  font-family: var(--ff-playfair);
+  font-weight: var(--fw-black);
+  font-size: 60px;
+}
+
+.title {
+  font-family: var(--ff-playfair);
+  font-weight: var(--fw-black);
+  font-size: 36px;
+}
+
+/* sections */
 .hero {
   background-color: var(--clr-cream);
 }
