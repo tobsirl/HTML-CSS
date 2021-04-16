@@ -74,15 +74,21 @@ header {
   padding: 0.5em 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav__list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
+  outline: 2px solid red;
 }
 
-.nav__item {
-    margin-right: 1em;
+.nav__item + .nav__item {
+  margin-left: 1em;
 }
 
 .nav__link {
