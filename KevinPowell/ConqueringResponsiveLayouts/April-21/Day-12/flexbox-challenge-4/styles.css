@@ -76,6 +76,45 @@ body {
   text-align: center;
 }
 
+.white {
+  padding: 4rem 0;
+}
+
+.white h2 {
+  color: var(--clr-brown);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 .flex {
   display: flex;
+  gap: 2.5rem;
+}
+
+.black {
+  background-color: var(--clr-black);
+  padding: 4rem 0;
+}
+
+.black h2 {
+  color: var(--clr-cream);
+  margin-bottom: 1.5rem;
+}
+
+.black p {
+  color: #fff;
+}
+
+.brown {
+  background-color: var(--clr-brown);
+  padding: 4rem 0;
+}
+
+.brown h2 {
+  color: var(--clr-cream);
+  margin-bottom: 1.5rem;
+}
+
+.brown p {
+  color: #fff;
 }
