@@ -147,3 +147,9 @@ header {
   color: #fff;
   background-color: #136c72;
 }
+
+@media (max-width: 700px) {
+  .row {
+    display: block;
+  }
+}
