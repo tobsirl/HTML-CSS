@@ -152,4 +152,22 @@ header {
   .row {
     display: block;
   }
+
+  .hero__text {
+    width: 100%;
+  }
+
+  .hero__img {
+    width: 100%;
+    align-self: flex-start;
+    margin-top: 2em;
+  }
+
+  .primary-content {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
 }
