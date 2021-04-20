@@ -30,6 +30,7 @@
 .flex-item:nth-child(1) {
   flex-grow: 1;
   /* 1 */
+  width: 800px;
 
   /* 3 */
 }
