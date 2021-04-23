@@ -195,15 +195,30 @@ header {
     display: none;
   }
 
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .nav {
     visibility: visible;
     display: flex;
+    align-items: center;
     height: auto;
+    justify-content: flex-end;
   }
 
-  .row {
-    display: flex;
-    justify-content: space-between;
+  .nav__list {
+      display: flex;
+  }
+
+  .nav__item {
+    margin: 0 0 0 1.5em;
+  }
+  
+  .nav__list--secondary {
+    margin: 0;
   }
 
   .hero__text {
