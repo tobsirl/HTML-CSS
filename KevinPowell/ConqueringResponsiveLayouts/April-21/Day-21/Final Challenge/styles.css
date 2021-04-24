@@ -98,3 +98,20 @@ header {
 .nav__item + .nav__item {
   margin-left: 1rem;
 }
+
+.nav__link--button {
+  background: var(--clr-gold);
+  padding: 0.25em 0.75em;
+  border-radius: 50px;
+}
+
+.hero {
+  background-color: var(--clr-navy);
+}
+.hero__title {
+  font-size: 5.625rem;
+}
+
+.gold {
+  color: var(--clr-gold);
+}
