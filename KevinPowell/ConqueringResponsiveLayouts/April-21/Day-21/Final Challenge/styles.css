@@ -9,7 +9,7 @@
 
   --clr-dark-navy: #2e323f;
   --clr-navy: #3b4050;
-  --clr-grey: #6f737f;
+  --clr-grey: #eee;
   --clr-white: #ffffff;
   --clr-gold: #a59678;
 
@@ -59,6 +59,10 @@ body {
   padding: 0;
   margin: 0;
   line-height: 1.6;
+}
+
+section {
+  padding: 4rem 0;
 }
 
 /* typograph */
@@ -132,7 +136,6 @@ header {
 
 .hero {
   background-color: var(--clr-navy);
-  padding: 4rem 0;
 }
 
 .hero__text {
@@ -147,4 +150,10 @@ header {
 
 .hero__title span {
   color: var(--clr-white);
+}
+
+/* mobile */
+.mobile {
+  text-align: center;
+  background-color: var(--clr-grey);
 }
