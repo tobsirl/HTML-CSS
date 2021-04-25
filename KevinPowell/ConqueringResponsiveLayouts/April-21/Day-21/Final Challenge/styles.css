@@ -61,7 +61,8 @@ body {
   line-height: 1.6;
 }
 
-section {
+section,
+footer {
   padding: 4rem 0;
 }
 
@@ -156,4 +157,36 @@ header {
 .mobile {
   text-align: center;
   background-color: var(--clr-grey);
+}
+
+/* main */
+.middle__main {
+  margin-bottom: 2rem;
+}
+
+.middle__sidebar {
+  background-color: var(--clr-dark-navy);
+  color: var(--clr-white);
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.middle__sidebar__content {
+  margin-bottom: 2rem;
+  /* outline: 2px solid red; */
+}
+
+/* footer */
+footer {
+  background-color: var(--clr-navy);
+}
+
+.footer__links {
+  display: flex;
+}
+
+.footer__links__items {
+  width: 100%;
 }
