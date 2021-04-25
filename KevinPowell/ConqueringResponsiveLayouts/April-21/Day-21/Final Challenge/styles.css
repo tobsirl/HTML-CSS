@@ -181,6 +181,7 @@ header {
 /* footer */
 footer {
   background-color: var(--clr-navy);
+  color: #eee;
 }
 
 .footer__links {
@@ -189,4 +190,15 @@ footer {
 
 .footer__links__items {
   width: 100%;
+}
+
+.footer__title {
+  color: var(--clr-white);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: var(--spacer);
+}
+
+.about {
+  margin-bottom: var(--spacer);
 }
