@@ -165,15 +165,15 @@ header {
 }
 
 .middle__sidebar {
-  background-color: var(--clr-dark-navy);
   color: var(--clr-white);
   text-align: center;
   width: 80%;
   margin: 0 auto;
-  padding: 2rem;
 }
 
 .middle__sidebar__content {
+  background-color: var(--clr-dark-navy);
+  padding: 2rem;
   margin-bottom: 2rem;
   /* outline: 2px solid red; */
 }
