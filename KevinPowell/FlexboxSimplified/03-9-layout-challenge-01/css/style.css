@@ -14,3 +14,28 @@
       continues to grow to take up the 
       rest of the available space
 */
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.flex > * {
+  width: 100%;
+}
+
+@media (min-width: 32.5em) {
+  .flex {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .subscribe {
+    width: 100%;
+    max-width: 25rem;
+  }
+
+  .recent-episodes {
+    width: 100%;
+  }
+}
