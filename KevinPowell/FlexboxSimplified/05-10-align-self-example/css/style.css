@@ -32,3 +32,24 @@ textarea {
   border: 2px solid black;
   padding: 0.5em 1em;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex > * {
+  width: 100%;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group + .form-group {
+  margin-left: 1em;
+}
+
+.btn {
+  align-self: flex-end;
+}
