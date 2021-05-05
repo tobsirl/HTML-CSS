@@ -26,6 +26,7 @@
 
 .flex-layout {
   display: flex;
+  flex-wrap: wrap;
 }
 
 header,
@@ -36,13 +37,18 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 main {
   padding: 3rem;
+  flex-basis: 56rem;
+  flex-grow: 1.5;
 }
 
 aside {
   font-size: 1.125rem;
   padding: 3rem;
+  flex-basis: 25rem;
+  flex-grow: 1;
 }
