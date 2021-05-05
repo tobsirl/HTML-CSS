@@ -1,0 +1,20 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 70%;
+  max-width: 60rem;
+  border: 5px solid black;
+  padding: 2em;
+}
+
+.flex-item {
+  margin: 0.5rem;
+  border: 5px solid #aaa;
+  background-color: black;
+  color: white;
+  padding: 0.5em;
+
+  flex-shrink: 1;
+  flex-basis: calc(50% - 1rem);
+}
