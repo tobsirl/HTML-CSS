@@ -13,3 +13,34 @@
   --fw-black: 900;
   --fw-medium: 500;
 }
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+  margin: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+textarea,
+select,
+input {
+  font: inherit;
+}
