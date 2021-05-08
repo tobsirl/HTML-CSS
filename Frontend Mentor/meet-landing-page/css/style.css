@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
 :root {
   --clr-dark-green: #4d96a9;
   --clr-light-green: #8fe3f9;
@@ -6,4 +8,8 @@
   --clr-navy: #28283d;
   --clr-grey: #87879d;
   --clr-white: #fafafa;
+
+  --ff-redhat: 'Red Hat Display', sans-serif;
+  --fw-black: 900;
+  --fw-medium: 500;
 }
