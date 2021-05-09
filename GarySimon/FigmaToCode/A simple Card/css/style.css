@@ -8,4 +8,31 @@
   --clr-light-grey: #8d91a6;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+textarea,
+select,
+input,
+button {
+  font: inherit;
+}
