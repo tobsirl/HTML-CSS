@@ -8,6 +8,7 @@
   --clr-light-grey: #8d91a6;
 }
 
+/* reset */
 *,
 *::before,
 *::after {
@@ -36,3 +37,6 @@ input,
 button {
   font: inherit;
 }
+
+/* typography */
+
