@@ -39,4 +39,33 @@ button {
 }
 
 /* typography */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 
+  background-color: var(--clr-dark);
+  color: var(--clr-light-grey);
+  font-family: var(--ff-poppins);
+  line-height: 1.5;
+}
+
+.card {
+  max-width: 356px;
+  background: var(--clr-grey);
+}
+
+.card__title {
+  color: #fff;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.container {
+  padding: 1.5em;
+}
+
+.flow-content > * + * {
+  margin-top: 1.6rem;
+}
