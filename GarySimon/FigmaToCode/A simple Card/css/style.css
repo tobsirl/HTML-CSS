@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --ff-poppins: 'Poppins', sans-serif;
+
+  --clr-dark: #2d2e36;
+  --clr-grey: #383a45;
+  --clr-light-grey: #8d91a6;
+}
+
+
