@@ -27,3 +27,7 @@ body {
   border: 10px solid black;
   padding: 3rem;
 }
+
+.flow-content > * + * {
+  margin-top: 1rem;
+}
