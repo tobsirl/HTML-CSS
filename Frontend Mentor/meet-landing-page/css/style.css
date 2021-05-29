@@ -46,3 +46,17 @@ input {
 }
 
 /* Typography */
+body {
+  font-family: var(--ff-redhat);
+  font-weight: var(--fw-medium);
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: ;
+}
