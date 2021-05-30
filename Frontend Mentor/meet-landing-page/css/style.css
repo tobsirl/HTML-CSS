@@ -45,12 +45,25 @@ input {
   font: inherit;
 }
 
-/* Typography */
 body {
   padding: 0;
   font-family: var(--ff-redhat);
   font-weight: var(--fw-medium);
   text-align: center;
+}
+
+/* Typography */
+.text-900 {
+  font-weight: var(--fw-black);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: var(--clr-navy);
+}
+
+.hero p {
+  color: var(--clr-grey);
 }
 
 .flex {
