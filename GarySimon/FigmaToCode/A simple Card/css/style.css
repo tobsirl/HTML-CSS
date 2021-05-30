@@ -69,3 +69,18 @@ body {
 .flow-content > * + * {
   margin-top: 1.6rem;
 }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 500px) {
+  .flex {
+    flex-direction: row;
+  }
+
+  .card {
+    max-width: 729px;
+  }
+}

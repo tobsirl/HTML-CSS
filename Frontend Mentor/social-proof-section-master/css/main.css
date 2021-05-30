@@ -44,6 +44,9 @@ h1 {
 .a-center {
   align-content: center; }
 
+.split {
+  display: flex; }
+
 .ratings li {
   color: var(--clr-primary-700);
   background: var(--clr-neutral-200);
@@ -66,9 +69,11 @@ h1 {
   color: var(--clr-neutral-200);
   text-align: left;
   border-radius: var(--br);
-  padding: var(--spacer); }
+  padding: var(--spacer);
+  max-width: 25rem; }
 
 .quotes img {
+  width: 3rem;
   border-radius: 50%;
   margin-right: var(--spacer); }
 

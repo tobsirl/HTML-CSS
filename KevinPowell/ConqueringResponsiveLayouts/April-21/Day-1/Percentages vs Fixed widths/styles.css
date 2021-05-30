@@ -23,12 +23,6 @@ body {
 
 .child {
   background-color: var(--clr-secondary);
-  width: 50%;
-  height: 250px;
-}
-
-.child2 {
-  background-color: rebeccapurple;
-  height: 250px;
-  width: 50%;
+  /* width: 50%; */
+  padding: 25px;
 }

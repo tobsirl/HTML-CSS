@@ -84,3 +84,7 @@ input[type='text'] {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   border: 1px solid #cccccc; }
+
+@media (max-width: 375px) {
+  body {
+    background-color: red; } }

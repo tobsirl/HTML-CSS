@@ -6,9 +6,11 @@
     text-align: left;
     border-radius: var(--br);
     padding: var(--spacer);
+    max-width: 25rem;
   }
 
   img {
+    width: 3rem;
     border-radius: 50%;
     margin-right: var(--spacer);
   }

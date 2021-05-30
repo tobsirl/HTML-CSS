@@ -224,6 +224,10 @@ section {
   padding: 0.8em 0;
 }
 
+.primary-nav li {
+  line-height: 0;
+}
+
 .primary-nav a {
   color: var(--clr-neutral-200);
 }
@@ -237,10 +241,15 @@ section {
   .primary-nav a {
     color: inherit;
   }
-}
 
-.primary-nav li {
-  line-height: 0;
+  .primary-header__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .primary-nav ul {
+    padding: 0;
+  }
 }
 
 .article-preview h3 {

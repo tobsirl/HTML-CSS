@@ -49,6 +49,7 @@ Adding a background image
 ```
 
 ---
+## Reset
 ### Responsive Images
 Make all images scale up and down depending on the width of the parent
 

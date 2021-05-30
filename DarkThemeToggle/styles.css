@@ -13,6 +13,9 @@
 
 body {
   background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .container {
   width: 80%;
@@ -21,6 +24,7 @@ body {
 
 .card {
   width: 50%;
+  padding: 2em;
   background-color: aqua;
 }
 

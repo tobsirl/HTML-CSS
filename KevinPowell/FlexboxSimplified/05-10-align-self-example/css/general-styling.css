@@ -90,7 +90,7 @@ nav li {
 }
 
 .btn .icon {
-  display: block;
+  display: inline-flex;
   width: 30px;
   height: 30px;
   background: white;

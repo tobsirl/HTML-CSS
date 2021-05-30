@@ -136,15 +136,20 @@ img {
   color: var(--clr-accent-400);
 }
 
+.corner-square {
+  position: relative;
+}
+
 .corner-square::before {
   content: '';
   display: block;
   width: 5rem;
   height: 5rem;
-  background: var(--clr-accent-400);
+  background: var(--accent, var(--clr-accent-400));
   position: absolute;
+  left: -0.5em;
+  top: -0.5em;
   z-index: -1;
-  transform: translate(-0.5rem, -0.5rem);
 }
 
 /* general styling */
@@ -293,4 +298,8 @@ section {
   font-weight: var(--fw-700);
   margin-top: 3rem;
   color: var(--accent);
+}
+
+.testimonial.bg-accent {
+  --accent: var(--clr-neutral-900);
 }

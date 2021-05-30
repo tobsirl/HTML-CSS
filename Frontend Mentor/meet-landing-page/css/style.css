@@ -130,9 +130,28 @@ body {
 .images {
   flex-wrap: wrap;
   gap: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .image {
   border-radius: 25px;
   width: 45%;
+}
+
+/* section two */
+.subtitle {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--clr-dark-green);
+}
+
+.two-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.two p {
+  color: var(--clr-grey);
+  line-height: 1.6;
 }
