@@ -7,7 +7,8 @@
   --clr-violet: #d9b8ff;
   --clr-navy: #28283d;
   --clr-grey: #87879d;
-  --clr-white: #fafafa;
+  --clr-off-white: #fafafa;
+  --clr-white: #fff;
 
   --ff-redhat: 'Red Hat Display', sans-serif;
   --fw-black: 900;
@@ -50,6 +51,7 @@ body {
   font-family: var(--ff-redhat);
   font-weight: var(--fw-medium);
   text-align: center;
+  background-color: var(--clr-off-white);
 }
 
 /* Typography */
@@ -61,6 +63,11 @@ body {
 .hero-logo {
   padding: 3rem 8rem;
 }
+
+.hero-images {
+  margin-bottom: 4rem;
+}
+
 .hero-left {
   max-width: 50%;
 }
@@ -72,10 +79,12 @@ body {
 .hero h1 {
   font-size: 2.5rem;
   color: var(--clr-navy);
+  margin-bottom: 1.5rem;
 }
 
 .hero p {
   color: var(--clr-grey);
+  margin-bottom: 2rem;
 }
 
 .flex {
@@ -99,8 +108,10 @@ body {
   color: var(--clr-white);
   background: none;
   font-size: 1rem;
+  font-weight: var(--fw-black);
   border: none;
   border-radius: 50px;
+  margin-bottom: 1rem;
 }
 
 .btn span {
@@ -108,9 +119,20 @@ body {
 }
 
 .btn-green {
-  background-color: var(--clr-dark-green)
+  background-color: var(--clr-dark-green);
 }
 
 .btn-purple {
   background-color: var(--clr-dark-purple);
+}
+
+/* image section */
+.images {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.image {
+  border-radius: 25px;
+  width: 45%;
 }
