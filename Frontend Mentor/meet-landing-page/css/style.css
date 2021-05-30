@@ -58,7 +58,9 @@ body {
 }
 
 /* hero section */
-
+.hero-logo {
+  padding: 3rem 8rem;
+}
 .hero-left {
   max-width: 50%;
 }
