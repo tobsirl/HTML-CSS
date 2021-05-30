@@ -57,6 +57,16 @@ body {
   font-weight: var(--fw-black);
 }
 
+/* hero section */
+
+.hero-left {
+  max-width: 50%;
+}
+
+.hero-right {
+  max-width: 50%;
+}
+
 .hero h1 {
   font-size: 2.5rem;
   color: var(--clr-navy);
@@ -79,7 +89,6 @@ body {
 
 .split {
   display: flex;
-  flex-wrap: wrap;
 }
 
 /* buttons */
