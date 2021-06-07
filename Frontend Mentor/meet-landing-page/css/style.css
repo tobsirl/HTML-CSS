@@ -155,3 +155,14 @@ body {
   color: var(--clr-grey);
   line-height: 1.6;
 }
+
+/* footer */
+.footer {
+  background-image: url('../assets/mobile/image-footer.jpg');
+}
+
+.footer_title {
+  font-size: 2rem;
+  color: #fafafa;
+  margin-bottom: 1.5rem;
+}
