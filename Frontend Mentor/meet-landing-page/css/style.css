@@ -164,6 +164,8 @@ body {
     ),
     url('../assets/mobile/image-footer.jpg');
   background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 4.5rem;
 }
 
 .footer_title {
@@ -178,4 +180,20 @@ body {
   font-size: 1.125;
   line-height: 1.5;
   margin-bottom: 2rem;
+}
+
+/* shaped numbers */
+.shaped_numbers {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid #d8d8d8;
+  background: white;
+  text-align: center;
+  position: relative;
+}
+
+.shaped_numbers span {
+  color: var(--clr-grey);
+  position: absolute;
 }
