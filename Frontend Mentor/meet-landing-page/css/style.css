@@ -158,11 +158,12 @@ body {
 
 /* footer */
 .footer {
-  background-image: url('../assets/mobile/image-footer.jpg');
+  background-image: linear-gradient(
+      rgba(77, 150, 169, 0.85),
+      rgba(77, 150, 169, 0.85)
+    ),
+    url('../assets/mobile/image-footer.jpg');
   background-size: cover;
-  background-color: rgba(77, 150, 169, 0.8);
-  opacity: 0.1;
-  /* background: ; */
 }
 
 .footer_title {
