@@ -5,6 +5,7 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
 
 h1,
@@ -64,4 +65,9 @@ footer p {
 
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 1rem;
 }
