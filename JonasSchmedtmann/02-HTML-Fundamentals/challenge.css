@@ -9,5 +9,8 @@ body {
 
 .product-title {
   text-align: center;
-  
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  padding: 20px;
 }
