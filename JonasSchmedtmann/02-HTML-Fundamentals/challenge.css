@@ -27,22 +27,23 @@ button {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 600px;
 }
 
 .btn {
-  display: inline-block;
+  /* display: inline-block; */
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   background-color: black;
   color: white;
   border: none;
+  border-top: 4px solid black;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: white;
   color: black;
-  border: 2px solid black;
 }
