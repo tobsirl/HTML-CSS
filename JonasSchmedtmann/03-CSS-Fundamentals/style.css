@@ -103,7 +103,7 @@ a:active {
   font-style: italic;
 }
 
-button {
+/* button {
   font-size: 22px;
   padding: 20px;
   cursor: pointer;
@@ -112,4 +112,20 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+} */
+
+.card {
+  background-color: #444;
+  padding: 20px;
+
+  position: relative;
+}
+
+.content {
+  color: #f7f7f7;
+}
+
+.btn {
+  padding: 5px;
+  color: red;
 }
