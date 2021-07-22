@@ -44,6 +44,10 @@ li {
   font-size: 20px;
 }
 
+body {
+  position: relative;
+}
+
 /* 
 footer p {
   font-size: 16px;
@@ -106,6 +110,6 @@ button {
   color: red;
 
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 50px;
+  right: 50px;
 }
