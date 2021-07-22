@@ -98,3 +98,10 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  color: red;
+}
