@@ -117,6 +117,8 @@ a:active {
 .card {
   background-color: #444;
   padding: 20px;
+  margin: 0 auto;
+  max-width: 500px;
 
   position: relative;
 }
