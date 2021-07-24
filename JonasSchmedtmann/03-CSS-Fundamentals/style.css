@@ -135,3 +135,8 @@ a:active {
   left: 100px;
   bottom: 20px;
 }
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
