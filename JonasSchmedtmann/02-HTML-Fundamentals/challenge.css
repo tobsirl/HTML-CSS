@@ -27,6 +27,7 @@ button {
 }
 
 .container {
+  position: relative;
   margin: 50px auto;
   max-width: 600px;
 }
@@ -46,4 +47,15 @@ button {
 .btn:hover {
   background-color: white;
   color: black;
+}
+
+.container::after {
+  content: 'SALE';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+
+  background-color: red;
+  color: #fff;
+  padding: 5px;
 }
