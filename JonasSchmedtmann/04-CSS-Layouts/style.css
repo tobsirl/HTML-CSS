@@ -271,3 +271,14 @@ nav p {
   justify-content: space-between;
   align-items: center;
 }
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#author {
+  margin: 0;
+  margin-left: 15px;
+}
