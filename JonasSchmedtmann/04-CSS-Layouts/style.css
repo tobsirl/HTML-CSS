@@ -197,7 +197,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -232,7 +231,7 @@ h2 {
 }
 
 h2::before {
-  content: "TOP";
+  content: 'TOP';
   background-color: #ffe70e;
   color: #444;
   font-size: 16px;
@@ -265,3 +264,10 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+/* flexbox */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
