@@ -326,20 +326,18 @@ aside {
 /* CSS GRID LAYOUT */
 .container {
   display: grid;
+  grid-template-columns: 1fr 300px;
 }
 
 .main-header {
-
+  grid-column: 1 / -1;
 }
 
 article {
-
 }
 
 aside {
-
 }
 
 footer {
-  
 }
