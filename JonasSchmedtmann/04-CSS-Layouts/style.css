@@ -322,3 +322,24 @@ aside {
 .related {
   margin-left: 0;
 } */
+
+/* CSS GRID LAYOUT */
+.container {
+  display: grid;
+}
+
+.main-header {
+
+}
+
+article {
+
+}
+
+aside {
+
+}
+
+footer {
+  
+}
