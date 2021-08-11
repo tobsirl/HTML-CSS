@@ -304,7 +304,8 @@ nav p {
   display: block;
 }
 
-.row {
+/* flexbox layout */
+/* .row {
   display: flex;
   align-items: flex-start;
   gap: 75px;
@@ -320,4 +321,4 @@ aside {
 
 .related {
   margin-left: 0;
-}
+} */
