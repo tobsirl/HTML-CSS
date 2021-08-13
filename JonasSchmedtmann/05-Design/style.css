@@ -67,7 +67,7 @@ h1 {
 .header-text {
   margin-bottom: 24px;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 img {
@@ -84,6 +84,8 @@ img {
 }
 
 .features-text {
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* TESTIMONIAL */
