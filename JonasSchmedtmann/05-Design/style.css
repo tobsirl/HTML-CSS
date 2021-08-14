@@ -138,6 +138,7 @@ img {
 .testimonial-section {
   background-color: var(--clr-main);
   color: var(--clr-white);
+  padding: 24px;
 }
 
 .testimonial-box {
@@ -184,6 +185,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: var(--clr-main);
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
