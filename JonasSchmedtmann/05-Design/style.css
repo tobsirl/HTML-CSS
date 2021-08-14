@@ -51,6 +51,11 @@ h2 {
   column-gap: 80px;
 }
 
+.btn:link,
+.btn:visited {
+  background-color: var(--clr-main);
+}
+
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
