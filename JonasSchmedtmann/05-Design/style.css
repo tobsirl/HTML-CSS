@@ -131,6 +131,8 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: var(--clr-main);
+  color: var(--clr-white);
 }
 
 .testimonial-box {
