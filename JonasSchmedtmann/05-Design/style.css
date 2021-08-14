@@ -8,6 +8,11 @@ FONT SIZE SYSTEM (px)
 :root {
   --clr-main: #087f5b;
   --clr-grey: #343a40;
+  --clr-white: #fff;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
 }
 
 * {
@@ -54,6 +59,12 @@ h2 {
 .btn:link,
 .btn:visited {
   background-color: var(--clr-main);
+  color: var(--clr-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  display: inline-block;
+  font-weight: var(--fw-medium);
 }
 
 /* ------------------------ */
