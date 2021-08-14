@@ -118,6 +118,7 @@ img {
 
 /* FEATURES */
 .features-icon {
+  stroke: var(--clr-main);
 }
 
 .features-title {
