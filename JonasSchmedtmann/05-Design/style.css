@@ -140,6 +140,7 @@ img {
   background-color: var(--clr-main);
   color: var(--clr-white);
   padding: 24px;
+  border-radius: 12px;
 }
 
 .testimonial-box {
