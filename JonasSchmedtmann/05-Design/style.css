@@ -64,8 +64,10 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   padding: 16px 32px;
+
   display: inline-block;
   font-weight: var(--fw-medium);
+  border-radius: 100px;
 }
 
 .btn:hover,
