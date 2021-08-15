@@ -57,13 +57,22 @@ h2 {
   column-gap: 80px;
 }
 
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
 .btn:link,
 .btn:visited {
   background-color: var(--clr-main);
   color: var(--clr-white);
   text-decoration: none;
   text-transform: uppercase;
-  padding: 16px 32px;
 
   display: inline-block;
   font-weight: var(--fw-medium);
@@ -73,16 +82,6 @@ h2 {
 .btn:hover,
 .btn:active {
   background-color: #099268;
-}
-
-.btn--big {
-  font-size: 18px;
-  padding: 16px 32px;
-}
-
-.btn--small {
-  font-size: 14px;
-  padding: 8px 12px;
 }
 
 /* ------------------------ */
@@ -179,7 +178,7 @@ img {
 }
 
 .chair-box {
-  padding: 24px;
+  padding: 32px;
 }
 
 h3 {
@@ -189,7 +188,7 @@ h3 {
 
 .chair-details {
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .chair-details li {
