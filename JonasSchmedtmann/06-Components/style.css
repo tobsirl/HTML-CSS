@@ -51,3 +51,12 @@ body {
   font-weight: var(--fw-medium);
   color: var(--clr-main);
 }
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hidden-box ul {
+  color: #868e96;
+}
