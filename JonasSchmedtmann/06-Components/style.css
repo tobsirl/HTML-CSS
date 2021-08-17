@@ -61,6 +61,10 @@ body {
   color: var(--clr-main);
 }
 
+.hidden-box {
+  grid-column: 2;
+}
+
 .hidden-box p {
   line-height: 1.6;
   margin-bottom: 24px;
