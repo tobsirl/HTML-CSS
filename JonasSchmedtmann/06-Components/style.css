@@ -65,11 +65,16 @@ body {
 .text {
   font-size: 24px;
   font-weight: var(--fw-medium);
-  color: var(--clr-main);
+  /* color: var(--clr-main); */
+}
+
+.number {
+  color: #ced4da;
 }
 
 .hidden-box {
   grid-column: 2;
+  display: none;
 }
 
 .hidden-box p {
