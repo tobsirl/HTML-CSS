@@ -48,6 +48,10 @@ body {
 
 .item {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
 }
 
 .number,
