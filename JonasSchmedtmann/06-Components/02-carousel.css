@@ -45,6 +45,10 @@ img {
   margin: 100px auto;
   padding: 32px;
   border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
 .testimonial-text {
