@@ -37,6 +37,8 @@ body {
 
 img {
   height: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
 }
 
 .carousel {
@@ -44,11 +46,12 @@ img {
   background-color: var(--clr-main);
   margin: 100px auto;
   padding: 32px;
+  padding-left: 86px;
   border-radius: 8px;
 
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 86px;
 }
 
 .testimonial-text {
