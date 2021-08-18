@@ -43,6 +43,19 @@ img {
   width: 800px;
   background-color: var(--clr-main);
   margin: 100px auto;
+  padding: 32px;
   border-radius: 8px;
   color: var(--clr-white);
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: var(--fw-medium);
+  line-height: 1.5;
+}
+
+.testimonial-author {
+}
+
+.testimonial-job {
 }
