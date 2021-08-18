@@ -34,3 +34,15 @@ body {
   color: var(--clr-grey);
   line-height: 1;
 }
+
+img {
+  height: 200px;
+}
+
+.carousel {
+  width: 800px;
+  background-color: var(--clr-main);
+  margin: 100px auto;
+  border-radius: 8px;
+  color: var(--clr-white);
+}
