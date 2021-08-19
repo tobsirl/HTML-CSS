@@ -110,3 +110,15 @@ img {
   width: 24px;
   stroke: var(--clr-main);
 }
+
+.dots {
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: var(--clr-white);
+  border: 2px solid var(--clr-main);
+  border-radius: 50%;
+  cursor: pointer;
+}
