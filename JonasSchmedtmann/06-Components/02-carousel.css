@@ -51,7 +51,7 @@ img {
   border-radius: 8px;
 
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   gap: 86px;
 
   position: relative;
@@ -84,6 +84,7 @@ img {
   width: 40px;
   border-radius: 50%;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 
   position: absolute;
 
