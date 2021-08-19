@@ -51,7 +51,7 @@ img {
   border-radius: 8px;
 
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 86px;
 
   position: relative;
@@ -89,6 +89,18 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn--left {
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.btn--right {
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .btn-icon {
