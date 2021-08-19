@@ -53,6 +53,8 @@ img {
   display: flex;
   align-items: center;
   gap: 86px;
+
+  position: relative;
 }
 
 .testimonial-text {
@@ -80,6 +82,8 @@ img {
   border: none;
   height: 40px;
   width: 40px;
+
+  position: absolute;
 }
 
 .btn-icon {
