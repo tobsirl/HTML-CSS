@@ -33,4 +33,12 @@ body {
   font-family: 'Inter', sans-serif;
   color: var(--clr-grey);
   line-height: 1;
+
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 800px;
+  background-color: #087f5b;
 }
