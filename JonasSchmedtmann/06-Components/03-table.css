@@ -40,5 +40,11 @@ body {
 
 table {
   width: 800px;
-  background-color: #087f5b;
+  margin-top: 100px;
+  border: 1px solid var(--clr-grey);
+}
+
+td,
+th {
+  border: 1px solid var(--clr-grey);
 }
