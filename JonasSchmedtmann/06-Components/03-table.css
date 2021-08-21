@@ -41,13 +41,19 @@ body {
 table {
   width: 800px;
   margin-top: 100px;
-  border: 1px solid var(--clr-grey);
+  /* border: 1px solid var(--clr-grey); */
   border-collapse: collapse;
 }
 
 td,
 th {
-  border: 1px solid var(--clr-grey);
+  /* border: 1px solid var(--clr-grey); */
   padding: 16px 24px;
   text-align: left;
+}
+
+thead th {
+  background-color: var(--clr-main);
+  color: var(--clr-white);
+  width: 25%;
 }
