@@ -43,6 +43,7 @@ table {
   margin-top: 100px;
   /* border: 1px solid var(--clr-grey); */
   border-collapse: collapse;
+  font-size: 18px;
 }
 
 td,
@@ -52,8 +53,19 @@ th {
   text-align: left;
 }
 
-thead th {
+thead tr {
   background-color: var(--clr-main);
   color: var(--clr-white);
+}
+
+thead th {
   width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
 }
