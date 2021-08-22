@@ -48,11 +48,23 @@ body {
   border: 2px solid var(--clr-main);
   border-radius: 50%;
   padding: 20px;
-  
 }
+
+/* .left-icon {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+} */
 
 .pagination {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+.active {
+  background-color: var(--clr-main);
+  padding: 12px;
+  border-radius: 100px;
+  color: #fff;
 }
