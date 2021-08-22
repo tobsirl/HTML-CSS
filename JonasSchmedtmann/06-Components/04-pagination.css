@@ -45,3 +45,9 @@ body {
   height: 24px;
   width: 24px;
 }
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
