@@ -42,7 +42,7 @@ body {
 
 .btn {
   background: none;
-  border: none;
+  /* border: none; */
   cursor: pointer;
 
   border: 1px solid var(--clr-main);
@@ -55,8 +55,8 @@ body {
   background-color: #087f5b;
 }
 
-.btn-icon:hover {
-  color: var(--clr-white);
+.btn:hover .btn-icon {
+  stroke: var(--clr-white);
 }
 
 .btn-icon {
@@ -78,6 +78,7 @@ body {
   color: var(--clr-grey);
   height: 36px;
   width: 36px;
+  border-radius: 50%;
 
   display: flex;
   justify-content: center;
@@ -85,13 +86,14 @@ body {
 }
 
 .page-link:hover,
-.page-link:active {
+.page-link:active,
+.page-link.page-link--current {
   background-color: var(--clr-main);
   color: var(--clr-white);
 }
 
-.active {
+/* .active {
   background-color: var(--clr-main);
   border-radius: 100px;
   color: #fff;
-}
+} */
