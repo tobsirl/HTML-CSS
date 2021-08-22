@@ -43,27 +43,39 @@ body {
 .btn {
   background: none;
   border: none;
+  cursor: pointer;
+
+  border: 1px solid var(--clr-main);
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+
+.btn:hover {
+  background-color: #087f5b;
+}
+
+.btn-icon:hover {
+  color: var(--clr-white);
 }
 
 .btn-icon {
   height: 24px;
   width: 24px;
   stroke: var(--clr-main);
-  border: 1px solid var(--clr-main);
-  border-radius: 50%;
-  padding: 20px;
 }
-
-/* .left-icon {
-  left: 0;
-  top: 50%;
-  transform: translate(-50%, -50%);
-} */
 
 .pagination {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+.page-link:link,
+.page-link:visited {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--clr-grey);
 }
 
 .active {
