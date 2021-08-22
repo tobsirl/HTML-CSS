@@ -40,6 +40,11 @@ body {
   height: 100vh;
 }
 
+.btn {
+  background: none;
+  border: none;
+}
+
 .btn-icon {
   height: 24px;
   width: 24px;
