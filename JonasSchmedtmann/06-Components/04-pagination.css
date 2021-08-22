@@ -40,12 +40,11 @@ body {
   height: 100vh;
 }
 
-.left-icon,
-.right-icon {
+.btn-icon {
   height: 24px;
   width: 24px;
   stroke: var(--clr-main);
-  border: 2px solid var(--clr-main);
+  border: 1px solid var(--clr-main);
   border-radius: 50%;
   padding: 20px;
 }
