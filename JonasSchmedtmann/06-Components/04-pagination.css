@@ -76,11 +76,22 @@ body {
   font-size: 18px;
   text-decoration: none;
   color: var(--clr-grey);
+  height: 36px;
+  width: 36px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link:hover,
+.page-link:active {
+  background-color: var(--clr-main);
+  color: var(--clr-white);
 }
 
 .active {
   background-color: var(--clr-main);
-  padding: 12px;
   border-radius: 100px;
   color: #fff;
 }
