@@ -34,3 +34,11 @@ body {
   color: var(--clr-grey);
   line-height: 1;
 }
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: space-between;
+}
