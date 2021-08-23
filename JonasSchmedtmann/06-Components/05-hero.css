@@ -37,6 +37,12 @@ body {
 
 .container {
   margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  background-color: orangered;
+  height: 100vh;
 }
 
 nav {
@@ -45,6 +51,7 @@ nav {
 
   display: flex;
   justify-content: space-between;
+  background-color: #087f5b;
 }
 
 h1 {
@@ -77,4 +84,5 @@ h2 {
 
 section {
   padding: 96px 0;
+  background-color: #f7f7f7;
 }
