@@ -46,7 +46,7 @@ header {
 
   position: relative;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),
     url(hero.jpg);
   background-size: cover;
   color: #fff;
