@@ -43,6 +43,8 @@ body {
 header {
   background-color: orangered;
   height: 100vh;
+
+  position: relative;
 }
 
 nav {
@@ -58,7 +60,7 @@ nav {
   width: 1200px;
   position: absolute;
   left: 50%;
-  right: 50%;
+  top: 50%;
 }
 
 h1 {
