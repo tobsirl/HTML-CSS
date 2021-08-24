@@ -54,6 +54,13 @@ nav {
   background-color: #087f5b;
 }
 
+.header-container {
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+}
+
 h1 {
   font-size: 52px;
   margin-bottom: 32px;
