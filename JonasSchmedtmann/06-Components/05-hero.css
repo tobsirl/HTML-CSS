@@ -41,10 +41,12 @@ body {
 }
 
 header {
-  background-color: orangered;
+  /* background-color: orangered; */
   height: 100vh;
 
   position: relative;
+
+  background-image: url(hero.jpg);
 }
 
 nav {
@@ -53,7 +55,7 @@ nav {
 
   display: flex;
   justify-content: space-between;
-  background-color: #087f5b;
+  /* background-color: #087f5b; */
 }
 
 .header-container {
@@ -62,15 +64,18 @@ nav {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  /* background-color: pink; */
 }
 
 .header-container-inner {
   width: 50%;
+  /* background-color: blue; */
 }
 
 h1 {
   font-size: 52px;
   margin-bottom: 32px;
+  line-height: 1.05;
 }
 
 p {
