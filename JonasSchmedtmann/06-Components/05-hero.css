@@ -46,7 +46,10 @@ header {
 
   position: relative;
 
-  background-image: url(hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(hero.jpg);
+  background-size: cover;
+  color: #fff;
 }
 
 nav {
