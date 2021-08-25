@@ -44,7 +44,6 @@ body {
 }
 
 nav,
-menu,
 section,
 main,
 aside {
@@ -61,6 +60,11 @@ menu {
   background-color: #7048e8;
   color: #fff;
   grid-column: 2 / -1;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 40px;
 }
 
 button {
