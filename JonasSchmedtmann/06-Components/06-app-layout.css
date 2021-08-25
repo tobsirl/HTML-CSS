@@ -35,3 +35,20 @@ body {
   font-size: 24px;
   line-height: 1;
 }
+
+nav {
+  background-color: var(--clr-grey);
+}
+
+menu {
+  background-color: #7048e8;
+  color: #fff;
+}
+
+section {
+  background-color: #e9ecef;
+}
+
+aside {
+  background-color: #e9ecef;
+}
