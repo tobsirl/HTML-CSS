@@ -18,6 +18,12 @@
 
 */
 
+:root {
+  /* Greys: */
+  --clr-grey: #555;
+  --clr-dark-grey: #333;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -32,7 +38,7 @@ body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: var(--clr-grey);
 }
 
 .hero {
@@ -46,7 +52,7 @@ body {
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;
-  color: #333;
+  color: var(--clr-dark-grey);
 }
 
 .hero-img {
