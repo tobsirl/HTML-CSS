@@ -53,11 +53,16 @@ body {
   font-weight: 700;
   line-height: 1.05;
   color: var(--clr-dark-grey);
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
 
 .hero-img {
   width: 100%;
-}
-
-.hero-description {
 }
