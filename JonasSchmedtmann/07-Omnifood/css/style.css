@@ -76,12 +76,23 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
-  background-color: var(--clr-primary);
   color: var(--clr-white);
   text-decoration: none;
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: var(--clr-white);
+  color: var(--clr-grey);
 }
 
 .hero-img {
