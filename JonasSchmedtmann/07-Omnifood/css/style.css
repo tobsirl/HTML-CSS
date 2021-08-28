@@ -115,6 +115,21 @@ body {
   height: 2.2rem;
 }
 
+/* Navigation */
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: var(--clr-dark-grey);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
 /* Hero section */
 .section-hero {
   background-color: var(--clr-primary-light);
