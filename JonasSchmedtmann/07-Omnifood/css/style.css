@@ -150,3 +150,8 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
 }
+
+.delivered-text span {
+  color: var(--clr-primary-dark);
+  font-weight: 700;
+}
