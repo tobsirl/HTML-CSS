@@ -79,9 +79,11 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
+
   color: var(--clr-white);
   text-decoration: none;
   font-size: 2rem;
+  font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
