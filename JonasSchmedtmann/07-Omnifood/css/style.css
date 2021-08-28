@@ -19,6 +19,8 @@
 */
 
 :root {
+  --font-family: 'Rubik', sans-serif;
+
   --clr-primary: #e67e22;
   --clr-primary-dark: #cf711f;
   --clr-primary-light: #fdf2e9;
@@ -39,7 +41,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: var(--font-family), sans-serif;
   line-height: 1;
   font-weight: 400;
   color: var(--clr-grey);
