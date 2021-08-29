@@ -210,3 +210,23 @@ body {
   color: var(--clr-primary-dark);
   font-weight: 700;
 }
+
+/* Section How */
+.section-how {
+  padding: 9.6px 0;
+  background-color: orangered;
+}
+
+.section-how div:nth-child(1) {
+  background-color: aqua;
+}
+
+.section-how div:nth-child(2) {
+  background-color: blue;
+}
+.section-how div:nth-child(3) {
+  background-color: violet;
+}
+.section-how div:nth-child(4) {
+  background-color: yellow;
+}
