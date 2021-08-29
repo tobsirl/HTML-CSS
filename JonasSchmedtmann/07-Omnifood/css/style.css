@@ -238,3 +238,7 @@ body {
 .section-how {
   padding: 9.6px 0;
 }
+
+.step-img {
+  width: 50%;
+}
