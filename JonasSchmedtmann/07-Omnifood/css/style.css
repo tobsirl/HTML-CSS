@@ -120,6 +120,15 @@
   align-items: center;
 }
 
+.step-img-box::before {
+  content: '';
+  display: block;
+  width: 60%;
+  /* height: 60%; */
+  padding-bottom: 60%;
+  background-color: var(--clr-primary-light);
+}
+
 .step-img {
   width: 35%;
 }
