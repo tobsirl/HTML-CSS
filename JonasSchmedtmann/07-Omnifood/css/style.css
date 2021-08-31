@@ -109,6 +109,18 @@
   font-weight: var(--fw-bold);
 }
 
+/* Featured in section */
+
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
 /* Section How */
 .section-how {
   padding: 9.6rem 0;
