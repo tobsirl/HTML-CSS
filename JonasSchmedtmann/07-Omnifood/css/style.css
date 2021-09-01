@@ -210,6 +210,10 @@
   overflow: hidden;
 }
 
+.meal-content {
+  padding: 3.2rem 4.8rem;
+}
+
 .tag {
   display: inline-block;
   padding: 0.4rem 0.8rem;
@@ -218,6 +222,7 @@
   background-color: #51cf66;
   color: #333;
   border-radius: 100px;
+  font-weight: 600;
 }
 
 .meal-title {
