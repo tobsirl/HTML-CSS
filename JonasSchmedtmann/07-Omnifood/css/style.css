@@ -497,3 +497,23 @@
   column-gap: 3.2rem;
   row-gap: 2.4rem;
 }
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+}
+
+.cta-form select {
+}
+
+.cta-form button {
+}
