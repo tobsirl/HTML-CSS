@@ -282,8 +282,6 @@
   margin-bottom: 9.6rem;
 }
 
-
-
 /* Testimonials section */
 .section-testimonials {
   background-color: #fdf2e9;
@@ -345,4 +343,17 @@
 /* section pricing */
 .section-pricing {
   padding: 9.6rem 0;
+}
+
+.plan-header {
+  text-align: center;
+}
+
+.plan-name {
+}
+
+.plan-price {
+}
+
+.plan-text {
 }
