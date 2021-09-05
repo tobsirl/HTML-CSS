@@ -531,6 +531,11 @@
   padding: 9.6rem 0;
 }
 
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 3.2rem;
@@ -542,9 +547,16 @@
   gap: 2.4rem;
 }
 
-.section-icon {
+.social-icon {
   height: 2.4rem;
   width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.2;
+  margin-top: auto;
 }
 
 .footer-heading {
