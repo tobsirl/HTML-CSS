@@ -53,3 +53,16 @@
     padding: 9.6rem 3.2rem;
   }
 }
+
+/*******************/
+/* BELOW 944PX (Tablets)  */
+/*******************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
