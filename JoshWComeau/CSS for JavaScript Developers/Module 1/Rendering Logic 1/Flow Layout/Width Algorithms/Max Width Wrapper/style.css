@@ -14,3 +14,10 @@ body {
 p {
   margin-bottom: 16px;
 }
+
+/* Max Width Wrapper */
+.max-width-wrapper {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
