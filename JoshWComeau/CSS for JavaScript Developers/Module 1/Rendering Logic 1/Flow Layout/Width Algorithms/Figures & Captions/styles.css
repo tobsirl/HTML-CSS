@@ -2,6 +2,7 @@ figure {
   padding: 8px;
   border: 1px solid;
   margin-bottom: 32px;
+  width: min-content;
 }
 
 figure img {
