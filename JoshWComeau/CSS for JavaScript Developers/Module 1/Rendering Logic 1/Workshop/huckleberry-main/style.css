@@ -1,3 +1,16 @@
+:root {
+  --clr-primary: hsl(160deg, 100%, 30%);
+  --clr-secondary-light: hsl(45deg, 100%, 50%);
+  --clr-secondary-dark: hsl(45deg, 100%, 40%);
+
+  --clr-black: hsl(0deg, 0%, 0%);
+  --clr-very-dark: hsl(0deg, 0%, 10%);
+  --clr-dark: hsl(0deg, 0%, 30%);
+  --clr-medium: hsl(0deg, 0%, 40%);
+  --clr-light: hsl(0deg, 0%, 60%);
+  --clr-white: hsl(0deg, 0%, 100%);
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
