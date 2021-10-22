@@ -36,6 +36,17 @@ body {
 
 .intro-chunk {
   max-width: 50%;
+  background-color: var(--clr-white);
+}
+
+.card {
+  background-color: var(--clr-light);
+  
+}
+
+.indented-heading {
+  background-color: var(--clr-secondary-light);
+  padding: 20px;
 }
 
 strong {
