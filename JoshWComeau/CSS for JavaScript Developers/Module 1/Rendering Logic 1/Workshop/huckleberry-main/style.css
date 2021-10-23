@@ -36,14 +36,19 @@ html {
   margin: 0 auto;
 }
 
-.intro-chunk, .card {
-  padding-left: 16px;
-  padding-right: 16px;
+.intro-chunk, .title {
+ font-size: 2rem;
+ margin-bottom: 3rem;
 }
 
 .intro-chunk {
-  max-width: 50%;
-  background-color: var(--clr-white);
+  padding-top: 96px;
+  max-width: 400px;
+
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
 }
 
 .card {
