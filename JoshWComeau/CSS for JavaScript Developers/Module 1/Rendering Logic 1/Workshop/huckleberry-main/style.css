@@ -58,4 +58,6 @@ main {
 
 .card {
   background-color: var(--clr-white);
+  padding: 24px;
+  margin: -24px;
 }
