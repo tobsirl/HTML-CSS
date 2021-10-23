@@ -42,7 +42,7 @@ html {
 }
 
 .intro-chunk {
-  padding-top: 96px;
+  padding-top: 96px 0;
   max-width: 400px;
 
 }
@@ -51,16 +51,11 @@ html {
   font-size: 1.25rem;
 }
 
-.card {
+main {
   background-color: var(--clr-light);
-  
+  padding: 96px 0;
 }
 
-.indented-heading {
-  background-color: var(--clr-secondary-light);
-  padding: 20px;
-}
-
-strong {
-  color: var(--clr-primary);
+.card {
+  background-color: var(--clr-white);
 }
