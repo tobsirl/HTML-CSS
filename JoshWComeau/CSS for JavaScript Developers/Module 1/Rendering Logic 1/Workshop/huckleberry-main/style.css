@@ -61,3 +61,10 @@ main {
   padding: 24px;
   margin: -24px;
 }
+
+.indented-heading {
+  background-color: var(--clr-secondary-light);
+  margin-left: -32px;
+  padding: 16px;
+  padding-left: 32px;
+}
