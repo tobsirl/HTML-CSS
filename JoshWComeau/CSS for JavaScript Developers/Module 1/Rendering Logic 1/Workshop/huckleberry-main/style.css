@@ -26,6 +26,10 @@ h1, h2, h3 {
   margin: 0;
 }
 
+html {
+  font-size: 18px;
+}
+
 /* Add styles here! */
 .max-width-wrapper {
   max-width: 800px;
