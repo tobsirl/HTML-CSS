@@ -53,6 +53,10 @@ html {
   font-size: 1.25rem;
 }
 
+header {
+  border-bottom: 8px solid var(--clr-medium);
+}
+
 main {
   background-color: var(--clr-light);
   padding: 96px 0;
