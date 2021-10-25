@@ -78,6 +78,11 @@ main {
   border-bottom: 8px solid var(--clr-secondary-dark);
 }
 
+.card p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
 .card p:last-child {
   margin-bottom: 0;
 }
