@@ -49,6 +49,10 @@ html {
   max-width: 400px;
 }
 
+.intro-chunk strong {
+  color: var(--clr-primary);
+}
+
 .intro-chunk p {
   font-size: 1.25rem;
 }
