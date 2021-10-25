@@ -62,13 +62,16 @@ main {
   background-color: var(--clr-white);
   padding: 24px;
   margin: -24px;
+  border-bottom: 8px solid var(--clr-medium);
 }
 
 .indented-heading {
   background-color: var(--clr-secondary-light);
   margin-left: -32px;
+  margin-top: -16px;
   padding: 16px 32px;
   width: fit-content;
+  border-bottom: 8px solid var(--clr-secondary-dark);
 }
 
 .card p:last-child {
