@@ -3,7 +3,8 @@
 }
 .with-position {
   position: relative;
-  top: 20px;
+  top: 64px;
+  /* left: -2px; */
 }
 
 .box {
@@ -12,6 +13,7 @@
   border: 4px solid;
   margin-bottom: 8px;
 }
+
 .pink.box {
   border-color: deeppink;
 }
