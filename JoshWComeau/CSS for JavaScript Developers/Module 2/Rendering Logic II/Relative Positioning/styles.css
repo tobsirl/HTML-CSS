@@ -34,6 +34,11 @@
   border-color: green;
 }
 
+strong {
+  position: relative;
+  top: -4px;
+}
+
 /*
   ⚠️ The rest of this CSS is not
   relevant, and is used to construct
