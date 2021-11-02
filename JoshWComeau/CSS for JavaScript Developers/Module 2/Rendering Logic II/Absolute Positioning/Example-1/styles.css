@@ -1,0 +1,8 @@
+.pink.box {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 75px;
+  height: 75px;
+  background: deeppink;
+}
