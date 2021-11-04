@@ -1,16 +1,23 @@
-.parent {
-  position: relative;
-  width: 200px;
-  height: 150px;
-  border: 5px solid;
+* {
+  box-sizing: border-box;
 }
 
-.rebellious-teenager {
+.block {
+  padding: 16px;
+  width: 500px;
+  border: 2px solid silver;
+}
+
+.relative.block {
+  position: relative;
+  border-color: black;
+}
+
+.pink-box {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  top: 0px;
+  right: 0px;
   background: deeppink;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
 }
