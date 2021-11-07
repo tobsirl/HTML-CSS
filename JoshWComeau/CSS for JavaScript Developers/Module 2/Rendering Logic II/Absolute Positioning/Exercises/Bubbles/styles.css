@@ -6,35 +6,32 @@
 }
 
 .circle {
-  /* position: absolute; */
+  position: absolute;
   border-radius: 50%;
-  border: 4px solid palevioletred;
+  border: inherit;
+  background-color: white;
 }
 
-.small {
+.small.circle {
   position: absolute;
   top: -14px;
   left: 28px;
   width: 16px;
   height: 16px;
-  background-color: white;
 }
 
-.medium {
+.medium.circle {
   position: absolute;
   width: 24px;
   height: 24px;
   top: 28px;
   left: -18px;
-
-  background-color: white;
 }
 
-.big {
+.big.circle {
   position: absolute;
   top: -28px;
   left: -28px;
-  width: 44px;
-  height: 44px;
-  background-color: white;
+  width: 65px;
+  height: 65px;
 }
