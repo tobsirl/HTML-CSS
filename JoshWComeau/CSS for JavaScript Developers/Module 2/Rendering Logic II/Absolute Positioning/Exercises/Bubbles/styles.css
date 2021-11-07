@@ -1,5 +1,12 @@
 .box {
+  position: relative;
   height: 150px;
   margin: 64px;
+  border: 4px solid palevioletred;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
   border: 4px solid palevioletred;
 }
