@@ -3,8 +3,14 @@ p {
 }
 
 .tooltip-trigger {
-  position: absolute;
+  position: relative;
   font-weight: bold;
   color: seagreen;
   text-decoration: none;
+}
+
+.tooltip {
+  position: absolute;
+  min-width: 150px;
+  border: 1px solid black;
 }
