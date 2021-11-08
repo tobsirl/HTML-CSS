@@ -1,0 +1,9 @@
+p {
+  max-width: 300px;
+}
+
+.tooltip-trigger {
+  font-weight: bold;
+  color: seagreen;
+  text-decoration: none;
+}
