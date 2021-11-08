@@ -3,6 +3,7 @@ p {
 }
 
 .tooltip-trigger {
+  position: absolute;
   font-weight: bold;
   color: seagreen;
   text-decoration: none;
