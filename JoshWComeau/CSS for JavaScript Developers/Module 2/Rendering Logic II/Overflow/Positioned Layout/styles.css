@@ -1,4 +1,5 @@
 .wrapper {
+  position: relative;
   overflow: hidden;
   width: 150px;
   height: 150px;
