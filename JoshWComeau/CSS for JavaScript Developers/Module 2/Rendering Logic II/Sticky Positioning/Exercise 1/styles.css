@@ -25,3 +25,9 @@ li {
 main {
   padding: 32px;
 }
+
+/* Add styles */
+header {
+  height: 50px;
+  /* Add your styles here! */
+}
