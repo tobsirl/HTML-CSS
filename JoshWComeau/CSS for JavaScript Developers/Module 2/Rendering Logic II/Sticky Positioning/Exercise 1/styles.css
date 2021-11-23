@@ -30,4 +30,6 @@ main {
 header {
   height: 50px;
   /* Add your styles here! */
+  position: sticky;
+  top: 0;
 }
