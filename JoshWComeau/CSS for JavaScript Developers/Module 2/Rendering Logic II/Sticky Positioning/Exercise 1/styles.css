@@ -5,6 +5,7 @@ html {
 body {
   height: 150%;
   padding: 0;
+  margin: 0;
 }
 header {
   background: slateblue;
@@ -28,8 +29,9 @@ main {
 
 /* Add styles */
 header {
-  height: 50px;
+  height: 66px;
   /* Add your styles here! */
   position: sticky;
-  top: -50px;
+  top: -16px;
+  padding-top: 16px;
 }
