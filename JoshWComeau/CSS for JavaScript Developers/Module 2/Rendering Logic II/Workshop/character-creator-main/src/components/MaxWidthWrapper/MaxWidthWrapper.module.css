@@ -5,3 +5,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.maxWidthWrapper header {
+  width: 65%;
+}
+
+.maxWidthWrapper .controlPane {
+  width: 50%;
+}
