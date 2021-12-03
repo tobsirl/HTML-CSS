@@ -26,8 +26,9 @@
 
 .characterWrapper {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 15%;
+  left: 60%;
+  bottom: 5%;
   min-height: 500px;
 }
 
