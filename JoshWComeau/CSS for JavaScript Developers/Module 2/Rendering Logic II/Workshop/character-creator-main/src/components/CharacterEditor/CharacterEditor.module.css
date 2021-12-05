@@ -35,3 +35,7 @@
 .controlColumn {
   width: 50%;
 }
+
+.perspectiveEffect {
+  position: fixed;
+}
