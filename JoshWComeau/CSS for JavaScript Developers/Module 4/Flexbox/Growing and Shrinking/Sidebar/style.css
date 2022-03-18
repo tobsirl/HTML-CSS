@@ -7,3 +7,15 @@ main {
   padding: 16px;
   border: 2px solid;
 }
+
+section {
+  display: flex;
+}
+
+main {
+  flex-grow: 1;
+}
+
+nav {
+  flex-shrink: 1000;
+}
