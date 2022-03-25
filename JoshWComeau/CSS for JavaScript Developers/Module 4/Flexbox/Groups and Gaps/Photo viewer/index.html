@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Photo viewer</title>
+  </head>
+  <body>
+    <style>
+      .photo-viewer {
+        display: flex;
+      }
+    </style>
+
+    <section class="photo-viewer">
+      <div class="photo-roll">
+        <button class="clickable-photo selected">
+          <img src="/cfj-mats/cat-300px.jpg" />
+        </button>
+        <button class="clickable-photo">
+          <img src="/cfj-mats/dog-one-300px.jpg" />
+        </button>
+        <div class="actions">
+          <button>Previous</button>
+          <button>Next</button>
+        </div>
+      </div>
+      <div class="main-photo">
+        <img src="/cfj-mats/cat-300px.jpg" />
+      </div>
+    </section>
+  </body>
+</html>

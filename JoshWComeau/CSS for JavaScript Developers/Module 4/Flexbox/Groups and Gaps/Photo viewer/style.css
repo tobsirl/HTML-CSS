@@ -1,0 +1,7 @@
+.clickable-photo {
+  padding: 0;
+  margin: 0;
+  border: none;
+  /* Get rid of "magic space" */
+  line-height: 0;
+}
