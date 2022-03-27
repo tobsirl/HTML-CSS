@@ -11,18 +11,29 @@
     <style>
       .photo-viewer {
         display: flex;
+        gap: 16px;
       }
 
       .photo-roll {
         flex: 0 0 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
       }
 
       .photo-roll img {
         width: 100%;
       }
 
+      .actions {
+        margin-top: auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
       .main-photo {
         flex: 1;
+        line-height: 0;
       }
 
       .main-photo img {
