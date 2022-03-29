@@ -11,6 +11,7 @@
     <style>
       .wrapper {
         display: flex;
+        flex-direction: row-reverse;
       }
       main {
         flex: 1;
@@ -21,6 +22,22 @@
     </style>
 
     <div class="wrapper">
+      <aside>
+        <nav>
+          <h2>Table of Contents</h2>
+          <ul>
+            <li>
+              <a href="#heading-one">Heading One</a>
+            </li>
+            <li>
+              <a href="#heading-two">Heading Two</a>
+            </li>
+            <li>
+              <a href="#heading-three">Heading Three</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
       <main>
         <h2 id="heading-one">Heading One</h2>
         <p>
@@ -43,22 +60,6 @@
           <button>Subscribe</button>
         </form>
       </main>
-      <aside>
-        <nav>
-          <h2>Table of Contents</h2>
-          <ul>
-            <li>
-              <a href="#heading-one">Heading One</a>
-            </li>
-            <li>
-              <a href="#heading-two">Heading Two</a>
-            </li>
-            <li>
-              <a href="#heading-three">Heading Three</a>
-            </li>
-          </ul>
-        </nav>
-      </aside>
     </div>
   </body>
 </html>
