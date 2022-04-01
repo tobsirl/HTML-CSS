@@ -8,7 +8,26 @@
     <title>Holy Grail layout</title>
   </head>
   <body>
-    <style></style>
+    <style>
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      .middle {
+        display: flex;
+        flex: 1;
+      }
+
+      nav,
+      aside {
+        flex: 1;
+      }
+
+      main {
+        flex: 3;
+      }
+    </style>
 
     <div class="wrapper">
       <header class="box">Header</header>
