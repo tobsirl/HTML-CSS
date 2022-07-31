@@ -1,5 +1,15 @@
 /* https://piccalil.li/blog/a-modern-css-reset */
 
+:root {
+  --clr-accent-400: hsl(12, 88%, 59%);
+  --clr-accent-100: hsl(13, 100%, 96%);
+
+  --clr-primary-400: hsl(228, 39%, 23%);
+
+  --clr-neutral-100: hsl(232, 12%, 13%);
+  --clr-neutral-900: hsl(0, 0%, 0%);
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -25,9 +35,13 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 /* Set core body defaults */
 body {
-  min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -39,17 +53,10 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture {
+picture,
+svg {
   max-width: 100%;
   display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
