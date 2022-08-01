@@ -244,6 +244,7 @@ body {
   font-size: var(--fs-button);
   color: var(--clr-accent-100);
   background-color: var(--clr-accent-400);
+  box-shadow: 0 1.25em 1em -1em var(--clr-accent-400);
 }
 
 .button:hover,
