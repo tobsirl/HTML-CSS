@@ -231,3 +231,13 @@ body {
   font-family: var(--ff-body);
   color: var(--clr-primary-400);
 }
+
+/* button */
+.button {
+  border-radius: 100vmax;
+  padding: 1em 2.5em;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-button);
+  color: var(--clr-accent-100);
+  background-color: var(--clr-accent-400);
+}
