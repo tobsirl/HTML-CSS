@@ -1,6 +1,7 @@
 /* https://piccalil.li/blog/a-modern-css-reset */
 
 :root {
+  --clr-accent-500: hsl(12, 60%, 45%);
   --clr-accent-400: hsl(12, 88%, 59%);
   --clr-accent-300: hsl(12, 88%, 75%);
   --clr-accent-100: hsl(13, 100%, 96%);
@@ -244,10 +245,21 @@ body {
   font-size: var(--fs-button);
   color: var(--clr-accent-100);
   background-color: var(--clr-accent-400);
-  box-shadow: 0 1.25em 1em -1em var(--clr-accent-400);
+  box-shadow: 0 1.125em 1em -1em var(--clr-accent-500);
+}
+
+.button[data-type='inverted'] {
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-accent-400);
 }
 
 .button:hover,
 .button:focus-visible {
   background-color: var(--clr-accent-300);
+}
+
+.button[data-type='inverted']:hover,
+.button[data-type='inverted']:focus-visible {
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-accent-300);
 }
