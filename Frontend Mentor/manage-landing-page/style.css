@@ -185,8 +185,17 @@ svg {
   font-size: var(--fs-600);
 }
 
+.container {
+  --max-width: 1110px;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100%);
+  margin-inline: auto;
+}
+
 /* general styling */
 body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
+  color: var(--clr-primary-400);
 }
