@@ -281,8 +281,7 @@ body {
 
 /* navigation */
 .primary-header {
-  margin-top: var(--size-700);
-  display: flex;
+  padding-top: var(--size-700);
 }
 
 .nav-wrapper {
@@ -303,11 +302,19 @@ body {
   .primary-navigation {
     display: none;
 
-    position: absolute;
+    position: fixed;
     padding: var(--size-700);
     inset: 7rem var(--size-400) auto;
     background: var(--clr-neutral-100);
     border-radius: var(--size-100);
+    box-shadow: 0 0 0.75em rgb(0, 0, 0, 0.05);
+  }
+
+  .primary-header[data-overlay]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 0.8));
   }
 
   .nav-list {
@@ -333,6 +340,10 @@ body {
 
   .mobile-nav-toggle {
     display: block;
+    position: fixed;
+    top: var(--size-600);
+    right: var(--size-400);
+    /* z-index: 100; */
     cursor: pointer;
     background: transparent;
     border: 0;
