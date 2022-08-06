@@ -278,3 +278,24 @@ body {
   background-color: var(--clr-neutral-100);
   color: var(--clr-accent-300);
 }
+
+/* navigation */
+.primary-header {
+  margin-top: var(--size-700);
+  display: flex;
+}
+
+.nav-wrapper {
+  display: flex;
+}
+
+.mobile-nav-toggle {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 0.5em;
+}
+
+.mobile-nav-toggle .icon-close {
+  display: none;
+}
