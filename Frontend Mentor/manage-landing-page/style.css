@@ -300,6 +300,11 @@ body {
     display: none;
   }
 
+  .primary-navigation[data-visible] {
+    display: block;
+    position: fixed;
+  }
+
   .mobile-nav-toggle {
     display: block;
     cursor: pointer;
@@ -318,9 +323,4 @@ body {
 
 .mobile-nav-toggle .icon-close {
   display: none;
-}
-
-.is-open {
-  display: block;
-  position: fixed;
 }
