@@ -287,6 +287,18 @@ body {
 
 .nav-wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 50em) {
+  .primary-navigation {
+    display: none;
+  }
 }
 
 .mobile-nav-toggle {
