@@ -269,6 +269,12 @@ p[data-width='wide'] {
   color: var(--clr-accent-400);
 }
 
+/* social list */
+.social-list {
+  display: flex;
+  gap: var(--size-400);
+}
+
 /* cta */
 
 .cta {
