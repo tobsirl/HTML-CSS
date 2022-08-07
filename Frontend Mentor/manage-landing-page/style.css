@@ -272,7 +272,17 @@ p[data-width='wide'] {
 /* social list */
 .social-list {
   display: flex;
-  gap: var(--size-400);
+  gap: var(--size-300);
+}
+
+.social-icon {
+  width: var(--size-600);
+}
+
+@media (min-width: 50em) {
+  .social-icon {
+    width: var(--size-500);
+  }
 }
 
 /* cta */
