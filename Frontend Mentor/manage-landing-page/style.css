@@ -255,6 +255,11 @@ p[data-width='wide'] {
   }
 }
 
+/* footer */
+.primary-footer {
+  --logo-color: var(--clr-neutral-100);
+}
+
 /* footer navigation */
 .footer-nav {
   columns: 2;
