@@ -262,6 +262,7 @@ p[data-width='wide'] {
 
 .primary-footer-wrapper {
   display: grid;
+  gap: var(--size-700);
   grid-template-areas:
     'form'
     'nav'
@@ -270,16 +271,13 @@ p[data-width='wide'] {
 
 .primary-footer-wrapper > :nth-child(1) {
   grid-area: logo-social;
-  background: red;
 }
 
 .primary-footer-wrapper > :nth-child(2) {
   grid-area: nav;
-  background: red;
 }
 .primary-footer-wrapper > :nth-child(3) {
   grid-area: form;
-  background: red;
 }
 
 .primary-footer .even-columns > * {
