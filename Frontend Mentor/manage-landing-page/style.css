@@ -260,6 +260,10 @@ p[data-width='wide'] {
   --logo-color: var(--clr-neutral-100);
 }
 
+.primary-footer .even-columns > * {
+  margin-inline: auto;
+}
+
 /* footer navigation */
 .footer-nav {
   columns: 2;
@@ -277,7 +281,7 @@ p[data-width='wide'] {
 /* social list */
 .social-list {
   display: flex;
-  gap: var(--size-300);
+  gap: var(--size-600);
 }
 
 .social-icon {
