@@ -288,11 +288,14 @@ p[data-width='wide'] {
 
 .primary-footer-form {
   grid-area: form;
+
+  display: grid;
+  align-content: space-between;
 }
 
 .primary-footer form {
   display: flex;
-  gap: var(--size-400);
+  gap: var(--size-200);
 }
 
 .primary-footer-form input {
