@@ -269,6 +269,12 @@ p[data-width='wide'] {
     'logo-social';
 }
 
+@media (min-width: 50em) {
+  .primary-footer-wrapper {
+    grid-template-areas: 'logo-social nav form';
+  }
+}
+
 .primary-footer-wrapper > :nth-child(1) {
   grid-area: logo-social;
 }
