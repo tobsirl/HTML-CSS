@@ -290,6 +290,11 @@ p[data-width='wide'] {
   grid-area: form;
 }
 
+.primary-footer form {
+  display: flex;
+  gap: var(--size-400);
+}
+
 .primary-footer-form input {
   border-radius: 100vw;
   border: 0;
