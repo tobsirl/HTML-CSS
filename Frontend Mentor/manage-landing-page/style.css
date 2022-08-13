@@ -306,6 +306,7 @@ p[data-width='wide'] {
 /* footer navigation */
 .footer-nav {
   columns: 2;
+  gap: max(30vw, 2rem);
 }
 
 .footer-nav a {
