@@ -286,8 +286,10 @@ p[data-width='wide'] {
   grid-area: form;
 }
 
-.primary-footer .even-columns > * {
-  margin-inline: auto;
+@media (max-width: 50em) {
+  .primary-footer-wrapper > * {
+    margin-inline: auto;
+  }
 }
 
 /* footer navigation */
