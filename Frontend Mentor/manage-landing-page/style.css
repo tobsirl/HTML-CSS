@@ -391,6 +391,16 @@ input:where([type='text'], [type='email'], ) {
   opacity: 0.1;
 }
 
+/* numbered items */
+
+.numbered-items {
+  counter-reset: count;
+}
+
+.numbered-items li {
+  counter-increment: count;
+}
+
 /* Utility classes */
 
 .visually-hidden {
