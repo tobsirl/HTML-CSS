@@ -443,12 +443,24 @@ input:where([type='text'], [type='email'], ) {
   grid-column: 1 / 2;
 }
 
+@media (max-width: 30em) {
+  .numbered-items div::after {
+    content: '';
+    display: block;
+    z-index: -1;
+    border-radius: 100vw 0 0 100vw;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    
+    background-color: orange;
+  }
+}
+
 .numbered-items div::after {
   content: '';
   display: block;
   z-index: -1;
   border-radius: 100vw;
-  inset: 0 -100vw 0 0;
   grid-column: 1 / -1;
   grid-row: 1 / 2;
   background-color: orange;
