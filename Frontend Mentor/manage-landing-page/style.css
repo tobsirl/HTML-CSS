@@ -403,12 +403,18 @@ input:where([type='text'], [type='email'], ) {
 
 .numbered-items div {
   display: grid;
+  position: relative;
   align-items: center;
   column-gap: var(--size-400);
   grid-template-columns: min-content 1fr 1fr;
 }
 
-.numbered-items__title {
+.numbered-items__title::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
   background-color: orange;
 }
 
