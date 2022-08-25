@@ -430,6 +430,16 @@ input:where([type='text'], [type='email'], ) {
   height: 40px;
 }
 
+.numbered-items div::after {
+  content: '';
+  display: block;
+  z-index: -1;
+  border-radius: 100vw;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  background: var(--bg);
+}
+
 .numbered-items div:before {
   content: '0' counter(count);
   display: flex;
@@ -445,25 +455,16 @@ input:where([type='text'], [type='email'], ) {
 
 @media (max-width: 30em) {
   .numbered-items div::after {
+    --bg: var(--clr-accent-100);
     content: '';
     display: block;
     z-index: -1;
     border-radius: 100vw 0 0 100vw;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
-    
-    background-color: orange;
+    box-shadow: 5em 0 0 var(--bg);
+    background: var(--bg);
   }
-}
-
-.numbered-items div::after {
-  content: '';
-  display: block;
-  z-index: -1;
-  border-radius: 100vw;
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
-  background-color: orange;
 }
 
 /* Utility classes */
