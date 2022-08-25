@@ -408,12 +408,16 @@ input:where([type='text'], [type='email'], ) {
   grid-template-columns: min-content 1fr 1fr;
 }
 
-.numbered-items p {
+.numbered-items__title {
+  background-color: orange;
+}
+
+.numbered-items__body {
   grid-column: 1 / -1;
 }
 
 @media (min-width: 30em) {
-  .numbered-items p {
+  .numbered-items__body {
     grid-column: 2 / -1;
   }
 }
