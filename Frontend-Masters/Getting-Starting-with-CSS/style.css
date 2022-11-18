@@ -69,10 +69,10 @@ a:hover {
   font-size: 4rem;
 }
 
-.contact {
+#contact {
   background-color: var(--plum);
   text-align: center;
-  padding: 3rem;
+  padding: 3rem 0;
 }
 
 .contact p {
