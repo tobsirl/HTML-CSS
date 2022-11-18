@@ -75,11 +75,12 @@ a:hover {
   padding: 3rem;
 }
 
-.contact h3 {
+.contact p {
+  margin-bottom: 3rem;
 }
 
 .contact a {
-  color: var(--white);
+  color: var(--magenta);
   text-align: center;
 }
 
