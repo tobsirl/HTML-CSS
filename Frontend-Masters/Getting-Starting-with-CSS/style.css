@@ -68,3 +68,22 @@ a:hover {
 #intro h2 {
   font-size: 4rem;
 }
+
+.contact {
+  background-color: var(--plum);
+  text-align: center;
+  padding: 3rem;
+}
+
+.contact h3 {
+}
+
+.contact a {
+  color: var(--white);
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
