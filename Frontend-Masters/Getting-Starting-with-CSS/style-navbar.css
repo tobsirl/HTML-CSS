@@ -93,6 +93,11 @@ nav ul {
   gap: 2rem;
 }
 
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
 nav a {
   color: var(--white);
   text-decoration: none;
