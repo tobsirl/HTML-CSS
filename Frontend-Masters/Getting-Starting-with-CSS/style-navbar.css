@@ -98,3 +98,7 @@ nav a {
   text-decoration: none;
   display: block;
 }
+
+nav a:hover {
+  color: var(--magenta);
+}
