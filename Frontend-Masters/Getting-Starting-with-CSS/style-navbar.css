@@ -112,8 +112,3 @@ nav a {
 nav a:hover {
   color: var(--magenta);
 }
-
-nav h1 {
-  display: flex;
-  justify-content: center;
-}
