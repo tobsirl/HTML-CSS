@@ -124,3 +124,8 @@ nav a:hover {
   padding: 0.5rem;
   border-radius: 5px;
 }
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
