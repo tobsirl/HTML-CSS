@@ -103,6 +103,12 @@ nav [class*='fa-'] {
   color: var(--aqua);
 }
 
+nav h1 [class*='fa-'] {
+  font-size: 100%;
+  margin-right: 10px;
+  color: var(--aqua);
+}
+
 nav a {
   color: var(--white);
   text-decoration: none;
