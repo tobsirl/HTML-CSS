@@ -136,17 +136,6 @@ nav [class*='fa-']:hover {
   color: white;
   background-color: var(--hotmag);
 }
-@media (min-width: 850px) {
-  nav {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  nav li:first-child {
-    flex-basis: auto;
-    text-align: left;
-    margin-right: auto;
-  }
-}
 
 /* footer */
 
@@ -163,4 +152,16 @@ footer ul {
   margin: 2rem 0;
   font-size: 3rem;
   list-style-type: none;
+}
+
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
 }
