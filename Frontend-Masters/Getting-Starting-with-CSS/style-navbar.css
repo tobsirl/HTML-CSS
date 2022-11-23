@@ -135,4 +135,10 @@ nav a:hover {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
 }
