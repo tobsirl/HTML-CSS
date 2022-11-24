@@ -81,6 +81,10 @@ a:hover {
   padding: 3rem 0;
 }
 
+.section-plum {
+  background-color: var(--plum);
+}
+
 #contact p:last-child {
   margin-top: 3rem;
 }
