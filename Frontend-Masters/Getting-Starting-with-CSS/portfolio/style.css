@@ -43,6 +43,11 @@ a:hover {
   text-decoration: none;
 }
 
+/* background color divs */
+.section-plum {
+  background-color: var(--plum);
+}
+
 /* intro styles */
 #intro {
   padding: 4rem 1rem 10rem 1rem;
@@ -79,10 +84,6 @@ a:hover {
   text-align: center;
   margin: 0 auto;
   padding: 3rem 0;
-}
-
-.section-plum {
-  background-color: var(--plum);
 }
 
 #contact p:last-child {
@@ -132,7 +133,10 @@ nav a:hover,
 nav [class*='fa-']:hover {
   color: var(--magenta);
 }
+
 .button {
+  text-decoration: none;
+  font-family: var(--mono);
   background-color: var(--magenta);
   color: white;
   padding: 0.5rem;
