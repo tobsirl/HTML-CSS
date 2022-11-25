@@ -237,6 +237,14 @@ footer ul {
   font-size: 1rem;
 }
 
+#projects img {
+  margin: 2rem 0 4rem 0;
+  border-left: 1px solid var(--aqua);
+  border-top: 1px solid var(--aqua);
+  border-radius: 25px;
+  padding: 1rem;
+}
+
 @media (min-width: 850px) {
   nav {
     max-width: 1200px;
