@@ -226,6 +226,17 @@ footer ul {
   line-height: 1.5;
 }
 
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
 @media (min-width: 850px) {
   nav {
     max-width: 1200px;
