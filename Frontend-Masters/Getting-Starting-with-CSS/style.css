@@ -59,6 +59,10 @@ a:hover {
   background-color: var(--plum);
 }
 
+.section-dkblue {
+  background-color: var(--dkblue);
+}
+
 .gradient {
   background: linear-gradient(
     90deg,
