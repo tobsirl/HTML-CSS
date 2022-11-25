@@ -217,6 +217,15 @@ footer ul {
   margin: 0;
 }
 
+.black-box {
+  background-color: var(--black);
+  padding: 1rem;
+  border-radius: 10px;
+  color: var(--white);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 @media (min-width: 850px) {
   nav {
     max-width: 1200px;
