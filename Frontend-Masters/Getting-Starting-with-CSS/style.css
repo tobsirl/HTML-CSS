@@ -253,6 +253,16 @@ footer ul {
   article {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .text {
+    order: 2;
+    text-align: right;
+  }
+
+  #projects ul {
+    justify-content: flex-end;
   }
 }
 
