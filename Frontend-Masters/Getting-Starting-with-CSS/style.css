@@ -245,6 +245,13 @@ footer ul {
   padding: 1rem;
 }
 
+@media (min-width: 550px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (min-width: 850px) {
   nav {
     max-width: 1200px;
