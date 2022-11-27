@@ -16,6 +16,8 @@ body {
 }
 /* turn off bullets, push the box down the page, set a border plus width and height for demonstration purposes. */
 ul {
+  display: flex;
+  flex-flow: row wrap;
   padding: 0;
   margin: 5rem auto;
   list-style-type: none;
