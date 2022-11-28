@@ -15,11 +15,23 @@ figure {
 }
 
 .span3 {
-  flex-basis: 70%;
+  flex-basis: 74%;
 }
 
 .span4 {
   flex-basis: 100%;
+}
+
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
+.order3 {
+  order: 3;
 }
 
 /* default styling, no changes needed here */
