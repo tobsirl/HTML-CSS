@@ -1,4 +1,14 @@
 /* write CSS to correspond with the descriptions above. See notes for math tips */
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 4%;
+}
+
+figure {
+  flex-basis: 22%;
+}
 
 /* default styling, no changes needed here */
 
