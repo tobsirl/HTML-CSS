@@ -10,6 +10,10 @@ figure {
   flex-basis: 22%;
 }
 
+.span2 {
+  flex-basis: 48%;
+}
+
 /* default styling, no changes needed here */
 
 /* set the layout to border box model */
