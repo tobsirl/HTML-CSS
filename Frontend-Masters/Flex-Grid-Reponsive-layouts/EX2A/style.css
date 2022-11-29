@@ -6,32 +6,34 @@
   gap: 4%;
 }
 
-figure {
-  flex-basis: 22%;
-}
+@media (min-width: 800px) {
+  figure {
+    flex-basis: 22%;
+  }
 
-.span2 {
-  flex-basis: 48%;
-}
+  .span2 {
+    flex-basis: 48%;
+  }
 
-.span3 {
-  flex-basis: 74%;
-}
+  .span3 {
+    flex-basis: 74%;
+  }
 
-.span4 {
-  flex-basis: 100%;
-}
+  .span4 {
+    flex-basis: 100%;
+  }
 
-.order1 {
-  order: 1;
-}
+  .order1 {
+    order: 1;
+  }
 
-.order2 {
-  order: 2;
-}
+  .order2 {
+    order: 2;
+  }
 
-.order3 {
-  order: 3;
+  .order3 {
+    order: 3;
+  }
 }
 
 /* default styling, no changes needed here */
