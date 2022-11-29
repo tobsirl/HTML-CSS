@@ -1,9 +1,24 @@
 /* write CSS to correspond with the descriptions above. See notes for math tips */
-.row {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  gap: 4%;
+
+@media (min-width: 500px) {
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 4%;
+  }
+  figure,
+  .span2 {
+    flex-basis: 48%;
+  }
+
+  .span3 {
+    flex-basis: 100%;
+  }
+
+  .span3-1 {
+    flex-basis: 100%;
+  }
 }
 
 @media (min-width: 800px) {
