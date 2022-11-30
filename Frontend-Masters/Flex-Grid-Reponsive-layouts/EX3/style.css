@@ -13,6 +13,7 @@ figcaption {
   background-color: #001219;
   color: white;
   padding: 1rem;
+  position: absolute;
 }
 /* reduces the top margin on the h2, bottom on the p, and leaves a 0.5rem gap between the two */
 figcaption * {
