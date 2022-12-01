@@ -68,6 +68,23 @@ figure img {
   object-fit: cover;
   object-position: 0 -150px;
 }
+
+figcaption {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.875rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption a {
+  display: block;
+  margin: 0;
+  padding: 1rem;
+  text-decoration: none;
+}
 /* At this breakpoint, transition to 2 figures per line */
 
 @media (min-width: 550px) {
