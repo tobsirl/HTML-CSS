@@ -33,10 +33,6 @@ body {
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -47,36 +43,13 @@ section h2 {
   font-size: 2.5rem;
 }
 
-ul {
-  list-style: none;
-}
-
-figure {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  position: relative;
-}
-
-figcaption {
-  position: absolute;
-  background-color: #dbe5de;
-  padding: 1rem;
-  font-size: 4rem;
-  text-decoration: none;
-  color: #001219;
-  width: 100%;
-  bottom: 0%;
-  opacity: 0.7;
-}
-
 /* Initial mobile layout: a series of images stacked on top of each other with the figure caption over the image. */
-.collections {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 /* At this breakpoint, transition to 2 figures per line */
 
 @media (min-width: 550px) {
