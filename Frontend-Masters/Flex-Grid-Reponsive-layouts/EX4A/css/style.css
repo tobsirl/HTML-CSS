@@ -61,6 +61,13 @@ figure {
   border-style: solid;
   border-radius: 5px;
 }
+
+figure img {
+  width: 100%;
+  margin-bottom: -4px;
+  object-fit: cover;
+  object-position: 0 -150px;
+}
 /* At this breakpoint, transition to 2 figures per line */
 
 @media (min-width: 550px) {
