@@ -84,6 +84,7 @@ figcaption a {
   margin: 0;
   padding: 1rem;
   text-decoration: none;
+  color: var(--color1);
 }
 /* At this breakpoint, transition to 2 figures per line */
 
