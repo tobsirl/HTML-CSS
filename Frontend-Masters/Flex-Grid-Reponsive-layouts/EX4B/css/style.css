@@ -134,6 +134,21 @@ figcaption a {
   color: var(--color8);
 }
 
+/* mission styles */
+#mission {
+  margin-bottom: 3rem;
+}
+
+.missiontext {
+  display: block;
+  line-height: 1.75;
+}
+
+.logo {
+  max-height: 100px;
+  display: block;
+}
+
 /* turn on flexbox here - prior to this, elements stacked individually as blocks */
 
 @media (min-width: 550px) {
