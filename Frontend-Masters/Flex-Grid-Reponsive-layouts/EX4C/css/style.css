@@ -147,6 +147,19 @@ figcaption a {
   display: block;
 }
 
+/* footer */
+.footer {
+  background-color: var(--color5);
+}
+
+footer {
+  display: flex;
+  padding: 3rem;
+  flex-flow: column wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* turn on flexbox here - prior to this, elements stacked individually as blocks */
 
 @media (min-width: 550px) {
