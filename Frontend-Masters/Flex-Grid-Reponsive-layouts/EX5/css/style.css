@@ -99,6 +99,11 @@ nav li:first-child a {
   background-color: transparent;
 }
 
+nav a:hover {
+  background-color: var(--color1);
+  color: var(--color5);
+}
+
 /* To keep mobile screens from being stupid long, consider setting a max height on the images and hide the overflow. 
 
 Spelled out the individual border styles so border-color could go elsewhere. Styling is the same for all borders except the color. */
