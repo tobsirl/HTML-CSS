@@ -95,6 +95,10 @@ nav a {
   text-align: center;
 }
 
+nav li:first-child a {
+  background-color: transparent;
+}
+
 /* To keep mobile screens from being stupid long, consider setting a max height on the images and hide the overflow. 
 
 Spelled out the individual border styles so border-color could go elsewhere. Styling is the same for all borders except the color. */
