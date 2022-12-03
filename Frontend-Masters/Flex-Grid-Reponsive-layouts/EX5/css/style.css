@@ -70,7 +70,13 @@ nav ul {
 nav ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: space-between;
+}
+
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
 }
 
 nav a {
@@ -259,6 +265,26 @@ footer address {
   /* remove the top margin assigned above that provided space between .social and address */
   footer address {
     margin-top: 0;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  nav li {
+    flex-basis: auto;
+    margin-bottom: 0;
+  }
+
+  nav a {
+    color: var(--color1);
+    background-color: transparent;
+  }
+
+  nav a:hover {
+    background-color: var(--color1);
+    color: var(--color2);
   }
 }
 
