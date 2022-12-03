@@ -273,4 +273,23 @@ footer address {
   address {
     flex-basis: 65.5%;
   }
+  /* navigation logo */
+  nav ul {
+    justify-content: flex-end;
+  }
+  nav li:first-child {
+    flex-basis: auto;
+    margin: 0 auto;
+    order: 2;
+  }
+
+  nav li:nth-child(2),
+  nav li:nth-child(3) {
+    order: 1;
+  }
+
+  nav li:nth-child(4),
+  nav li:nth-child(5) {
+    order: 3;
+  }
 }
