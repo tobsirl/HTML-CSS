@@ -49,6 +49,11 @@ section ul {
   margin: 0;
 }
 
+/* header and nav styles */
+.header {
+  background-color: var(--color5);
+}
+
 /* To keep mobile screens from being stupid long, consider setting a max height on the images and hide the overflow. 
 
 Spelled out the individual border styles so border-color could go elsewhere. Styling is the same for all borders except the color. */
