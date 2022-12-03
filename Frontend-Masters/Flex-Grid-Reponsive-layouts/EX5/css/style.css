@@ -74,6 +74,11 @@ nav ul {
   align-items: space-between;
 }
 
+nav li {
+  flex-basis: 48%;
+  margin-bottom: 0.5rem;
+}
+
 nav li:first-child {
   flex-basis: 100%;
   text-align: center;
@@ -82,9 +87,12 @@ nav li:first-child {
 nav a {
   display: block;
   text-decoration: none;
-  color: var(--color1);
+  color: white;
+  background-color: var(--color10);
   font-size: 1.5rem;
   padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
 }
 
 /* To keep mobile screens from being stupid long, consider setting a max height on the images and hide the overflow. 
