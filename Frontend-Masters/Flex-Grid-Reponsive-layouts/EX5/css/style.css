@@ -70,7 +70,15 @@ nav ul {
 nav ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: var(--color1);
+  font-size: 1.5rem;
+  padding: 0.5rem;
 }
 
 /* To keep mobile screens from being stupid long, consider setting a max height on the images and hide the overflow. 
