@@ -173,6 +173,12 @@ figcaption a {
   color: var(--color1);
 }
 
+.stripe {
+  background-color: var(--color2);
+  color: white;
+  padding: 1rem 0 2rem 0;
+}
+
 /* featured image styles */
 
 #featured figure {
