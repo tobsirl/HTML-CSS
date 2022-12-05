@@ -1,5 +1,7 @@
 /* Based on "Composition II in Red, Blue, and Yellow," by Piet Mondrian (1930): https://en.wikipedia.org/wiki/Piet_Mondrian */
 .wrapper {
+  display: grid;
+  gap: 30px 20px;
   width: 600px;
   height: 600px;
   background: url(https://assets.codepen.io/296057/painting.png) no-repeat;
@@ -12,6 +14,8 @@ div {
   font-size: 2rem;
 }
 .a {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
 }
 .b {
 }
