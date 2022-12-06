@@ -33,13 +33,13 @@ div {
 }
 
 .d {
-  grid-row: 3 / 5;
+  grid-row: span 2;
   grid-column: 1 / 2;
   background-color: #015ca0;
 }
 
 .e {
-  grid-row: 3 / 5;
+  grid-row: span 2;
   grid-column: 2 / 3;
   background-color: #ecdb6b;
 }
