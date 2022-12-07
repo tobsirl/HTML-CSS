@@ -1,4 +1,8 @@
 /* default styling, no changes needed here */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
 
 /* set the layout to border box model */
 html {
