@@ -6,9 +6,17 @@
     grid-template-rows: auto;
     gap: 4%;
   }
+
+  figure {
+    grid-column: span 2;
+  }
 }
 
 @media (min-width: 800px) {
+  figure {
+    grid-column: span 1;
+  }
+  
   .span2 {
     grid-column: span 2;
   }
