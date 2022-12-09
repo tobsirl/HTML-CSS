@@ -10,13 +10,18 @@
   figure {
     grid-column: span 2;
   }
+
+  .span3,
+  .span1-lg {
+    grid-column: span 4;
+  }
 }
 
 @media (min-width: 800px) {
   figure {
     grid-column: span 1;
   }
-  
+
   .span2 {
     grid-column: span 2;
   }
