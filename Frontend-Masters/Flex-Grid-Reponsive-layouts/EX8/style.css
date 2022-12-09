@@ -1,9 +1,11 @@
 /* default styling, no changes needed here */
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  gap: 4%;
+@media (min-width: 600px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 4%;
+  }
 }
 
 @media (min-width: 800px) {
