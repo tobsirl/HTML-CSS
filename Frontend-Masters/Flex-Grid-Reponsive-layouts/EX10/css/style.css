@@ -78,6 +78,11 @@ figcaption a:hover {
 }
 
 @media (min-width: 550px) {
+  #popart ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
 }
 
 @media (min-width: 800px) {
