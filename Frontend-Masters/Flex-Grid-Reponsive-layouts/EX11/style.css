@@ -10,7 +10,8 @@ figcaption {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 1%;
-    grid-template-areas: 'featured featured featured featured ... ... main main';
+    grid-template-areas: 'featured featured featured featured 
+      none none main main';
   }
 
   .featured {
