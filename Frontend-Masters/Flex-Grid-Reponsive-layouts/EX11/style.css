@@ -11,6 +11,10 @@ figcaption {
     grid-template-rows: auto;
     gap: 1%;
   }
+  .featured {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
 }
 
 /* default styling, no changes needed here */
