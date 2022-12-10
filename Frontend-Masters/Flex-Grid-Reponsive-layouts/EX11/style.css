@@ -10,10 +10,15 @@ figcaption {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 1%;
+    grid-template-areas: 'featured featured featured featured ... ... main main';
   }
+
   .featured {
-    grid-row: span 2;
-    grid-column: span 2;
+    grid-area: featured;
+  }
+
+  .main {
+    grid-area: main;
   }
 }
 
