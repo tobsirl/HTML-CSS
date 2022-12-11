@@ -10,6 +10,12 @@
   margin-top: 0.3em;
 }
 
+.article-container {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
 /* set the layout to border box model */
 html {
   box-sizing: border-box;
