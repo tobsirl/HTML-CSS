@@ -40,6 +40,27 @@
   }
 }
 
+@media (min-width: 800px) {
+  .article-container {
+    grid-template-columns: repeat(4, minmax(10px, 1fr));
+  }
+  .article-container article {
+    grid-template-columns: minmax(100px, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 0 1em;
+  }
+
+  .article-container article * {
+    grid-column: 1 / 2;
+  }
+
+  .article-container article img {
+    grid-column: 1 / 2;
+    grid-row: auto;
+    margin-bottom: 1rem;
+  }
+}
+
 /* set the layout to border box model */
 html {
   box-sizing: border-box;
