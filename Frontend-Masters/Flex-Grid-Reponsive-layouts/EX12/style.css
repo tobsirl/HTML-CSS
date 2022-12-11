@@ -16,6 +16,12 @@
   gap: 1rem;
 }
 
+.article-container article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+}
+
 /* set the layout to border box model */
 html {
   box-sizing: border-box;
