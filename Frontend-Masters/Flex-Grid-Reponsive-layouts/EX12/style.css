@@ -1,4 +1,14 @@
 /* default styling, no changes needed here */
+#artists h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+#artists h3 {
+  margin-top: 0.3em;
+}
 
 /* set the layout to border box model */
 html {
