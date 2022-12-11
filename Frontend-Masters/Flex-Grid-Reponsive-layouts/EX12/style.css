@@ -33,6 +33,13 @@
   grid-row: 1 / 6;
 }
 
+@media (min-width: 650px) {
+  .article-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10px, 1fr));
+  }
+}
+
 /* set the layout to border box model */
 html {
   box-sizing: border-box;
