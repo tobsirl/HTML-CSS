@@ -38,6 +38,16 @@ article .content {
   --primary-color: hsl(250 30% 40%);
   --secondary-color: hsl(190 40% 40%);
   --tinted-background: hsl(0 0% 100% / 0.8);
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: hsl(250 30% 60%);
+    --secondary-color: hsl(190 40% 60%);
+    --tinted-background: hsl(0 0% 0% / 0.6);
+  }
 }
 
 h1 {
@@ -49,7 +59,7 @@ article {
 }
 
 article h2 {
-  color: white;
+  color: canvas;
 }
 
 article a {
