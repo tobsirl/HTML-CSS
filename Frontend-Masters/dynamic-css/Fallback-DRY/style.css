@@ -19,14 +19,15 @@ button {
 }
 /* Main CSS */
 button {
-  border: 0.1em solid var(--color, black);
+  --color-initial: black;
+  border: 0.1em solid var(--color, var(--color-initial));
   background: transparent;
 
-  color: var(--color, black);
+  color: var(--color, var(--color-initial));
 }
 
 button:hover {
-  background: var(--color, black);
+  background: var(--color, var(--color-initial));
   color: white;
 }
 
