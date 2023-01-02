@@ -19,22 +19,17 @@ button {
 }
 /* Main CSS */
 button {
-  border: 0.1em solid black;
+  border: 0.1em solid var(--color, black);
   background: transparent;
-  color: black;
+  --color: black;
+  color: var(--color);
 }
 
 button:hover {
-  background: black;
+  background: var(--color);
   color: white;
 }
 
 button.pink {
-  border-color: #f06;
-  color: #f06;
-}
-
-button.pink:hover {
-  background: #f06;
-  color: white;
+  --color: #f06;
 }
