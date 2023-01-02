@@ -18,17 +18,23 @@ button {
   cursor: pointer;
 }
 /* Main CSS */
+@property --color {
+  syntax: '<color>';
+  initial-value: black;
+  inherits: true;
+}
+
 button {
   --color-initial: black;
   --_color: var(--color, var(--color-initial));
-  border: 0.1em solid var(--_color);
+  border: 0.1em solid var(--color);
   background: transparent;
 
-  color: var(--_color);
+  color: var(--color);
 }
 
 button:hover {
-  background: var(--_color);
+  background: var(--color);
   color: white;
 }
 
