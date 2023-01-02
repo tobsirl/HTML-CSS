@@ -14,8 +14,8 @@ button {
 .cut-corner {
   padding: 1em;
   clip-path: polygon(
-    calc(100% - var(--corner-size)) 0,
-    100% var(--corner-size),
+    calc(100% - var(--corner-size-x)) 0,
+    100% var(--corner-size-y),
     100% 100%,
     0 100%,
     0 0
@@ -24,8 +24,8 @@ button {
 
 #a {
   background: hotpink;
-  --corner-size-x: 1em;
-  --corner-size-y: 1em;
+  --corner-size-x: 8vw;
+  --corner-size-y: 3em;
 }
 
 #b {
