@@ -20,14 +20,15 @@ button {
 /* Main CSS */
 button {
   --color-initial: black;
-  border: 0.1em solid var(--color, var(--color-initial));
+  --_color: var(--color, var(--color-initial));
+  border: 0.1em solid var(--_color);
   background: transparent;
 
-  color: var(--color, var(--color-initial));
+  color: var(--_color);
 }
 
 button:hover {
-  background: var(--color, var(--color-initial));
+  background: var(--_color);
   color: white;
 }
 
