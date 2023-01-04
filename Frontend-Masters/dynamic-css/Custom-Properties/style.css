@@ -39,7 +39,7 @@ button {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  width: 2em;
+  width: var(--bar-width, 2em);
   height: var(--p);
   background: var(--bar-color, deeppink);
   box-sizing: border-box;
