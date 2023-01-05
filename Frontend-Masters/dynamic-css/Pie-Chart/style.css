@@ -1,0 +1,13 @@
+.pie-chart {
+  width: 10em;
+  height: 10em;
+  padding: calc(var(--size, 15em) / 2);
+  border-radius: 50%;
+
+  background: conic-gradient(
+    hsl(0 80% 50%) 0 20%,
+    hsl(25 80% 50%) 0 30%,
+    hsl(50 80% 50%) 0 60%,
+    gray 0
+  );
+}
