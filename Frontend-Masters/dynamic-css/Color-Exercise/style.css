@@ -33,7 +33,8 @@ article {
   /* To-do: Make color depend on intensity
 		1-5 intensity to roughly 50-0 hue (warm yellow to pure red)
 	*/
-  --color: hsl(calc(50 - var(--intensity) * 10) 70% 40%);
+  --hue: calc(50 - var(--intensity) * 10);
+  --color: hsl(var(--hue, 200) 70% 40%);
   background: var(--color);
 }
 
