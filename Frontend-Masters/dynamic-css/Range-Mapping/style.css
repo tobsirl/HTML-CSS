@@ -21,14 +21,15 @@ h1 {
 
 /* Main CSS */
 body {
-  --p: 1;
-  --gradient-center-x: calc(var(--p) * 100% + (1 - var(--p)) * 20%);
-  background: radial-gradient(circle at 0% 20%, white, transparent 50vw)
+  --p: 0.9;
+  --gradient-center-x: calc(var(--p) * 100%)
+  background: radial-gradient(circle at var(--gradient-center-x) 20%, white, transparent 50vw)
     hsl(0 0% 47%);
 }
 
 h1 {
   color: hsl(0 0% 50%);
-  text-shadow: 1em 0.3em 0.2em black;
+  --text-shadow-x: calc(var(--p) * -1em + (1 - var(--p)) * 1em);
+  text-shadow: var(--text-shadow-x) 0.3em 0.2em black;
   font-size: 50vh;
 }
