@@ -1,0 +1,31 @@
+/* Base styles, not related to example */
+body {
+  font: 200% system-ui, Helvetica Neue, Segoe UI, sans-serif;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+}
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: auto;
+}
+/* Main CSS */
+body {
+  background: radial-gradient(circle at 0% 20%, white, transparent 50vw)
+    hsl(0 0% 47%);
+}
+
+h1 {
+  color: hsl(0 0% 50%);
+  text-shadow: 1em 0.3em 0.2em black;
+  font-size: 50vh;
+}
