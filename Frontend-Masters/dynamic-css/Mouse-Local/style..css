@@ -1,0 +1,21 @@
+/* Base styles, not related to example */
+button {
+  padding: 0.5em 0.8em;
+  border-radius: 0.2em;
+  border: 0;
+  font: 200%/1 Helvetica Neue, Segoe UI, sans-serif;
+  color: white;
+}
+/* Main CSS */
+button {
+  background-color: rebeccapurple;
+}
+
+button:active {
+  background-image: radial-gradient(
+    circle at calc(100% * var(--mouse-local-x))
+      calc(100% * var(--mouse-local-y)),
+    hsl(0 100% 100% / 0.4),
+    transparent
+  );
+}
