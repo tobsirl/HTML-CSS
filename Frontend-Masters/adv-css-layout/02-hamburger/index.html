@@ -16,7 +16,12 @@
 
   <body>
     <header>
-      <a href="#main-menu" class="menu-toggle" id="main-menu-toggle">
+      <a
+        href="#main-menu"
+        class="menu-toggle"
+        id="main-menu-toggle"
+        aria-label="Open main menu"
+      >
         <span class="fa fa-bars"></span>
       </a>
 
@@ -24,7 +29,7 @@
         <h1><i class="fas fa-paint-brush"></i> LayOut Times</h1>
         <h2>Your Web Design Destination</h2>
       </div>
-      <nav id="main-menu" class="main-menu">
+      <nav id="main-menu" class="main-menu" aria-label="main menu">
         <a href="#main-menu-toggle" class="menu-close">
           <span class="fa fa-close"></span>
         </a>
@@ -38,7 +43,7 @@
           <li><a href="#">Top Talent</a></li>
         </ul>
       </nav>
-      <a href="#main-menu-toggle" class="backdrop" hidden></a>
+      <a href="#main-menu-toggle" class="backdrop" hidden tabindex="-1"></a>
     </header>
 
     <main>
