@@ -4,6 +4,10 @@ https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d1
 Below is a starting navigation bar formatted for mobile and desktop. MQ is set to break where nav wraps once we've set up some typography... which we have not done yet. Trust the process :-)
 
 */
+header .row {
+  display: flex;
+  flex-flow: row nowrap;
+}
 
 header {
   border-bottom: 4px solid #9ea9c1;
