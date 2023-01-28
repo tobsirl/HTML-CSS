@@ -30,6 +30,18 @@ header .row {
   color: #c85028;
 }
 
+.main-menu {
+  position: fixed;
+  display: none;
+  left: -200;
+  top: 0;
+  height: 100%;
+  overflow-x: visible;
+  overflow-y: auto;
+  transition: left 0.3s ease-in-out;
+  z-index: 999;
+}
+
 header {
   border-bottom: 4px solid #9ea9c1;
 }
