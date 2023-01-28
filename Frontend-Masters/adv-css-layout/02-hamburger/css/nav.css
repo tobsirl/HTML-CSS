@@ -9,6 +9,17 @@ header .row {
   flex-flow: row nowrap;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 header {
   border-bottom: 4px solid #9ea9c1;
 }
