@@ -20,6 +20,16 @@ header .row {
   border: 0;
 }
 
+.menu-toggle {
+  color: #333;
+  margin-right: 1rem;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: #c85028;
+}
+
 header {
   border-bottom: 4px solid #9ea9c1;
 }
