@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
   --font-regular: 'Roboto', sans-serif;
   --font-bold: 'Roboto', sans-serif;
@@ -24,6 +25,7 @@ dl,
 dd {
   margin: 0;
   font-family: var(--font-regular);
+  background-color: blanchedalmond;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
