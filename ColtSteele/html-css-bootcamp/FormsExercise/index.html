@@ -9,14 +9,35 @@
   <body>
     <h1>Your Course Landing Page</h1>
     <form action="http://localhost:3000" method="post">
-      <label for="name">Course Title</label>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Course Title"
-        required
-      />
+      <div>
+        <label for="name">Course Title</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Course Title"
+          required
+        />
+      </div>
+      <div>
+        <label for="description">Course Description</label>
+        <div>
+
+          <textarea name="description" id="description" cols="30" rows="10"
+          placeholder="Course Description" required /></textarea>
+        </div>
+      </div>
+
+      <div>
+        <label for="skill">Skill Level</label>
+        <select name="skill" id="skill" required>
+          <option value="beginner">Beginner Level</option>
+          <option value="intermediate">Intermediate Level</option>
+          <option value="advanced">Advanced Level</option>
+      </div>
+      <div>
+        <label for="confirm">Ready to publish the course?</label>
+      </div>
     </form>
   </body>
 </html>
