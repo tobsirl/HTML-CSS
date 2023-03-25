@@ -14,3 +14,10 @@ h3 {
   color: #ff00d0;
   font-size: 35px;
 }
+
+p {
+  font-weight: lighter;
+  font-size: 40px;
+  line-height: 2;
+  letter-spacing: 10px;
+}
