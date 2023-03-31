@@ -27,9 +27,20 @@ p {
 }
 
 /* Select all h2s and make them uppercase (using css) */
+h2 {
+  text-transform: uppercase;
+}
 
 /*  Select all links and remove their underline and make them have a color of orange*/
+a {
+  text-decoration: none;
+  color: orange;
+}
 
 /* Write styles so that links turn red and have a red underline when hovered over*/
+a:hover {
+  color: red;
+  text-decoration: underline red;
+}
 
 /*  Make the unordered list use squares for their bullet point marker*/
