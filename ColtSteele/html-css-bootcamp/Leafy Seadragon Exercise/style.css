@@ -1,4 +1,7 @@
 /* Give everything in the body a sans-serif font */
+body {
+  font-family: sans-serif;
+}
 
 /* Make the h1 center aligned.  Make it not bold (a lighter weight) and give it a font size of 40px */
 
