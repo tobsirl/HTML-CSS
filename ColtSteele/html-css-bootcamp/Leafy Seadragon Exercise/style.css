@@ -16,8 +16,15 @@ p {
 }
 
 /*  Select the element with the id of 'leafy' and make it have a color of #1d6e09 and give it a #1d6e09 underline*/
+#leafy {
+  color: #1d6e09;
+  text-decoration: underline #1d6e09;
+}
 
 /* Select the elements with the class of 'latin' and make them italicized*/
+.latin {
+  font-style: italic;
+}
 
 /* Select all h2s and make them uppercase (using css) */
 
