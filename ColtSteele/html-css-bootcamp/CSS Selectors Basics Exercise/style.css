@@ -20,8 +20,14 @@ h2 {
 }
 
 /* Give the elements with the class 'size' a text color of magenta*/
+.size {
+  color: magenta;
+}
 
 /*  Select the email input (and ONLY the email input) and give it an orange background color*/
+input[type="email"] {
+  background-color: orange;
+}
 
 /* Select all links that have an href ending in '.org' and make them magenta*/
 
