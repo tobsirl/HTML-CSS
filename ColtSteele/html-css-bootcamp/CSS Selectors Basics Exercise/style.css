@@ -10,8 +10,14 @@ h2 {
 }
 
 /* Give the element with the id of 'submit' a green background color */
+#submit {
+  background-color: green;
+}
 
 /* Make the spans inside the element with the id of 'flavors' red*/
+#flavors span {
+  color: red;
+}
 
 /* Give the elements with the class 'size' a text color of magenta*/
 
