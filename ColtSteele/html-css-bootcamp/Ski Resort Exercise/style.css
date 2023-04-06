@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+  background-color: rgb(233, 227, 219);
+  margin: 0;
+  padding: 0;
+}
+
+.notice {
+  background-color: #463d36;
+  width: 800px;
+  height: 600px;
+}
