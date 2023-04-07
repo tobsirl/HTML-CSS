@@ -42,7 +42,9 @@ a.active {
 
 .card {
   display: inline-block;
-  width: 40%;
+  width: 49.75%;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .card h2 {
