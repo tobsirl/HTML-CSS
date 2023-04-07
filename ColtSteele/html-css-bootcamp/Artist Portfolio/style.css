@@ -28,4 +28,9 @@ h1 {
 }
 
 .navbar {
+  margin: 32px;
+}
+
+a.active {
+  border-bottom: 1px solid black;
 }
