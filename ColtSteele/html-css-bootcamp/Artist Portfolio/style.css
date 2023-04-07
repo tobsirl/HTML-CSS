@@ -54,6 +54,10 @@ a.active {
   font-weight: 300;
 }
 
+.card img:hover {
+  opacity: 0.9;
+}
+
 .gallery {
   padding: 16px;
 }
@@ -84,8 +88,4 @@ a.active {
   display: inline-block;
   padding-bottom: 3px;
   margin-top: 0;
-}
-
-.card img:hover {
-  opacity: 0.9;
 }
