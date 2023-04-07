@@ -4,10 +4,16 @@ body {
 
 h1 {
   display: inline-block;
+  font-weight: 300;
+  margin: 0 32px 0 0;
 }
 
 .links {
   display: inline-block;
+}
+
+.links ul {
+  padding: 0;
 }
 
 .links li {
@@ -19,4 +25,7 @@ h1 {
   color: #000;
   font-size: 20px;
   margin: 0 8px;
+}
+
+.navbar {
 }
