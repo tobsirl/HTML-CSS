@@ -57,3 +57,14 @@ a.active {
 .gallery {
   padding: 16px;
 }
+
+/* about section */
+.about {
+  width: 40%;
+  min-width: 600px;
+}
+
+.about h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
