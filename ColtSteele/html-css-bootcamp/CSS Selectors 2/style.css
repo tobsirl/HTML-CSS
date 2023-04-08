@@ -19,7 +19,7 @@ input[type='checkbox']:checked {
 }
 
 /* Select every other li element (2nd, 4th, 6th, etc) inside of the ul with the class 'blah' and give them a magenta background */
-ul.blah li:nth-child(2n) {
+ul.blah li:nth-last-of-type(2n) {
   background: magenta;
 }
 
