@@ -19,5 +19,8 @@ input:checked {
 }
 
 /* Select every other li element (2nd, 4th, 6th, etc) inside of the ul with the class 'blah' and give them a magenta background */
+ul.blah li:nth-child(2n) {
+  background: magenta;
+}
 
 /* Select the first letter of each paragraph and give them a color of blue and a font-size of 30 pixels */
