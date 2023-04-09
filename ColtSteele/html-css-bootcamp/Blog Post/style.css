@@ -141,4 +141,20 @@ footer li a:hover {
 .hero {
   background-color: #863ae8;
   height: 100vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1,
+.hero p {
+  width: 75%;
+  max-width: 900px;
+}
+
+.hero hr {
+  width: 50%;
 }
