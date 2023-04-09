@@ -1,3 +1,11 @@
+body {
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+}
+
 .content {
   max-width: 900px;
   margin: 0 auto;
