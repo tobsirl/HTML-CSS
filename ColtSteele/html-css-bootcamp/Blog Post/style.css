@@ -3,6 +3,7 @@
   --font-secondary: 'Bitter', serif;
 
   --color-primary: #e95400;
+  --color-secondary: #863ae8;
 }
 
 body {
@@ -104,4 +105,9 @@ code {
   display: block;
   font-weight: bold;
   margin-left: 20px;
+}
+
+footer {
+  background-color: var(--color-secondary);
+  height: 100px;
 }
