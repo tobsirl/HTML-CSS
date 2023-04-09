@@ -56,6 +56,11 @@ h6 {
   letter-spacing: 0.25px;
 }
 
+code {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
 .content {
   max-width: 900px;
   margin: 0 auto;
