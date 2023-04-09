@@ -1,5 +1,12 @@
+:root {
+  --font-primary: 'Mukta', sans-serif;
+  --font-secondary: 'Bitter', serif;
+
+  --color-primary: #e95400;
+}
+
 body {
-  font-family: 'Mukta', sans-serif;
+  font-family: var(--font-primary);
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -12,11 +19,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Bitter', serif;
+  font-family: var(--font-secondary);
 }
 
 .content {
   max-width: 900px;
   margin: 0 auto;
   padding: 32px;
+}
+
+.info {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.info span {
+  color: var(--color-primary);
 }
