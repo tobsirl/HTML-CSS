@@ -94,6 +94,57 @@
         ac arcu malesuada ultrices. Lorem ipsum dolor sit amet, consectetur
         adipiscing elit.
       </p>
+
+      <h3>Common Font Sizing Approaches</h3>
+      <h4>px (pixels)</h4>
+      <p>
+        Pixels are the simplest way to hard code your font size. By default the
+        browser sets the root font size to 16px, but you can change the font
+        size in the body element or any other HTML element by setting font-size
+        to any number of px.
+      </p>
+
+      <h4>em</h4>
+      <p>
+        em units size font relative to the parent element. For example, if the
+        body element is 16px, and a nested div element's font size is set to
+        1.5em, the browser will multiply 16px x 1.5, resulting in 24px font in
+        the div.
+      </p>
+
+      <h4>rem (root em)</h4>
+      <p>
+        Root em units are similar to em, but they are relative to the root font
+        size instead of the parent element of whatever is being styled. For
+        example, if the root font size (the font size of the body element) is
+        set to 16px, and we have a p element nested many layers down with a
+        font-size set to 2rem, that paragraph will have 32px font. If the body
+        font size ever changes, this paragraph will also change accordingly.
+      </p>
+
+      <h4>Which one do I use?</h4>
+      <p>
+        Great question! Generally, people try to stick to using em or rem over
+        px, since they make responsive typography that scales up and down across
+        different device widths much easier. Using px for your font sizes is not
+        as dynamic, and you may find that writing media queries to update all
+        the various element font sizes in pixels at different screen widths is
+        not the most scalable approach to typography.
+      </p>
+      <p>
+        Between em and rem, rem has a nice advantage of all elements being
+        relative to one single root font value, where nested elements with
+        parent/child font size dependencies can still be hard to manage with em
+        units. When writing responsive styles, rem allows you to simply update
+        the root font size at different screen sizes and all elements using rem
+        units will adjust themselves accordingly creating a super easy-to-manage
+        typography size system.
+      </p>
+      <p>
+        In small projects you may not have an issues hard coding pixelage, but
+        it's always important to understand the drawbacks of writing styles that
+        may not be responsive or dynamic.
+      </p>
     </div>
   </body>
 </html>
