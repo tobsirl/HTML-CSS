@@ -107,7 +107,27 @@ code {
   margin-left: 20px;
 }
 
+/* footer */
 footer {
   background-color: var(--color-secondary);
   height: 100px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  padding: 28px 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 16px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
 }
