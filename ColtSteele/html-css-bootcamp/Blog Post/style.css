@@ -127,7 +127,11 @@ footer ul li {
   padding: 0 16px;
 }
 
-footer ul li a {
+footer li a {
   text-decoration: none;
   color: #fff;
+}
+
+footer li a:hover {
+  text-decoration: underline;
 }
