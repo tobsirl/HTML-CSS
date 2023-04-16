@@ -1,7 +1,7 @@
 .box {
   border: 1px solid red;
   height: 500px;
-  width: 500px;
-  background-image: url('./images/peacock.png');
-  background-repeat: no-repeat;
+  width: 900px;
+  background-image: url('./images/food.jpg');
+  background-size: cover;
 }
