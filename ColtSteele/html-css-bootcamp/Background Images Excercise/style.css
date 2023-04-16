@@ -18,5 +18,5 @@
   height: 500px;
   border: 2px solid red;
   background-image: url('https://images.unsplash.com/photo-1674905682134-496ca5a4862b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80');
-  background-size: cover;
+  background-size: contain;
 }
