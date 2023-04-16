@@ -2,6 +2,7 @@
   border: 1px solid red;
   height: 500px;
   width: 900px;
-  background-image: url('./images/food.jpg');
+  background-image: url('./images/people.jpg');
   background-size: cover;
+  background-position: center;
 }
