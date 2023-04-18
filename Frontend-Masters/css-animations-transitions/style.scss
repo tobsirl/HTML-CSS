@@ -19,6 +19,11 @@ a {
 
 h1 {
   margin: 0;
+  transition: 2s;
+}
+
+h1:hover {
+  font-size: 10rem;
 }
 
 small {
