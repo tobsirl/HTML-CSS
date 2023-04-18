@@ -1,15 +1,14 @@
 @import './styles/base.scss';
 
 :root {
-  --primary-color: #fb2324;
-  --fg-color: #fff;
+  --primary-color: rgb(18,18,92);
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 5vmin;
   background-color: var(--primary-color);
-  color: var(--fg-color);
+  color: var(--fg-color, white);
 }
 
 a {
