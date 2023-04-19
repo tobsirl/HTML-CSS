@@ -43,8 +43,8 @@ ul {
   background: radial-gradient(circle at bottom right, #fb2324, #fe932a);
   animation: slide-right var(--duration) var(--easing) infinite;
   background: #fb2324;
-  transition-property: background;
-  transition-duration: 1s;
+  transition-property: background, transform;
+  transition-duration: 1s, 3s;
   transition-timing-function: linear;
 
   &:hover {
