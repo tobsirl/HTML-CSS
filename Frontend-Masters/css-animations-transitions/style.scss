@@ -38,14 +38,17 @@ ul {
 .ball {
   height: 5vmin;
   width: 5vmin;
+  left: 50vw;
   border-radius: 50%;
   background: radial-gradient(circle at bottom right, #fb2324, #fe932a);
   animation: slide-right var(--duration) var(--easing) infinite;
   background: #fb2324;
   transition-property: background;
   transition-duration: 1s;
+  transition-timing-function: linear;
 
   &:hover {
     background: blue;
+    transform: scale(2);
   }
 }
