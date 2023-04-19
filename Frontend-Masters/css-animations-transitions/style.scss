@@ -9,8 +9,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 5vmin;
-  background-color: var(--primary-color);
-  color: var(--fg-color, white);
+  background-color: whitesmoke;
+  color: var(--fg-color, black);
 }
 
 a {
@@ -22,9 +22,9 @@ h1 {
   transition: 2s;
 }
 
-h1:hover {
-  font-size: 10rem;
-}
+// h1:hover {
+//   font-size: 10rem;
+// }
 
 small {
   text-transform: uppercase;
@@ -41,13 +41,9 @@ ul {
   border-radius: 50%;
   background: radial-gradient(circle at bottom right, #fb2324, #fe932a);
   animation: slide-right var(--duration) var(--easing) infinite;
-}
+  background: #fb2324;
 
-@keyframes slide-right {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(100%);
+  &:hover {
+    background: blue;
   }
 }
