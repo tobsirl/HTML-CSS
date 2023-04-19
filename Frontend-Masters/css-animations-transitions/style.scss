@@ -45,9 +45,10 @@ ul {
   background: #fb2324;
   transition-property: background, transform;
   transition-timing-function: linear, ease-in-out;
-  transition-duration: 0s;
+  transition-duration: 0.5s;
   
   &:hover {
+    transition-delay: 0.5s;
     transition-duration: 1s, 3s;
     background: blue;
     transform: scale(2);
