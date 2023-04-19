@@ -44,10 +44,11 @@ ul {
   animation: slide-right var(--duration) var(--easing) infinite;
   background: #fb2324;
   transition-property: background, transform;
-  transition-duration: 1s, 3s;
-  transition-timing-function: linear;
-
+  transition-timing-function: linear, ease-in-out;
+  transition-duration: 0s;
+  
   &:hover {
+    transition-duration: 1s, 3s;
     background: blue;
     transform: scale(2);
   }
