@@ -23,9 +23,8 @@ body {
   grid-template-rows: 1fr;
   grid-column-gap: 1rem;
   grid-template-areas: 'input button';
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
+  transition-property: border-color;
+  transition-duration: 0.3s;
 
   --color: var(--color-gray);
   &:focus-within {
@@ -52,14 +51,9 @@ body {
   border-radius: 0.25rem;
   height: var(--input-height);
   background-color: var(--color);
-  transition-property: button;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
 
   &:hover {
     --color: var(--color-green);
-    button: var(--color-green);
-    transform: scale(1.05);
   }
 }
 
