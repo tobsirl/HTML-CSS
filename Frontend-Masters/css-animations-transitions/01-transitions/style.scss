@@ -29,7 +29,6 @@ body {
   --color: var(--color-gray);
   &:focus-within {
     --color: var(--color-blue);
-  
   }
 }
 
@@ -51,10 +50,8 @@ body {
   border-radius: 0.25rem;
   height: var(--input-height);
   background-color: var(--color);
-
-  &:hover {
-    --color: var(--color-green);
-  }
+  transition-property: background-color;
+  transition-duration: 0.3s;
 }
 
 [data-show]:not([data-active]) {
