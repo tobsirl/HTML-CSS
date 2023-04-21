@@ -43,5 +43,28 @@ ul {
   background: radial-gradient(circle at bottom right, #fb2324, #fe932a);
   animation: slide-right var(--duration) var(--easing) infinite;
   background: #fb2324;
+  animation: move-like-a-square;
+  animation-duration: 4s;
+}
 
+@keyframes move-like-a-square {
+  0% {
+    transform: none
+  }
+
+  25% {
+    transform: translateX(20vw);
+  }
+
+  50% {
+    transform: translateX(20vw) translateY(20vw);
+  }
+
+  75% {
+    transform: translateX(0) translateY(20vw);
+  }
+
+  100% {
+    transform: none;
+  }
 }
