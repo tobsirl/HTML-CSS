@@ -28,6 +28,7 @@ body {
   grid-template-areas: 'input button';
 
   // Add an animation here
+  animation: slide-up, shake;
 
   --color: var(--color-gray);
   &:focus-within {
@@ -71,7 +72,15 @@ body {
 }
 
 @keyframes slide-up {
-  // Add keyframes here
+  from {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @keyframes shake {
