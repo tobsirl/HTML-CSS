@@ -1,4 +1,13 @@
 body {
   background: radial-gradient(#0288d1, #01579b);
   height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
 }
