@@ -46,7 +46,7 @@ ul {
   animation: move-like-a-square;
   animation-duration: 4s;
   animation-delay: 1s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: both;
 }
 
 @keyframes move-like-a-square {
