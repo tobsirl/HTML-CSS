@@ -52,7 +52,7 @@ ul {
 }
 
 @keyframes move-like-a-square {
-  0% {
+  from, to {
     transform: none
   }
 
@@ -66,9 +66,5 @@ ul {
 
   75% {
     transform: translateX(0) translateY(20vw);
-  }
-
-  100% {
-    transform: none;
   }
 }
