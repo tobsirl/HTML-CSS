@@ -52,6 +52,10 @@ body {
   border-radius: 0.25rem;
   outline: none;
   transition: inherit;
+
+  &:invalid:not:focus {
+    animation: shake 1s;
+  }
 }
 
 .ui-button {
