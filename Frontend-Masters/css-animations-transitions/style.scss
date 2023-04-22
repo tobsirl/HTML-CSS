@@ -43,38 +43,5 @@ ul {
   background: radial-gradient(circle at bottom right, #fb2324, #fe932a);
   animation: slide-right var(--duration) var(--easing) infinite;
   background: #fb2324;
-  animation: move-like-a-square, red-to-green;
-  animation-duration: 4s;
-  animation-delay: 1s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
 }
 
-@keyframes move-like-a-square {
-  from, to {
-    transform: none
-  }
-
-  25% {
-    transform: translateX(20vw);
-  }
-
-  50% {
-    transform: translateX(20vw) translateY(20vw);
-  }
-
-  75% {
-    transform: translateX(0) translateY(20vw);
-  }
-}
-
-@keyframes red-to-green {
-  from {
-    background: #fb2324;
-  }
-
-  to {
-    background: #1fcdb0;
-  }
-}
