@@ -44,17 +44,18 @@ ul {
   background: #fb2324;
 
   // Choreography
-  --duration: 0.5s;
+  --duration: 1s;
+  --stagger: 0.5s;
   // animation: move-right var(--duration) both;
   animation: move-right var(--duration) both;
 
   &:nth-child(2) {
     background-color: #fe932a;
-    animation-delay: calc(var(--duration) - 0.1s);
+    animation-delay: calc(var(--duration) - var(--stagger));
   }
 
   &:nth-child(3) {
-    animation-delay: calc(var(--duration) * 2 - 0.1s);
+    animation-delay: calc(var(--duration) * 2 - var(--stagger));
   }
 }
 
