@@ -38,7 +38,7 @@ body {
 
   > .ui-input,
   > .ui-button {
-    // Add animations here
+    animation: slide-up var(--animation-duration) var(--transition-easing);
   }
 
   > .ui-input {
