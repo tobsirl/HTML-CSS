@@ -43,5 +43,8 @@ ul {
   background: radial-gradient(circle at bottom right, #fb2324, #fe932a);
   animation: slide-right var(--duration) var(--easing) infinite;
   background: #fb2324;
+
+  // Choreography
+  animation: move-right 1s both;
 }
 
