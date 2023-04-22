@@ -45,9 +45,11 @@ ul {
 
   // Choreography
   --duration: 0.5s;
-  animation: move-right 0.5s both;
+  // animation: move-right var(--duration) both;
+  animation: move-right var(--duration) both;
 
   &:nth-child(2) {
+    background-color: #fe932a;
     animation-delay: var(--duration);
   }
 
