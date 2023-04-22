@@ -50,11 +50,11 @@ ul {
 
   &:nth-child(2) {
     background-color: #fe932a;
-    animation-delay: var(--duration);
+    animation-delay: calc(var(--duration) - 0.1s);
   }
 
   &:nth-child(3) {
-    animation-delay: calc(var(--duration) * 2);
+    animation-delay: calc(var(--duration) * 2 - 0.1s);
   }
 }
 
