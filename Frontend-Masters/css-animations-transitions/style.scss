@@ -48,3 +48,12 @@ ul {
   animation: move-right 1s both;
 }
 
+@keyframes move-right {
+  from {
+    transform: none
+  }
+
+  to {
+    transform: translateX(25vw);
+  }
+}
