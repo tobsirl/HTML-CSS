@@ -36,7 +36,7 @@ body {
 
   animation: slide-up var(--animation-duration) var(--transition-easing);
 
-  --input-duration: var(--animation-duration);
+  --input-duration: calc(var(--animation-duration) / 2);
 
   > .ui-input,
   > .ui-button {
