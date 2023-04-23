@@ -41,6 +41,13 @@
   <script>
     const app = document.querySelector('#app');
     const button = document.querySelector('.button');
+    const machine = {
+      initial: 'loading',
+      states: {
+        loading: {},
+        success: {},
+      },
+    };
 
     button.addEventListener('click', () => {
       app.dataset.state = 'loading';
