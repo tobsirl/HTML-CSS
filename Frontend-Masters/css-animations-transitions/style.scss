@@ -27,7 +27,7 @@ a {
 
 h1 {
   margin: 0;
-  transition: 2s;
+  opacity: var(--opacity);
 }
 
 // h1:hover {
@@ -78,13 +78,5 @@ ul {
   border: none;
   transition: all 0.3s;
 
-  &:hover {
-    opacity: 0.5;
-  }
-
-  &:active {
-    transition-duration: 0.15s;
-    transform: translateY(20%);
-    opacity: 1;
-  }
+  opacity: var(--opacity);
 }
