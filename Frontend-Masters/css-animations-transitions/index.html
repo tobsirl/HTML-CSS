@@ -39,8 +39,11 @@
     </div>
   </body>
   <script>
-    document.body.addEventListener('click', (e) => {
-      document.body.style.setProperty('--primary-color', 'red');
+    const app = document.querySelector('#app');
+    const button = document.querySelector('.button');
+
+    button.addEventListener('click', () => {
+      app.dataset.state = 'loaded';
     });
   </script>
 </html>
