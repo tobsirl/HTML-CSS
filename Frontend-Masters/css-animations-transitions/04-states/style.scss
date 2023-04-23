@@ -40,6 +40,7 @@ body {
 
   &[data-state='success'] {
     --color: green;
+    animation: good-job 1s both;
     // Change the color and/or add an animation here
   }
 
