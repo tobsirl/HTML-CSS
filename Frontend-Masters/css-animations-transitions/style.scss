@@ -13,6 +13,10 @@ body {
   color: var(--fg-color, black);
 }
 
+#app {
+  
+}
+
 a {
   color: blue;
 }
@@ -75,6 +79,8 @@ ul {
   }
 
   &:active {
+    transition-duration: 0.15s;
     transform: translateY(20%);
+    opacity: 1;
   }
 }
