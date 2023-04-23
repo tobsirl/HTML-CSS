@@ -44,6 +44,8 @@ body {
   }
 
   &[data-state='error'] {
+    --color: red;
+    animation: shake 1s both;
     // Change the color and/or add an animation here
   }
 
@@ -121,5 +123,19 @@ body {
   from,
   to {
     transform: none;
+  }
+}
+
+@keyframes good-job {
+  from, to {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-100%);
+  }
+
+  90% {
+    transform: translateY(0) scale(0.8);
   }
 }
