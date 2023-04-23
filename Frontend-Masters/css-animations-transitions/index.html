@@ -42,8 +42,13 @@
     const app = document.querySelector('#app');
     const button = document.querySelector('.button');
     const machine = {
-      initial: 'loading',
+      initial: 'start',
       states: {
+        start: {
+          on: {
+            CLICK: 'loading',
+          },
+        },
         loading: {
           on: {
             CLICK: 'success',
@@ -58,8 +63,8 @@
     };
 
     button.addEventListener('click', () => {
-      const currentState = app.dataset.state;
-      const nextState = machine.states[currentState].on[CLICK] ?? currentState;
+      const currentState = app.dataset.state ?? machine.initial;
+      const nextState = machine.states[currentState].on.CLICK ?? currentState;
       app.dataset.state = nextState;
     });
   </script>

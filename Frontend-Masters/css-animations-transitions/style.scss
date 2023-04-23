@@ -15,9 +15,16 @@ body {
 
 #app {
   --opacity: 1;
+  --bg: white;
 
   &[data-state="loading"] {
     --opacity: 0.5;
+    --bg: rgb(252, 199, 8);
+  }
+
+  &[data-state="success"] {
+    --opacity: 0.5;
+    --bg: rgb(12,184,81);
   }
 }
 
