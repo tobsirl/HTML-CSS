@@ -44,13 +44,23 @@
     const machine = {
       initial: 'loading',
       states: {
-        loading: {},
-        success: {},
+        loading: {
+          on: {
+            CLICK: 'success',
+          },
+        },
+        success: {
+          on: {
+            CLICK: 'loading',
+          },
+        },
       },
     };
 
     button.addEventListener('click', () => {
-      app.dataset.state = 'loading';
+      const currentState = app.dataset.state;
+      const nextState = machine.states[currentState].on[CLICK] ?? currentState;
+      app.dataset.state = nextState;
     });
   </script>
 </html>
