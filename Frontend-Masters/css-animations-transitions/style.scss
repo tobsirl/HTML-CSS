@@ -66,6 +66,11 @@ ul {
   background: blue;
   color: white;
   font-weight: bold;
-  padding: 2rem;
+  padding: 2rem 3rem;
   border: none;
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
