@@ -71,6 +71,10 @@ ul {
   transition: all 0.3s;
 
   &:hover {
-    opacity: 0.8;
+    opacity: 0.5;
+  }
+
+  &:active {
+    transform: translateY(20%);
   }
 }
