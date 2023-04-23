@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.scss" />
   </head>
   <body>
-    <div id="app" data-state="loading">
+    <div id="app">
       <small>Frontend Masters</small>
       <h1>CSS Animation Workshop</h1>
       <ul>
@@ -43,7 +43,7 @@
     const button = document.querySelector('.button');
 
     button.addEventListener('click', () => {
-      app.dataset.state = 'loaded';
+      app.dataset.state = 'loading';
     });
   </script>
 </html>
