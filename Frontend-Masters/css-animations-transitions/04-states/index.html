@@ -24,15 +24,16 @@
     function setState(state) {
       formEL.dataset.state = state;
 
-      const activeELs = document.querySelectorAll('[data-show].active');
+      const activeELs = document.querySelectorAll('[data-active]');
 
       activeELs.forEach((el) => {
-        el.style.active = false;
+        delete el.dataset.active;
       });
 
       const shownELs = document.querySelectorAll(`[data-show="${state}"]`);
+
       shownELs.forEach((el) => {
-        el.style.active = true;
+        el.dataset.active = true;
       });
 
       if (state === 'subscribing') {
@@ -43,6 +44,8 @@
         }, 1000);
       }
     }
+
+    setState('subscribe');
 
     // ...
   </script>
