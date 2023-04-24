@@ -28,8 +28,17 @@
     const appEl = document.querySelector('#app');
 
     appEl.addEventListener('click', () => {
+      const firstRect = figureEl.getBoundingClientRect();
       app.dataset.state =
         app.dataset.state === 'collapsed' ? 'expanded' : 'collapsed';
+
+      requestAnimationFrame(() => {
+        const lastRect = figureEl.getBoundingClientRect();
+
+        const dx = firstRect.left - lastRect.left;
+
+        figureEl.style.setProperty('--dx', `${dx}px`);
+      });
     });
     // ...
   </script>
