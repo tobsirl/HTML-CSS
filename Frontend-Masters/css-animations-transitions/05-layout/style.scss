@@ -64,6 +64,8 @@ body {
     transform-origin: top left;
   }
 
+  transform: translate(calc(var(--dx) * 1px) , calc(var(--dy) * 1px));
+
   // Add invert styles here to :before
   // ...
 

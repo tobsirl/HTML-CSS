@@ -36,8 +36,10 @@
         const lastRect = figureEl.getBoundingClientRect();
 
         const dx = firstRect.left - lastRect.left;
+        const dy = firstRect.top - lastRect.top;
 
         figureEl.style.setProperty('--dx', `${dx}px`);
+        figureEl.style.setProperty('--dy', `${dy}px`);
       });
     });
     // ...
