@@ -67,10 +67,18 @@ body {
   transform: translate(calc(var(--dx) * 1px) , calc(var(--dy) * 1px));
 
   // Add invert styles here to :before
-  // ...
+  &[data-flip='invert'] {
+    &:before {
+      transform: translate(calc(var(--dx) * 1px) , calc(var(--dy) * 1px)) rotate(180deg);
+    }
+  }
 
   // Add play styles here to :before
-  // ...
+  &[data-flip='play'] {
+    &:before {
+      transform: translate(calc(var(--dx) * 1px) , calc(var(--dy) * 1px)) rotate(90deg);
+    }
+  }
 
   > .ui-caption {
     font-size: 2rem;
