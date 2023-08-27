@@ -18,12 +18,25 @@ html {
   --color-black: #050d14;
 }
 
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
 .lime {
   color: var(--color-lime);
+  height: 3rem;
+  width: 3rem;
 }
 
 .magenta {
   color: var(--color-magenta);
+  height: 3rem;
+  width: 3rem;
 }
 
 .magenta50 {
