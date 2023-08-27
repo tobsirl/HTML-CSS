@@ -7,4 +7,13 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+
+  --color-lime: #a4ffa2;
+  --color-magenta: #f47dda;
+  --magenta50: #f47dda80;
+  --color-white: #fff;
+  --color-tan: #cec5b4;
+  --color-teal: #2e6d81;
+  --color-cyan: #7de6f4;
+  --color-black: #050d14;
 }
