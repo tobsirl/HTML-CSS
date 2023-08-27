@@ -17,3 +17,35 @@ html {
   --color-cyan: #7de6f4;
   --color-black: #050d14;
 }
+
+.lime {
+  color: var(--color-lime);
+}
+
+.magenta {
+  color: var(--color-magenta);
+}
+
+.magenta50 {
+  color: var(--magenta50);
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.tan {
+  color: var(--color-tan);
+}
+
+.teal {
+  color: var(--color-teal);
+}
+
+.cyan {
+  color: var(--color-cyan);
+}
+
+.black {
+  color: var(--color-black);
+}
