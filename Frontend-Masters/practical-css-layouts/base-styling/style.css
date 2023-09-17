@@ -19,58 +19,44 @@ html {
   box-sizing: inherit;
 }
 
-.colors {
+.colors > * {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 800px;
   padding: 0 0.25rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 .lime {
   background-color: var(--color-lime);
-  height: 3rem;
-  width: 3rem;
 }
 
 .magenta {
   background-color: var(--color-magenta);
-  height: 3rem;
-  width: 3rem;
 }
 
 .magenta50 {
   background-color: var(--magenta50);
-  height: 3rem;
-  width: 3rem;
 }
 
 .white {
   background-color: var(--color-white);
-  height: 3rem;
-  width: 3rem;
 }
 
 .tan {
   background-color: var(--color-tan);
-  height: 3rem;
-  width: 3rem;
 }
 
 .teal {
   background-color: var(--color-teal);
-  height: 3rem;
-  width: 3rem;
 }
 
 .cyan {
   background-color: var(--color-cyan);
-  height: 3rem;
-  width: 3rem;
 }
 
 .black {
   background-color: var(--color-black);
-  height: 3rem;
-  width: 3rem;
 }
