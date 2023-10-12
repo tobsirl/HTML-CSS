@@ -142,3 +142,7 @@ figure {
 .black {
   background-color: var(--black);
 }
+
+.club {
+  font-size: var(--h5);
+}
