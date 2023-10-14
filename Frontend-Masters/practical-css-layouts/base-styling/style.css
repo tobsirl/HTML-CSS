@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&display=swap');
 
-@layer {
+@layer base {
   :root {
     --base-size: 1rem;
     --scale: 1.25;
