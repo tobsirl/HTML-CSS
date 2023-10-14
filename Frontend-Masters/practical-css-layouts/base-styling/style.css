@@ -1,146 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&display=swap');
 
-:root {
-  --base-size: 1rem;
-  --scale: 1.25;
-  --h1: calc(var(--h2) * var(--scale));
-  --h2: calc(var(--h3) * var(--scale));
-  --h3: calc(var(--h4) * var(--scale));
-  --h4: calc(var(--h5) * var(--scale));
-  --h5: calc(var(--h6) * var(--scale));
-  --h6: var(--base-size);
+@layer {
+  :root {
+    --base-size: 1rem;
+    --scale: 1.25;
+    --h1: calc(var(--h2) * var(--scale));
+    --h2: calc(var(--h3) * var(--scale));
+    --h3: calc(var(--h4) * var(--scale));
+    --h4: calc(var(--h5) * var(--scale));
+    --h5: calc(var(--h6) * var(--scale));
+    --h6: var(--base-size);
 
-  /* colors */
-  --lime: #a4ffa2;
-  --magenta: #f47dda;
-  --magenta50: #f47dda80;
-  --white: #ffffff;
-  --tan: #cec5b4;
-  --teal: #2e6d81;
-  --cyan: #7de6f4;
-  --black: #050d14;
+    /* colors */
+    --lime: #a4ffa2;
+    --magenta: #f47dda;
+    --magenta50: #f47dda80;
+    --white: #ffffff;
+    --tan: #cec5b4;
+    --teal: #2e6d81;
+    --cyan: #7de6f4;
+    --black: #050d14;
 
-  /* fonts */
-  --sans-serif: 'Poppins', sans-serif;
-}
+    /* fonts */
+    --sans-serif: 'Poppins', sans-serif;
+  }
 
-html {
-  box-sizing: border-box;
-}
+  html {
+    box-sizing: border-box;
+  }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
 
-body {
-  font-family: var(--sans-serif);
-  font-weight: 300;
-  line-height: 1.75;
-  background-color: var(--teal);
-  color: var(--white);
-  font-size: var(--base-size);
-  margin: 0rem;
-  padding: 0;
-}
+  body {
+    font-family: var(--sans-serif);
+    font-weight: 300;
+    line-height: 1.75;
+    background-color: var(--teal);
+    color: var(--white);
+    font-size: var(--base-size);
+    margin: 0rem;
+    padding: 0;
+  }
 
-p {
-  margin-bottom: 1rem;
-}
+  p {
+    margin-bottom: 1rem;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 3rem 0 1.38rem;
-  font-weight: 300;
-  line-height: 1.3;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 3rem 0 1.38rem;
+    font-weight: 300;
+    line-height: 1.3;
+  }
 
-h1 {
-  font-size: var(--h1);
-}
+  h1 {
+    font-size: var(--h1);
+  }
 
-h2 {
-  font-size: var(--h2);
-}
+  h2 {
+    font-size: var(--h2);
+  }
 
-h3 {
-  font-size: var(--h3);
-}
+  h3 {
+    font-size: var(--h3);
+  }
 
-h4 {
-  font-size: var(--h4);
-}
+  h4 {
+    font-size: var(--h4);
+  }
 
-h5 {
-  font-size: var(--h5);
-}
+  h5 {
+    font-size: var(--h5);
+  }
 
-h6 {
-  font-size: var(--h6);
-}
-a {
-  color: var(--lime);
-}
-a:hover {
-  color: var(--cyan);
-  text-decoration: none;
-}
-img {
-  width: 100%;
-  max-width: 100%;
-}
-figure {
-  margin: 0;
-  padding: 0;
-}
+  h6 {
+    font-size: var(--h6);
+  }
+  a {
+    color: var(--lime);
+  }
+  a:hover {
+    color: var(--cyan);
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  figure {
+    margin: 0;
+    padding: 0;
+  }
 
-.colors > * {
-  height: 3rem;
-  width: 3rem;
-}
+  .colors > * {
+    height: 3rem;
+    width: 3rem;
+  }
 
-.colors {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 1rem;
-}
+  .colors {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+  }
 
-.lime {
-  background-color: var(--lime);
-}
+  .lime {
+    background-color: var(--lime);
+  }
 
-.magenta {
-  background-color: var(--magenta);
-}
+  .magenta {
+    background-color: var(--magenta);
+  }
 
-.magenta50 {
-  background-color: var(--magenta50);
-}
+  .magenta50 {
+    background-color: var(--magenta50);
+  }
 
-.white {
-  background-color: var(--white);
-  border: 1px solid #050d14;
-}
+  .white {
+    background-color: var(--white);
+    border: 1px solid #050d14;
+  }
 
-.tan {
-  background-color: var(--tan);
-}
+  .tan {
+    background-color: var(--tan);
+  }
 
-.teal {
-  background-color: var(--teal);
-}
+  .teal {
+    background-color: var(--teal);
+  }
 
-.cyan {
-  background-color: var(--cyan);
-}
+  .cyan {
+    background-color: var(--cyan);
+  }
 
-.black {
-  background-color: var(--black);
+  .black {
+    background-color: var(--black);
+  }
 }
 
 .club {
