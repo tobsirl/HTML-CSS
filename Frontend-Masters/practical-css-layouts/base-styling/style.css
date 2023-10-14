@@ -145,6 +145,12 @@
   }
 }
 
+@layer header {
+  .wrapper {
+    max-width: 375px;
+  }
+}
+
 .club {
   font-size: var(--h5);
 }
