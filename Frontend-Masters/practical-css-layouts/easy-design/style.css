@@ -122,4 +122,12 @@
 }
 
 @layer tour {
+  .date {
+    color: var(--tan);
+  }
+
+  .club {
+    color: var(--lime);
+    font-size: var(--h5);
+  }
 }
