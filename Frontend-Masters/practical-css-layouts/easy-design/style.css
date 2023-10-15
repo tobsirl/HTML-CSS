@@ -131,3 +131,16 @@
     font-size: var(--h5);
   }
 }
+
+@layer header-banner-tour {
+}
+
+@layer reviews {
+  .imggroup {
+    margin-top: 2rem;
+  }
+
+  .star {
+    width: 18px;
+  }
+}
