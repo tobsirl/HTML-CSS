@@ -120,6 +120,7 @@
     text-transform: uppercase;
   }
 }
+
 @layer header-banner-tour {
   .wrapper {
     max-width: 375px;
@@ -140,7 +141,16 @@
     color: var(--lime);
     font-size: var(--h5);
   }
+
+  @media (min-width: 800) {
+    .wrapper {
+      max-width: 800px;
+      /* margin: 0 auto; */
+      background-color: red;
+    }
+  }
 }
+
 @layer reviews {
   .imggroup {
     margin-top: 2rem;
